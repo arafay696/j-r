@@ -1,0 +1,14 @@
+<configuration xmlns="http://logging.apache.org/log4php/" threshold="all" debug="false">
+    <appender name="SystemLog" class="LoggerAppenderRollingFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} [Console] [%level] %message%newline"/>
+        </layout>
+        <param name="file" value="E:/wamp/www/ehr/logs/feat.log"/>
+        <!--<param name="file" value="/var/www/CI/max-amplify/amplify/logs/feat.log"/>-->
+        <param name="maxFileSize" value="5MB"/>
+    </appender>
+    <root>
+        <level value="debug"/>
+        <appender_ref ref="SystemLog"/>
+    </root>
+</configuration>
