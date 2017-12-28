@@ -1,6 +1,7 @@
-<IfModule authz_core_module>
-    Require all denied
-</IfModule>
-<IfModule !authz_core_module>
-    Deny from all
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+<IfModule mod_php5.c>
+  php_value short_open_tag 1
 </IfModule>
