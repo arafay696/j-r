@@ -14,7 +14,8 @@ import {AppConfig} from '../environments/app.settings';
 })
 
 export class AppComponent implements OnInit {
-    title = 'app';
+    title = 'Join & Ride';
+    private header = new HttpHeaders({'x-api-key': AppConfig.APIKEY});
 
     // Contructor
     constructor(private http: HttpClient, private router: Router) {
@@ -22,10 +23,14 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.http.get<APIResponse>(AppConfig.BASEURL + '/users').subscribe(results => {
-            console.log(results);
-        }, err => {
-            console.log('Error occured on project listing API.');
-        });
+        this.http.get<APIResponse>(AppConfig.BASEURL + '/users', {
+            headers: this.header
+        }).subscribe(results => {
+                console.log(results);
+            },
+            err => {
+                console.log('Error occured on project listing API.');
+            }
+        );
     }
 }

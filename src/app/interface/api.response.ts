@@ -1,5 +1,5 @@
 export interface APIResponse {
     status: boolean,
-    data: Array<any>,
+    data: any,
     message: string
 }

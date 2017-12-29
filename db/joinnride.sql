@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2017 at 01:12 PM
+-- Generation Time: Dec 29, 2017 at 11:47 AM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -19,6 +19,30 @@ SET time_zone = "+00:00";
 --
 -- Database: `joinnride`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `auth_key`
+--
+
+CREATE TABLE `auth_key` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `api_key` varchar(255) NOT NULL,
+  `level` int(2) NOT NULL,
+  `ignore_limits` tinyint(2) NOT NULL DEFAULT '0',
+  `is_private_key` tinyint(2) NOT NULL DEFAULT '0',
+  `ip_addresses` text,
+  `date_created` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `auth_key`
+--
+
+INSERT INTO `auth_key` (`id`, `user_id`, `api_key`, `level`, `ignore_limits`, `is_private_key`, `ip_addresses`, `date_created`) VALUES
+(1, 1, 'AbdulRafay06JAN1992', 1, 0, 0, NULL, 123123123);
 
 -- --------------------------------------------------------
 
@@ -64,10 +88,10 @@ CREATE TABLE `rides` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Table structure for table `users`
 --
 
-CREATE TABLE `user` (
+CREATE TABLE `users` (
   `Id` int(11) NOT NULL,
   `firstName` varchar(80) NOT NULL,
   `lastName` varchar(200) NOT NULL,
@@ -75,12 +99,12 @@ CREATE TABLE `user` (
   `isVerifiedEmail` smallint(1) DEFAULT '0',
   `password` varchar(255) NOT NULL,
   `gender` varchar(45) NOT NULL,
-  `receiveLetter` smallint(1) DEFAULT '0',
+  `notification` smallint(1) DEFAULT '0',
   `phoneNo` varchar(255) DEFAULT NULL,
   `isVerifiedPhoneNo` smallint(1) DEFAULT '0',
   `avatar` varchar(255) DEFAULT NULL,
   `isVerifiedAvatar` smallint(1) NOT NULL DEFAULT '0',
-  `status` varchar(45) NOT NULL COMMENT 'Active, Suspended, Pending',
+  `status` varchar(45) NOT NULL DEFAULT 'Active' COMMENT 'Active, Suspended, Pending',
   `dob` date DEFAULT NULL,
   `bio` text,
   `address` varchar(255) DEFAULT NULL,
@@ -89,6 +113,14 @@ CREATE TABLE `user` (
   `country` varchar(100) DEFAULT NULL,
   `userLevel` varchar(50) NOT NULL DEFAULT 'Newcomer' COMMENT 'Newcomer, Intermediate, Experienced, Expert, Ambassador'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`Id`, `firstName`, `lastName`, `email`, `isVerifiedEmail`, `password`, `gender`, `notification`, `phoneNo`, `isVerifiedPhoneNo`, `avatar`, `isVerifiedAvatar`, `status`, `dob`, `bio`, `address`, `postCode`, `city`, `country`, `userLevel`) VALUES
+(1, 'Abdul', 'Rafay', 'abdul.rafaygmail.com', 0, '', 'male', 0, NULL, 0, NULL, 0, 'Pending', '1992-01-06', NULL, NULL, NULL, NULL, NULL, 'Newcomer'),
+(2, 'Abdul', 'Rafay', 'abdul.rafaygmail.com', 0, '', 'male', 0, NULL, 0, NULL, 0, 'Pending', '1992-01-06', NULL, NULL, NULL, NULL, NULL, 'Newcomer');
 
 -- --------------------------------------------------------
 
@@ -152,6 +184,13 @@ CREATE TABLE `user_vehicle` (
 --
 
 --
+-- Indexes for table `auth_key`
+--
+ALTER TABLE `auth_key`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `api_key` (`api_key`);
+
+--
 -- Indexes for table `rides`
 --
 ALTER TABLE `rides`
@@ -159,9 +198,9 @@ ALTER TABLE `rides`
   ADD KEY `userv_fk_rides_carId_idx` (`carId`);
 
 --
--- Indexes for table `user`
+-- Indexes for table `users`
 --
-ALTER TABLE `user`
+ALTER TABLE `users`
   ADD PRIMARY KEY (`Id`);
 
 --
@@ -190,10 +229,15 @@ ALTER TABLE `user_vehicle`
 --
 
 --
--- AUTO_INCREMENT for table `user`
+-- AUTO_INCREMENT for table `auth_key`
 --
-ALTER TABLE `user`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `auth_key`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `user_preference`
 --
@@ -212,27 +256,27 @@ ALTER TABLE `user_vehicle`
 -- Constraints for table `rides`
 --
 ALTER TABLE `rides`
-  ADD CONSTRAINT `user_fk_rides_userId` FOREIGN KEY (`userId`) REFERENCES `user` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION,
+  ADD CONSTRAINT `user_fk_rides_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION,
   ADD CONSTRAINT `userv_fk_rides_carId` FOREIGN KEY (`carId`) REFERENCES `user_vehicle` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `user_messages`
 --
 ALTER TABLE `user_messages`
-  ADD CONSTRAINT `user_fk_um_senderId` FOREIGN KEY (`senderId`) REFERENCES `user` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `user_fk_um_userId` FOREIGN KEY (`userId`) REFERENCES `user` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `user_fk_um_senderId` FOREIGN KEY (`senderId`) REFERENCES `users` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `user_fk_um_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `user_preference`
 --
 ALTER TABLE `user_preference`
-  ADD CONSTRAINT `user_fk_up_userId` FOREIGN KEY (`userId`) REFERENCES `user` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `user_fk_up_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `user_vehicle`
 --
 ALTER TABLE `user_vehicle`
-  ADD CONSTRAINT `user_fk_uv_userId` FOREIGN KEY (`userId`) REFERENCES `user` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `user_fk_uv_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
