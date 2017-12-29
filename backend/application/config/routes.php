@@ -58,5 +58,9 @@ $route['v1/users(/:any)?'] = 'api/V1/users$1';
 $route['v1/delete/user/(:num)'] = 'api/V1/deleteUser/$1';
 $route['v1/save/user'] = 'api/V1/user';
 
+// User Preference
+$route['v1/user/preference(/:num)?'] = 'api/V1/userPreference$1';
+$route['v1/save/user/preference/(:num)'] = 'api/V1/userPreferences/$1';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

@@ -91,8 +91,12 @@ class Common extends CI_Model
 
     public function insertBatch($table, $data)
     {
-        $this->db->insert_batch($table, $data);
-        return $this->db->insert_id();
+        try {
+            $this->db->insert_batch($table, $data);
+            return $this->db->insert_id();
+        } catch (\Exception $e) {
+            return false;
+        }
     }
 
     public function updateData($table, $data, $where)

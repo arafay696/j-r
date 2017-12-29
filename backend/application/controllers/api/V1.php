@@ -8,7 +8,7 @@ class V1 extends REST_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->db->db_debug = false;
+        //$this->db->db_debug = false;
 
         // Allow from any origin
         if (isset($_SERVER['HTTP_ORIGIN'])) {
@@ -78,16 +78,25 @@ class V1 extends REST_Controller
                 if (count($emailExist) > 0) {
                     $this->response(returnResponse(false, [], "Email already exist."));
                 }
-            }else {
+            } else {
                 $userExist = $this->common->selectSingleRowWhere('email', TBL_USERS, 'Id = "' . $this->post('Id') . '"');
                 if (count($userExist) <= 0) {
                     $this->response(returnResponse(false, [], "User not found."));
                 }
             }
 
+            $data['password'] = md5($data['password']);
             $save = false;
             if (empty($id)) {
                 $save = $this->common->insertData(TBL_USERS, $data);
+
+                $userPreferenceDefault = array(
+                    array('userId' => $save, 'type' => 'Chattiness', 'value' => 0),
+                    array('userId' => $save, 'type' => 'Smoking', 'value' => 0),
+                    array('userId' => $save, 'type' => 'Pets', 'value' => 0),
+                    array('userId' => $save, 'type' => 'Music', 'value' => 0)
+                );
+                $this->common->insertBatch(TBL_USER_PREFERENCE, $userPreferenceDefault);
             } else {
                 $save = $this->common->updateData(TBL_USERS, $data, 'Id = ' . $id);
             }
@@ -128,6 +137,59 @@ class V1 extends REST_Controller
 
         } catch (\Exception $e) {
             $this->response(returnResponse(false, [], "Umh, We can't delete user right now"));
+        }
+    }
+
+
+    ##---------------------- User Preferences API's ----------------------  ##
+
+    // Get User Preference By Id
+    public function userPreference_get($uid = '')
+    {
+        $where = '';
+        $select = '*';
+        try {
+            if (!empty($uid)) {
+                $where = 'userId = ' . $uid;
+            }
+
+            $userExist = $this->common->selectSingleRowWhere('email', TBL_USERS, 'Id = "' . $uid . '"');
+            if (count($userExist) <= 0) {
+                $this->response(returnResponse(false, [], "User not found."));
+            }
+
+            $data = $this->common->selectData($select, TBL_USER_PREFERENCE, $where, 'Id desc');
+            $data = $data->result_array();
+
+            $this->response(returnResponse(true, $data, 'user preference found.'));
+        } catch (\Exception $e) {
+            $this->response(returnResponse(false, [], 'user preference not found.'));
+        }
+    }
+
+    // Add/Save User Preference
+    public function userPreferences_post($userId)
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            $this->response(returnResponse(false, [], 'Invalid request type.'), 403);
+        }
+
+        try {
+            $userExist = $this->common->selectSingleRowWhere('email', TBL_USERS, 'Id = "' . $userId . '"');
+            if (count($userExist) <= 0) {
+                $this->response(returnResponse(false, [], "User not found."));
+            }
+
+            $this->common->deleteData(TBL_USER_PREFERENCE, array('userId' => $userId));
+            $save = $this->common->insertBatch(TBL_USER_PREFERENCE, $this->post());
+
+            if ($save) {
+                $this->response(returnResponse(true, [], 'Great, user preference was saved successfully.'));
+            } else {
+                $this->response(returnResponse(false, [], "Umh, We can't save user preference right now"));
+            }
+        } catch (\Exception $e) {
+            $this->response(returnResponse(false, [], "Umh, We can't save user preference right now"));
         }
     }
 
