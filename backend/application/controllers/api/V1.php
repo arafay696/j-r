@@ -194,5 +194,57 @@ class V1 extends REST_Controller
     }
 
 
+    ##---------------------- User Vehicle API's ----------------------  ##
+
+    // Get User Vehicles By User Id
+    public function userVehicles_get($uid = '')
+    {
+        $where = '';
+        $select = '*';
+        try {
+            if (!empty($uid)) {
+                $where = 'userId = ' . $uid;
+            }
+
+            $userExist = $this->common->selectSingleRowWhere('email', TBL_USERS, 'Id = "' . $uid . '"');
+            if (count($userExist) <= 0) {
+                $this->response(returnResponse(false, [], "User not found."));
+            }
+
+            $data = $this->common->selectData($select, TBL_USER_VEHICLE_PREFERENCE, $where, 'Id desc');
+            $data = $data->result_array();
+
+            $this->response(returnResponse(true, $data, 'user vehicles found.'));
+        } catch (\Exception $e) {
+            $this->response(returnResponse(false, [], 'user vehicles not found.'));
+        }
+    }
+
+    // Add/Save User Vehicle - IN PROGRESS
+    public function userVehicle_post($userId)
+    {
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            $this->response(returnResponse(false, [], 'Invalid request type.'), 403);
+        }
+
+        try {
+            $userExist = $this->common->selectSingleRowWhere('email', TBL_USERS, 'Id = "' . $userId . '"');
+            if (count($userExist) <= 0) {
+                $this->response(returnResponse(false, [], "User not found."));
+            }
+
+            $save = $this->common->insertBatch(TBL_USER_PREFERENCE, $this->post());
+
+            if ($save) {
+                $this->response(returnResponse(true, [], 'Great, user preference was saved successfully.'));
+            } else {
+                $this->response(returnResponse(false, [], "Umh, We can't save user preference right now"));
+            }
+        } catch (\Exception $e) {
+            $this->response(returnResponse(false, [], "Umh, We can't save user preference right now"));
+        }
+    }
+
+
     ##---------------------- Ride API's ----------------------  ##
 }
