@@ -3,7 +3,7 @@
 class Common extends CI_Model
 {
 
-    public function selectData($select = '*', $table, $where = '', $orderBy = '')
+    public function selectData($select = '*', $table, $where = '', $orderBy = '', $groupBy = '')
     {
         try {
             if (empty($table)) {
@@ -15,6 +15,7 @@ class Common extends CI_Model
 
             if (!empty($where)) $this->db->where($where);
             if (!empty($orderBy)) $this->db->order_by($orderBy);
+            if (!empty($groupBy)) $this->db->group_by($groupBy);
 
             return $this->db->get();
         } catch (\Exception $e) {

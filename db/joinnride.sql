@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 29, 2017 at 11:47 AM
+-- Generation Time: Jan 01, 2018 at 11:41 AM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -72,6 +72,8 @@ CREATE TABLE `rides` (
   `carId` int(11) NOT NULL,
   `lat` varchar(255) NOT NULL,
   `lng` varchar(255) NOT NULL,
+  `dropOffLat` varchar(255) NOT NULL,
+  `dropOffLng` varchar(255) NOT NULL,
   `travelDate` date NOT NULL,
   `travelHour` varchar(20) NOT NULL DEFAULT '00',
   `travelMinute` varchar(20) NOT NULL DEFAULT '00',
@@ -84,6 +86,15 @@ CREATE TABLE `rides` (
   `comments` text NOT NULL,
   `price` varchar(255) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `rides`
+--
+
+INSERT INTO `rides` (`Id`, `userId`, `carId`, `lat`, `lng`, `dropOffLat`, `dropOffLng`, `travelDate`, `travelHour`, `travelMinute`, `returnDate`, `returnHour`, `returnMinute`, `noOfSeats`, `noOfSeatsAvailable`, `status`, `comments`, `price`) VALUES
+(1, 5, 1, '31.513981', '74.285420', '29.394428', '71.664938', '2018-01-01', '12', '00', '2018-01-05', '12', '30', 3, 3, 'Publish', 'Hi, i\'m newbie in J&D. Thanks for trust', '300'),
+(2, 5, 1, '31.513981', '74.285420', '29.394428', '71.664938', '2018-01-01', '12', '00', '2018-01-05', '12', '30', 3, 3, 'Publish', 'Hi, i\'m newbie in J&D. Thanks for trust', '300'),
+(3, 8, 2, '31.513981', '74.285420', '29.394428', '71.664938', '2018-01-01', '12', '00', '2018-01-05', '12', '30', 3, 3, 'Publish', 'Hi, i\'m newbie in J&D. Thanks for trust', '300');
 
 -- --------------------------------------------------------
 
@@ -111,16 +122,18 @@ CREATE TABLE `users` (
   `postCode` varchar(155) DEFAULT NULL,
   `city` varchar(100) DEFAULT NULL,
   `country` varchar(100) DEFAULT NULL,
-  `userLevel` varchar(50) NOT NULL DEFAULT 'Newcomer' COMMENT 'Newcomer, Intermediate, Experienced, Expert, Ambassador'
+  `userLevel` varchar(50) NOT NULL DEFAULT 'Newcomer' COMMENT 'Newcomer, Intermediate, Experienced, Expert, Ambassador',
+  `lastLogin` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `joinDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`Id`, `firstName`, `lastName`, `email`, `isVerifiedEmail`, `password`, `gender`, `notification`, `phoneNo`, `isVerifiedPhoneNo`, `avatar`, `isVerifiedAvatar`, `status`, `dob`, `bio`, `address`, `postCode`, `city`, `country`, `userLevel`) VALUES
-(1, 'Abdul', 'Rafay', 'abdul.rafaygmail.com', 0, '', 'male', 0, NULL, 0, NULL, 0, 'Pending', '1992-01-06', NULL, NULL, NULL, NULL, NULL, 'Newcomer'),
-(2, 'Abdul', 'Rafay', 'abdul.rafaygmail.com', 0, '', 'male', 0, NULL, 0, NULL, 0, 'Pending', '1992-01-06', NULL, NULL, NULL, NULL, NULL, 'Newcomer');
+INSERT INTO `users` (`Id`, `firstName`, `lastName`, `email`, `isVerifiedEmail`, `password`, `gender`, `notification`, `phoneNo`, `isVerifiedPhoneNo`, `avatar`, `isVerifiedAvatar`, `status`, `dob`, `bio`, `address`, `postCode`, `city`, `country`, `userLevel`, `lastLogin`, `joinDate`) VALUES
+(5, 'Abdul', 'Rafay', 'abdul.rafaygmail.com', 0, '25d55ad283aa400af464c76d713c07ad', 'male', 0, NULL, 0, NULL, 0, 'Active', '1992-01-06', NULL, NULL, NULL, NULL, NULL, 'Newcomer', '2018-01-01 09:40:28', '2018-01-01 09:40:28'),
+(8, 'Abdul', 'Rafay', 'abdulrafaygmail.com', 0, '25d55ad283aa400af464c76d713c07ad', 'male', 0, NULL, 0, NULL, 0, 'Active', '1992-01-06', NULL, NULL, NULL, NULL, NULL, 'Newcomer', '2018-01-01 10:47:59', '2018-01-01 10:47:59');
 
 -- --------------------------------------------------------
 
@@ -148,6 +161,20 @@ CREATE TABLE `user_preference` (
   `value` smallint(6) NOT NULL DEFAULT '0' COMMENT '-1 = No, 0  = OK, 1 = Like'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `user_preference`
+--
+
+INSERT INTO `user_preference` (`Id`, `userId`, `type`, `value`) VALUES
+(25, 5, 'Chattiness', 0),
+(26, 5, 'Smoking', 0),
+(27, 5, 'Pets', 0),
+(28, 5, 'Music', 0),
+(37, 8, 'Chattiness', 0),
+(38, 8, 'Smoking', 0),
+(39, 8, 'Pets', 0),
+(40, 8, 'Music', 0);
+
 -- --------------------------------------------------------
 
 --
@@ -160,6 +187,22 @@ CREATE TABLE `user_rating` (
   `star` int(11) NOT NULL DEFAULT '1' COMMENT '1,2,3,4,5',
   `reviews` text
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user_rating`
+--
+
+INSERT INTO `user_rating` (`Id`, `userId`, `star`, `reviews`) VALUES
+(1, 5, 3, 'Good'),
+(2, 5, 1, 'Average'),
+(3, 5, 1, 'Average'),
+(4, 5, 1, 'Average'),
+(5, 5, 5, 'Very good, happy to ride'),
+(6, 5, 5, 'Very good, happy to ride'),
+(7, 5, 5, 'Very good, happy to ride'),
+(8, 5, 5, 'Very good, happy to ride'),
+(9, 5, 5, 'Very good, happy to ride'),
+(10, 8, 5, 'Very good, happy to ride');
 
 -- --------------------------------------------------------
 
@@ -176,8 +219,16 @@ CREATE TABLE `user_vehicle` (
   `model` varchar(100) NOT NULL,
   `color` varchar(100) NOT NULL,
   `yearRegistered` int(11) NOT NULL,
-  `photo` varchar(255) DEFAULT NULL
+  `photo` varchar(255) DEFAULT 'car-default.png'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user_vehicle`
+--
+
+INSERT INTO `user_vehicle` (`Id`, `userId`, `country`, `numberPlate`, `makeOf`, `model`, `color`, `yearRegistered`, `photo`) VALUES
+(1, 5, 'Lahore Pakistan', 'LEW-8352', 'Daihatsu', 'Cuore', 'Gun Metallic', 2007, 'car-default.png'),
+(2, 8, 'Lahore Pakistan', 'LEW-8352', 'Daihatsu', 'Cuore', 'Gun Metallic', 2007, 'car-default.png');
 
 --
 -- Indexes for dumped tables
@@ -194,8 +245,8 @@ ALTER TABLE `auth_key`
 -- Indexes for table `rides`
 --
 ALTER TABLE `rides`
-  ADD KEY `user_fk_rides_userId_idx` (`userId`),
-  ADD KEY `userv_fk_rides_carId_idx` (`carId`);
+  ADD PRIMARY KEY (`Id`),
+  ADD KEY `user_fk_rides_userId_idx` (`userId`);
 
 --
 -- Indexes for table `users`
@@ -207,6 +258,7 @@ ALTER TABLE `users`
 -- Indexes for table `user_messages`
 --
 ALTER TABLE `user_messages`
+  ADD PRIMARY KEY (`Id`),
   ADD KEY `user_fk_um_userId_idx` (`userId`),
   ADD KEY `user_fk_um_senderId_idx` (`senderId`);
 
@@ -216,6 +268,12 @@ ALTER TABLE `user_messages`
 ALTER TABLE `user_preference`
   ADD PRIMARY KEY (`Id`),
   ADD KEY `user_fk_up_userId_idx` (`userId`);
+
+--
+-- Indexes for table `user_rating`
+--
+ALTER TABLE `user_rating`
+  ADD PRIMARY KEY (`Id`);
 
 --
 -- Indexes for table `user_vehicle`
@@ -234,20 +292,35 @@ ALTER TABLE `user_vehicle`
 ALTER TABLE `auth_key`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
+-- AUTO_INCREMENT for table `rides`
+--
+ALTER TABLE `rides`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+--
+-- AUTO_INCREMENT for table `user_messages`
+--
+ALTER TABLE `user_messages`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `user_preference`
 --
 ALTER TABLE `user_preference`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+--
+-- AUTO_INCREMENT for table `user_rating`
+--
+ALTER TABLE `user_rating`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `user_vehicle`
 --
 ALTER TABLE `user_vehicle`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- Constraints for dumped tables
 --
@@ -256,8 +329,7 @@ ALTER TABLE `user_vehicle`
 -- Constraints for table `rides`
 --
 ALTER TABLE `rides`
-  ADD CONSTRAINT `user_fk_rides_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION,
-  ADD CONSTRAINT `userv_fk_rides_carId` FOREIGN KEY (`carId`) REFERENCES `user_vehicle` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `user_fk_rides_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`Id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `user_messages`

@@ -63,7 +63,18 @@ $route['v1/user/preference(/:num)?'] = 'api/V1/userPreference$1';
 $route['v1/save/user/preference/(:num)'] = 'api/V1/userPreferences/$1';
 
 // User Vehicles
-$route['v1/user/vehicles(/:num)?'] = 'api/V1/userVehicles$1';
+$route['v1/user/vehicles/(:num)'] = 'api/V1/userVehicles/$1';
+$route['v1/save/user/vehicle'] = 'api/V1/userVehicle';
+
+// User Rating
+$route['v1/user/ratings(/:num)?'] = 'api/V1/ratings$1';
+$route['v1/user/rating(/:num)?'] = 'api/V1/getUserRatingAverage$1';
+$route['v1/save/user/rating'] = 'api/V1/newRating';
+
+// Ride
+$route['v1/ride(/:any)?'] = 'api/V1/ride$1';
+$route['v1/save/ride'] = 'api/V1/newRide';
+$route['v1/search/ride'] = 'api/V1/search';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

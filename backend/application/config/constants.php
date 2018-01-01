@@ -88,4 +88,11 @@ defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatic
 // Table Name
 define('TBL_USERS', 'users');
 define('TBL_USER_PREFERENCE', 'user_preference');
-define('TBL_USER_VEHICLE_PREFERENCE', 'user_vehicle');
+
+define('TBL_USER_VEHICLE', 'user_vehicle');
+define('TBL_RIDE', 'rides');
+
+define('TBL_USER_MSG', 'user_messages');
+define('TBL_USER_RATING', 'user_rating');
+
+define('TBL_BOOK_RIDE', 'book_ride');
