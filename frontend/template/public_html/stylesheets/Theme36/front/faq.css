@@ -1,0 +1,76 @@
+/*.main:before {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-1;
+	content:'';
+	background:-webkit-radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('../../../tyagi-new/designe-moree/faq-template/demo5/css/img/body-bg.png');
+	background:-moz-radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('../../../tyagi-new/designe-moree/faq-template/demo5/css/img/body-bg.png');
+	background:-o-radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('../../../tyagi-new/designe-moree/faq-template/demo5/css/img/body-bg.png');
+	background:radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('../../../tyagi-new/designe-moree/faq-template/demo5/css/img/body-bg.png');
+}*/
+
+.site-header-wrap {
+	margin-bottom:60px;
+	border-bottom:1px solid #cd9ad6;
+}
+
+/*------------------------------------*\
+-------- DEMO Code: accordion
+\*------------------------------------*/
+/*----- Accordion -----*/
+.accordion, .accordion * {
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+.bbcs-faq-inner{ margin:0 auto; padding:0px; width:1170px;}
+
+.accordion{margin:0px; padding:0px; float:left; width:100%; overflow:hidden;}
+.accordion h3{margin:0 0 10px; padding:0 0 10px; float:left; width:100%; color:#2578ac; font-size:21px; font-weight:600; border-bottom:1px solid #e5e3e3;}
+.faq-main-box{ margin:0 0 15px; padding:0px; float:left; width:100%;}
+.accordion .accordion-section{ margin:0px; padding:0px; float:left; width:100%;}
+
+.accordion .accordion-section:First-child a{ padding-top:0px;}
+
+.accordion .faq-ques{margin:0px; padding:0px; float:left; width:100%;}
+.accordion .faq-ques p{margin:0px; padidng:0px; float:right; width:99%; line-height:25px; color:#494c50; font-size:15px;}
+
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+    color:#333;
+    display:inline-block;
+    font-size:19px;
+    font-weight:600;
+    padding:9px 0 9px 10px;
+    text-transform:none;
+    width:100%;
+	background:#eeeded;
+	margin:0 0 3px;
+}
+
+.accordion-section .active{ border:none; color:#2578ac;}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+	/*background:#4c4c4c;*/
+	/* Type */
+	text-decoration:none;
+	color:#2578ac;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:0 0 20px;
+	display:none;
+	float:left;
+	width:100%;
+	/*border-bottom:1px solid #d9d9d9;*/
+}

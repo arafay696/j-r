@@ -1,0 +1,6 @@
+/* homemedia.css */
+
+@media screen and (min-width:1px) and (max-width:767px) {
+.header-in-top h3 span{ padding:16px 10px 14px 14px; font-size:19px;}
+}
+

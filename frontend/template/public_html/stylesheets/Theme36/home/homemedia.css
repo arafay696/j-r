@@ -1,0 +1,570 @@
+@media print{
+*{text-shadow:none!important;color:#000!important;background:transparent!important;box-shadow:none!important}
+a, a:visited{text-decoration:underline}
+a[href]:after{content:" (" attr(href) ")"}
+abbr[title]:after{content:" (" attr(title) ")"}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after{content:""}
+pre, blockquote{border:1px solid #999;page-break-inside:avoid}
+thead{display:table-header-group}
+tr, img{page-break-inside:avoid}
+img{max-width:100%!important}
+@page{margin:.5cm}
+p, h2, h3{orphans:3;widows:3}
+h2, h3{page-break-after:avoid}
+}
+
+@media screen and (min-width:1px) and (max-width:1023px){
+.select-box select{padding:3px;}
+.custom-select1{width:140px;}
+.menu-collapser{padding:0!important;}
+}
+
+@media screen and (min-width:1px) and (max-width:767px){
+.member-story-home-inner{width:98%;}
+#top-part{height:auto;position:relative;background:url(../../../images/home/Theme36/color-blue/top-inner-heading-img.jpg) repeat;}
+.top-select-part{margin:0px;padding:0px;height:auto;}
+.top-part-inner{width:100%;}
+.menu-part{margin:0px;float:left;width:100%;}
+.logo{margin:10px 0 0;float:left;width:100%;text-align:center;position:relative;top:0;}
+.logo img{margin:0px;}
+.select-box{margin:6px 10px 0 0;}
+.top-logo-menu-part{margin:0;padding:10px 0;}
+.header-up-bg{padding:0 0 6px 6px;}
+.select-box select{padding:3px;}
+#rides-content{height:auto;background:url("../../../images/home/Theme36/rides-bg.jpg") repeat scroll center top;padding:15px 0 10px;}
+.rides-content-inner{width:540px;}
+.upcoming-rides-area{width:100%;margin:10px 0 0;}
+.ladies-rides{width:100%;float:left;border:none;padding:0px;margin:0px;}
+.rides-content-inner h3{margin:10px 0 20px;}
+.how-does-work-inner{width:98%;}
+.how-does-work-left{margin:0 0 0 10px;width:62%;}
+.how-does-work-mid{width:33%;margin:0 0 0 10px;}
+.how-does-work-mid img{width:100%;}
+.how-does-work-right{margin:30px 0 20px 10px;width:98%;}
+.how-does-work-right .how-does-work-right-heading-book{margin:0px;}
+.how-does-work-right .how-does-work-right-heading-that-all{margin:0px;}
+.how-does-work-right span{margin:0 3px 0 0;width:33%;float:left;}
+.how-does-work-right span:nth-child(3n){margin-right:0px;}
+.how-work-bottom-img img{width:100%;}
+.featured-in-inner{width:99%;}
+#travelling-alone{height:auto;}
+.travelling-alone-inner{width:510px;}
+.travelling-alone-left-part{margin:20px 0 0;width:100%;}
+.travelling-alone-right-part{float:left;margin:0px;}
+#share-ride-part{height:auto;background-repeat:repeat;}
+.share-ride-part-inner{width:98%;padding:25px 0;}
+.share-ride-part-box1{width:33%;margin:13px 0 0;}
+.share-ride-part-box1 p{font-size:20px;line-height:32px;}
+.share-ride-part-box2{width:33%;margin:0px;}
+.share-ride-part-box2 p{font-size:20px;line-height:32px;}
+.share-ride-part-box3{width:33%;margin:0px;}
+.share-ride-part-box3 p{font-size:20px;line-height:32px;}
+#latest-blog-part{margin:30px 0 0;}
+.latest-blog-part-inner{width:98%;}
+.latest-blog-box{width:100%;margin:0 0 20px;}
+.latest-blog-box h2{font-size:24px;}
+.latest-blog-box .home-blog-text{width:76%;}
+.latest-blog-box li{margin:0 0 14px;}
+.facebook-like-div{margin:0px;}
+.facebook-like-div h2{font-size:24px;}
+.newsleter-subscription-div{margin:0;}
+#header-part{background-repeat:repeat;height:auto;}
+#sldier{margin:0 auto!important;height:auto!important;width:730px!important;}
+#finder .carpool{width:98%!important;}
+.index #finder{margin:0!important;padding:20px 0 0 !important;width:100%!important;}
+.backstretch{height:306px!important;}
+#finder .carpool{padding-top:0px!important;}
+#finder .from, #finder .to, #finder .datepicker{width:190px !important;margin:0!important}
+#finder #top-search-button{margin:5px 5px 5px 0!important;}
+#finder .datepicker{width:80px!important;}
+.index #finder .intro h3{font-size:29px!important;}
+.home-banner-rids-img{margin:30px 0 0 155px;}
+.featured-in-inner li{width:23.6%;}
+.featured-in-inner li img{width:100%;}
+.rides-price h2{font-size:23px;}
+.ladies-rides ul h2{font-size:23px;}
+.upcoming-rides-area li{margin:0 0 20px;}
+.rides-price{width:110px;}
+.member-story-home-inner h2{margin:0 0 20px;}
+.member-story-home-inner ul{margin:0 auto;float:none;width:700px;}
+.member-story-home-inner li{width:100%;margin:0 0 15px;}
+.member-story-home-inner .clint-video-img{width:130px;margin:0 20px 0 0;}
+.member-story-home-inner .clint-video-img img{width:100%;}
+.member-story-home-inner .clint-text{width:510px;}
+#footer{height:auto;padding:0 0 10px;}
+.footer-inner{width:97%;}
+.footer-box1{width:270px;}
+.footer-box1 h2{font-size:18px;}
+.footer-box2{width:180px;margin-left:30px;}
+.footer-box2 h2{font-size:18px;}
+.footer-box3{width:245px;float:right;}
+.footer-box3 h2{font-size:18px;}
+.footer-box4{width:280px;float:left;margin:25px 0 0;}
+.footer-box4 h2{font-size:18px;text-align:left;}
+.footer-bottom-part{padding:16px 0 2px;}
+}
+@media screen and (min-width:1px) and (max-width:666px){
+.logo{float:left;width:100%;text-align:center;margin:0px;}
+.login-b-login{float:none;margin:0 auto;padding:0;width:280px;}
+.top-icons ul{width:auto;}
+
+.select-box {margin:6px 0; text-align:center; width:100%;}
+.select-box select{ float:none; display:inline-table; margin:0px;}
+.select-box .custom-select1{ width:128px;}
+.select-box span{ margin:10px 0; padding:0px; float:left; width:100%; text-align:center;}
+.top-logo-menu-part{ margin:0px;}
+.home-top-lang{ margin:0 auto; float:none; width:141px; text-align:left;}
+.show-all-ride-part{ margin:0px; width:100%;}
+.show-all-ride{ margin:0 auto 10px; float:none;}
+
+.lang-part .lang-all{top:80px;}
+.currency-part .lang-all{top:80px;}
+.lang-part .lang-all ul li{ width:25%;}
+.currency-part .lang-all ul li{ width:25%;}
+
+}
+
+@media screen and (min-width:1px) and (max-width:567px){ul.slimmenu.collapsed li a{width:98%!important;}
+#sldier{width:97%!important;}
+.header-up-bg{height:auto;width:100%;padding:0 0 6px 6px;}
+#finder #top-search-button{margin:6px 0 3px!important;float:left!important;}
+#finder form{padding:0px!important;}
+#finder span{float:left;margin:0px;}
+#finder .swap-img{margin:10px 2px 0!important;width:auto!important;}
+#finder .datepicker{margin:7px 0 0 3px!important;width:100px!important;}
+#finder .btn{float:left;margin:2px 0 0!important;}
+#finder .from, #finder .to{margin:0px!important;}
+#finder span{width:44%!important;}
+#finder span .autocompleted{width:100%!important;}
+#finder .btn{margin:1px 0 0 !important;padding:8px 12px 7px!important;}
+.home-banner-rids-img{margin:30px 0 0;background-size:100%;width:388px;}
+.home-banner-rids-img-inner ul li{margin:0 0 21px;}
+.home-banner-rids-img-inner ul li a{font-size:18px;margin:0 0 0 11px;}
+.how-does-work-inner h2{font-size:30px;}
+.how-does-work-left{width:97%;}
+.how-does-work-left h3{margin:0 0 4px;font-size:38px;}
+.how-does-work-mid{margin:20px 0 20px 6px;width:96%;}
+.how-does-work-right{margin:30px 0 10px 10px;}
+.how-does-work-right h3{font-size:23px;}
+.how-does-work-right span{width:100%;margin:0 0 12px;}
+.how-does-work-right p{font-size:15px;min-height:inherit;}
+.share-ride-part-box1{width:50%;margin:0px;}
+.share-ride-part-box1 p{font-size:16px;line-height:26px;margin:0px;}
+.share-ride-part-box2{width:50%;}
+.share-ride-part-box2 p{font-size:16px;line-height:26px;}
+.share-ride-part-box3{width:100%;margin:10px 0 0;}
+.share-ride-part-box3 p{font-size:16px;line-height:26px;}
+.rides-content-inner{width:96%;}
+.ladies-rides li:last-child{margin:0 0 35px;}
+.rides-img{width:100%;}
+.rides-img span{width:118px;}
+.rides-text{width:270px;margin:10px 0 0;}
+.travelling-alone-inner{width:98%;}
+.travelling-alone-left-part h2{font-size:107px;}
+.travelling-alone-left-part h2 b{font-size:61px;}
+.travelling-alone-right-part{width:100%;}
+.travelling-alone-right-part img{width:100%;}
+.latest-blog-part-inner{width:350px;}
+.latest-blog-box{width:100%;}
+.latest-blog-box h2{font-size:22px;}
+.latest-blog-box .home-blog-img{margin:0 10px 0 0;width:64px;}
+.latest-blog-box .home-blog-text{width:78%;}
+.latest-blog-box li:last-child{margin-bottom:0px;}
+.facebook-like-div{margin:20px 0 0;width:350px;min-height:inherit;}
+.facebook-like-div h2{font-size:22px;}
+.facebook-like-div b{width:350px;height:260px;}
+.facebook-like-div b img{width:100%;}
+.newsleter-subscription-div{margin:20px 0 0;float:left;}
+.newsleter-subscription-div .facebook-ho{margin:20px 0 0;}
+.footer-box1{width:100%;margin:16px 0 0;}
+.footer-box2{width:100%;margin:16px 0 0;min-height:initial;}
+.footer-box3{width:100%;margin:17px 0 0;float:left;}
+.footer-box4{margin:17px 0 0;float:left;width:100%;}
+.footer-box4 span p{width:230px;}
+.footer-bottom-part p{width:100%;text-align:center;margin:0 0 6px;}
+.footer-bottom-part span{width:100%;text-align:center;float:left;}
+
+#ios-android-mobile{ height:auto; padding:30px 0;}
+.ios-android-mobile-inner{ width:98%; position:relative;}
+.ios-android-mobile-left{ display:none;}
+.ios-android-mobile-right{ display:none;}
+.ios-android-mobile-mid{ width:100%; margin:0px;}
+.ios-android-mobile-mid h2{ font-size:22px;}
+.ios-android-mobile-mid h3{ font-size:20px;}
+.ios-android-mobile-mid p{ font-size:20px;}
+.ios-android-mobile-mid span a img{ margin:0 10px;}
+
+}
+@media screen and (min-width:1px) and (max-width:414px){
+.rides-img span{display:table;float:none;margin:0 auto;width:118px;}
+.rides-text{width:100%;text-align:center;}
+.rides-text p{width:100%;text-align:center;}
+.rides-price{float:left;text-align:center;width:100%;}
+.rides-price p{width:100%;text-align:center;float:left;}
+.rides-price h2{text-align:center;}
+.rides-img span{display:table;float:none;margin:0 auto;width:118px;}
+.rides-price p{margin:0 auto;float:none;width:65px;}
+.rides-text .no-smoking-img{width:100%;}
+.rides-text .no-smoking-img span{float:none;margin:0px;}
+.no-smoking-img [data-tooltip]::after{left:auto!important;right:0!important;}
+
+.lang-part .lang-all ul li{ width:33%;}
+.currency-part .lang-all ul li{ width:33%;}
+
+.share-ride-part-box1{ width:100%; text-align:center; margin:0px;}
+.share-ride-part-box2{ width:100%; text-align:center; margin:15px 0;}
+.share-ride-part-box3{ width:100%; text-align:center; margin:0px;}
+
+.lang-part .lang-all{ width:90%;}
+
+}
+@media screen and (min-width:1px) and (max-width:400px){ul.slimmenu.collapsed li a{width:97%!important;}
+.home-banner-rids-img-inner{width:145px;margin:53px 0 0;}
+.home-banner-rids-img{width:100%;}
+.home-banner-rids-img-inner ul li{margin:0 0 19px;}
+.home-banner-rids-img-inner ul li a{font-size:17px;}
+.how-does-work-inner h2{font-size:26px;}
+.how-does-work-left h3{font-size:34px;}
+.how-does-work-right{width:96%;}
+.travelling-alone-inner{width:95%;}
+.travelling-alone-left-part h2 b{font-size:50px;}
+.travelling-alone-left-part h2{font-size:94px;}
+.travelling-alone-left-part p{font-size:16px;}
+
+.ios-android-mobile-mid span a img{ margin:0 5px;}
+
+}
+
+@media screen and (min-width:1px) and (max-width:350px){#finder span{width:97% !important;}
+.home-banner-rids-img-inner{width:125px;margin:44px 0 0;}
+.home-banner-rids-img-inner ul li a{font-size:15px;}
+.home-banner-rids-img-inner ul li{margin:0 0 13px;}
+.how-does-work-inner h2{font-size:23px;}
+.how-does-work-left{width:95%;}
+.how-does-work-left p{font-size:15px;}
+.travelling-alone-left-part h2{font-size:82px;line-height:65px;margin:0 0 14px;}
+.travelling-alone-left-part h2 b{font-size:44px;}
+.travelling-alone-left-part p{margin:10px 0 3px;}
+.latest-blog-part-inner{width:96%;}
+.latest-blog-box .home-blog-text{width:73%;}
+.facebook-like-div{width:100%;}
+.facebook-like-div b{width:100%;height:auto;}
+}
+@media screen and (min-width:568px) and (max-width:666px){#sldier{width:542px!important;}
+.header-up-bg{height:auto;width:100%;padding:0 0 6px 6px;}
+#finder #top-search-button{margin:6px 0 3px!important;float:left!important;}
+#finder form{padding:0px!important;}
+#finder span{float:left;margin:0px;}
+#finder .swap-img{margin:10px 2px 0!important;}
+#finder .datepicker{margin:7px 0 0 3px!important;width:120px !important;}
+#finder .btn{float:left;margin:2px 0 0!important;}
+#finder .from, #finder .to{margin:0px!important;}
+#finder span .autocompleted{width:244px!important;}
+#finder .btn{margin:1px 0 0 !important;padding:8px 12px 7px!important;}
+.home-banner-rids-img{margin:30px 0 0 60px;}
+.how-does-work-left{width:55%;}
+.how-does-work-left h3{margin:0 0 4px;}
+.how-does-work-right p{min-height:58px;}
+.how-does-work-right{margin:30px 0 0 10px;}
+.how-does-work-right h3{font-size:23px;}
+.how-does-work-right span{width:48%;}
+.how-does-work-right p{font-size:15px;}
+.share-ride-part-box1{width:30%;}
+.share-ride-part-box1 p{font-size:16px;line-height:26px;}
+.share-ride-part-box2{width:30%;}
+.share-ride-part-box2 p{font-size:16px;line-height:26px;}
+.share-ride-part-box3{width:36%;}
+.share-ride-part-box3 p{font-size:16px;line-height:26px;}
+.rides-content-inner{width:520px;}
+.ladies-rides li:last-child{margin:0 0 35px;}
+.rides-img span{width:97%;}
+.rides-text{width:270px;}
+.latest-blog-part-inner{width:350px;}
+.latest-blog-box{width:100%;}
+.latest-blog-box h2{font-size:22px;}
+.latest-blog-box .home-blog-img{margin:0 10px 0 0;width:64px;}
+.latest-blog-box .home-blog-text{width:78%;}
+.latest-blog-box li:last-child{margin-bottom:0px;}
+.facebook-like-div{margin:20px 0 0;width:350px;min-height:inherit;}
+.facebook-like-div h2{font-size:22px;}
+.facebook-like-div b{width:350px;height:260px;}
+.facebook-like-div b img{width:100%;}
+.newsleter-subscription-div{margin:20px 0 0;float:left;}
+.newsleter-subscription-div .facebook-ho{margin:20px 0 0;}
+.footer-box1{width:55%;margin:16px 0 0;}
+.footer-box2{width:40%;margin:16px 0 0;min-height:200px;}
+.footer-box3{width:45%;margin:17px 0 0;float:left;}
+.footer-box4{margin:17px 0 0;float:right;}
+.footer-bottom-part p{width:100%;text-align:center;margin:0 0 6px;}
+.footer-bottom-part span{width:100%;text-align:center;float:left;}
+
+.ios-android-mobile-inner{ width:98%; position:relative;}
+.ios-android-mobile-left{ position:absolute; top:0; left:0;}
+.ios-android-mobile-right{ position:absolute; top:0; right:0;}
+.ios-android-mobile-mid{ width:100%;}
+.ios-android-mobile-mid h2{ font-size:22px;}
+.ios-android-mobile-mid h3{ font-size:20px;}
+.ios-android-mobile-mid p{ font-size:20px;}
+.ios-android-mobile-mid span a img{ margin:0 10px;}
+
+}
+
+@media screen and (min-width:667px) and (max-width:767px){#sldier{width:635px!important;}
+.header-up-bg{height:auto;width:100%;padding:0 0 0 6px;}
+#finder form{padding:0px!important;}
+#finder span{float:left;margin:0px;}
+#finder .swap-img{margin:10px 2px 0!important;}
+#finder .datepicker{margin:7px 0 0 3px!important;width:102px!important;}
+#finder .btn{float:left;margin:2px 0 0!important;padding:7px 12px!important;}
+#finder span{margin-top:7px!important;}
+.home-banner-rids-img{margin:30px 0 0 110px;}
+.how-does-work-right h3{font-size:23px;}
+.how-does-work-right p{font-size:15px;}
+.share-ride-part-box1 p{font-size:18px;line-height:26px;}
+.share-ride-part-box2 p{font-size:18px;line-height:26px;}
+.share-ride-part-box3 p{font-size:18px;line-height:26px;}
+.latest-blog-box h2{font-size:22px;}
+.latest-blog-box .home-blog-img{margin:0 10px 0 0;width:64px;}
+.latest-blog-box .home-blog-text{width:75%;}
+.latest-blog-box .home-blog-text p{height:40px;overflow:hidden;}
+.facebook-like-div{width:51%;}
+.facebook-like-div h2{font-size:20px;}
+.facebook-like-div b{width:100%;height:285px;}
+.facebook-like-div b img{width:100%;}
+.footer-box1{width:45%;margin:16px 0 0;}
+.footer-box2{width:45%;margin:16px 0 0;min-height:200px;}
+.footer-box3{width:45%;margin:16px 0 0;}
+.footer-box4{margin:17px 0 0;}
+.footer-bottom-part p{width:100%;text-align:center;margin:0 0 6px;}
+.footer-bottom-part span{width:100%;text-align:center;float:left;}
+
+.ios-android-mobile-inner{ width:98%; position:relative;}
+.ios-android-mobile-left{ position:absolute; top:0; left:0;}
+.ios-android-mobile-right{ position:absolute; top:0; right:0;}
+.ios-android-mobile-mid{ width:100%;}
+.ios-android-mobile-mid h2{ font-size:28px;}
+.ios-android-mobile-mid h3{ font-size:27px;}
+.ios-android-mobile-mid p{ font-size:27px;}
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){.member-story-home-inner{width:98%;}
+#top-part{height:auto;position:relative;background:url(../../../images/home/Theme36/color-blue/top-inner-heading-img.jpg) repeat;}
+.top-select-part{margin:0px;padding:0px;height:auto;}
+.top-part-inner{width:100%;}
+.menu-part{margin:0px;float:left;width:100%;}
+.logo{margin:10px 0 0;float:left;width:100%;text-align:center;position:relative;top:0;}
+.logo img{margin:0 0 0 10px;}
+.select-box{margin:6px 10px 0 0;}
+.top-logo-menu-part{margin:0;padding:10px 0;}
+.header-up-bg{padding:0 0 6px 6px;}
+.select-box select{padding:3px;}
+#rides-content{height:auto;background:url("../../../images/home/Theme36/rides-bg.jpg") repeat scroll center top;padding:15px 0 10px;}
+.rides-content-inner{width:540px;}
+.upcoming-rides-area{width:100%;margin:10px 0 0;}
+.ladies-rides{width:100%;float:left;border:none;padding:0px;margin:0px;}
+.how-does-work-inner{width:98%;}
+.how-does-work-left{margin:0 0 0 10px;width:62%;}
+.how-does-work-mid{width:33%;margin:0 0 0 10px;}
+.how-does-work-mid img{width:100%;}
+.how-does-work-right{margin:30px 0 20px 10px;width:98%;}
+.how-does-work-right .how-does-work-right-heading-book{margin:0px;}
+.how-does-work-right .how-does-work-right-heading-that-all{margin:0px;}
+.how-does-work-right span{margin:0 3px 0 0;width:33%;float:left;}
+.how-does-work-right span:nth-child(3n){margin-right:0px;}
+.how-work-bottom-img img{width:100%;}
+.featured-in-inner{width:99%;}
+.rides-content-inner h3{margin:10px 0 20px;}
+#travelling-alone{height:auto;}
+.travelling-alone-inner{width:510px;}
+.travelling-alone-left-part{margin:20px 0 0;width:100%;}
+.travelling-alone-right-part{float:left;margin:0px;}
+#share-ride-part{height:auto;background-repeat:repeat;}
+.share-ride-part-inner{width:98%;padding:25px 0;}
+.share-ride-part-box1{width:33%;margin:13px 0 0;}
+.share-ride-part-box1 p{font-size:20px;line-height:32px;}
+.share-ride-part-box2{width:33%;margin:0px;}
+.share-ride-part-box2 p{font-size:20px;line-height:32px;}
+.share-ride-part-box3{width:33%;margin:0px;}
+.share-ride-part-box3 p{font-size:20px;line-height:32px;}
+#latest-blog-part{margin:30px 0 0;}
+.latest-blog-part-inner{width:98%;}
+.latest-blog-box{width:100%;margin:0 0 20px;}
+.latest-blog-box h2{font-size:24px;}
+.latest-blog-box .home-blog-text{width:76%;}
+.latest-blog-box li{margin:0 0 14px;}
+.newsleter-subscription-div{margin:0;}
+.facebook-like-div{margin:0px;width:57%;}
+.facebook-like-div h2{font-size:24px;}
+#header-part{background-repeat:repeat;height:auto;}
+#sldier{margin:0 auto!important;height:auto!important;width:730px!important;}
+#finder .carpool{width:98%!important;}
+.index #finder{margin:0!important;padding:20px 0 0 !important;width:100%!important;}
+.backstretch{height:306px!important;}
+#finder .carpool{padding-top:0px!important;}
+#finder .from, #finder .to, #finder .datepicker{width:190px !important;}
+#finder #top-search-button{margin:5px 5px 5px 0!important;}
+#finder .datepicker{width:80px!important;}
+.index #finder .intro h3{font-size:29px!important;}
+.home-banner-rids-img{margin:30px 0 0 155px;}
+.featured-in-inner li{width:23.6%;}
+.featured-in-inner li img{width:100%;}
+.rides-price h2{font-size:23px;}
+.ladies-rides ul h2{font-size:23px;}
+.upcoming-rides-area li{margin:0 0 20px;}
+.rides-price{width:114px;}
+.member-story-home-inner h2{margin:0 0 20px;}
+.member-story-home-inner ul{margin:0 auto;float:none;width:700px;}
+.member-story-home-inner li{width:100%;margin:0 0 15px;}
+.member-story-home-inner .clint-video-img{width:130px;margin:0 20px 0 0;}
+.member-story-home-inner .clint-video-img img{width:100%;}
+.member-story-home-inner .clint-text{width:510px;}
+#footer{height:auto;padding:0 0 10px;}
+.footer-inner{width:97%;}
+.footer-box1{ width:220px;}
+.footer-box1 h2{font-size:18px;}
+.footer-box2{ width:223px; margin-left:25px;}
+.footer-box2 h2{font-size:18px;}
+.footer-box3{width:245px;float:right;}
+.footer-box3 h2{font-size:18px;}
+.footer-box4{width:330px;float:left;margin:25px 0 0;}
+.footer-box4 h2{font-size:18px;text-align:left;}
+.footer-box4 span p{width:240px;}
+.footer-bottom-part{padding:16px 0 2px;}
+
+.ios-android-mobile-inner{ width:98%; position:relative;}
+.ios-android-mobile-left{ position:absolute; top:0; left:0;}
+.ios-android-mobile-right{ position:absolute; top:0; right:0;}
+.ios-android-mobile-mid{ width:100%;}
+.ios-android-mobile-mid h2{ font-size:32px;}
+.ios-android-mobile-mid h3{ font-size:31px;}
+
+
+}
+@media screen and (min-width:1024px) and (max-width:1100px){.member-story-home-inner{width:98%;}
+.top-part-inner{width:98%;}
+#header-part{height:522px;}
+#rides-content{height:auto;padding:20px 0 10px;}
+.how-does-work h2{margin:10px 0 14px;}
+.rides-content-inner{width:550px;}
+.upcoming-rides-area{width:100%;margin:10px 0 0;}
+.upcoming-rides-area li{margin:0 0 20px;}
+.ladies-rides li{margin:0 0 20px;}
+.ladies-rides li:last-child{margin:0 0 20px;}
+.member-story-home-inner .clint-text{width:64%;}
+.ladies-rides{width:100%;float:left;border:none;padding:0px;margin:0px;}
+.featured-in-inner{width:99%;}
+#body-content{margin:5px 0 0;}
+.home-banner-rids-img{background-size:100%;width:332px;height:323px;}
+.home-banner-rids-img-inner{margin:48px 0 0;width:140px;}
+.home-banner-rids-img-inner ul li{margin:0 0 19px;}
+.home-banner-rids-img-inner ul li a{font-size:17px;padding:0 0 0 13px;}
+.index #finder{width:63%!important;margin:0px !important;}
+.row{margin-left:0px!important;}
+#finder .carpool{width:100%!important;}
+#sldier{height:auto!important;width:98%!important;}
+#finder .from, #finder .to{width:150px!important;}
+.backstretch{height:530px!important;}
+#sldier .span12{float:none;margin:0 auto;width:98%;}
+.index #finder .intro h5{font-size:51px!important;}
+.index #finder .intro h3{font-size:25px!important;}
+#finder .datepicker{width:60px!important;}
+.rides-content-inner h3{margin:10px 0 20px;}
+.how-work-bottom-img img{width:100%;}
+.how-does-work-inner{width:98%;}
+.how-does-work-left{margin:59px 0 0 20px;}
+.how-does-work-mid{width:380px;margin:20px 0 0;}
+.how-does-work-mid img{width:100%;}
+.travelling-alone-inner{width:98%;}
+.travelling-alone-left-part{margin:42px 0 0 10px;}
+.travelling-alone-right-part{width:470px;margin:58px 0 0;}
+.travelling-alone-right-part img{width:100%;}
+.how-does-work-right{margin:60px 0 0 54px;}
+.how-does-work-right .how-does-work-right-heading-book{margin:50px 0 0;}
+.how-does-work-right .how-does-work-right-heading-that-all{margin:50px 0 0;}
+.share-ride-part-inner{width:98%;}
+.share-ride-part-box1{width:30%;}
+.share-ride-part-box1 p{font-size:25px;}
+.share-ride-part-box2{width:30%;}
+.share-ride-part-box2 p{font-size:25px;}
+.share-ride-part-box3{width:33%;}
+.share-ride-part-box3 p{font-size:25px;}
+#latest-blog-part{padding:0px;margin:30px 0 0;}
+.latest-blog-part-inner{width:98%;}
+.latest-blog-box{width:338px;}
+.latest-blog-box .home-blog-img{margin:0 12px 0 0;}
+.latest-blog-box h2{font-size:22px;}
+.latest-blog-box .home-blog-text{width:260px;}
+.facebook-like-div{margin:0 0 0 10px;width:320px;}
+.facebook-like-div h2{font-size:20px;}
+.facebook-like-div b{width:320px;height:239px;}
+.facebook-like-div b img{width:100%;}
+.latest-blog-box .home-blog-text p{overflow:hidden;height:60px;line-height:20px;}
+#footer{height:auto;padding:0 0 10px;}
+.footer-inner{width:99%;}
+.footer-box1{width:270px;}
+.footer-box1 h2{font-size:18px;}
+.footer-box2{width:175px;margin-left:15px;}
+.footer-box2 h2{font-size:18px;}
+.footer-box3{width:245px;}
+.footer-box3 h2{font-size:18px;}
+.footer-box4{width:280px;}
+.footer-box4 h2{font-size:18px;}
+.footer-bottom-part{padding:16px 0 2px;}
+
+.ios-android-mobile-inner{ width:1000px;}
+.ios-android-mobile-mid{ width:790px;}
+
+}
+
+@media screen and (min-width:1101px) and (max-width:1199px){.member-story-home-inner{width:98%;}
+.top-part-inner{width:98%;}
+#rides-content{height:auto;padding:20px 0 10px;}
+.how-does-work h2{margin:10px 0 14px;}
+.rides-content-inner{width:550px;}
+.upcoming-rides-area{width:100%;margin:10px 0 0;}
+.upcoming-rides-area li{margin:0 0 20px;}
+.ladies-rides li{margin:0 0 20px;}
+.ladies-rides li:last-child{margin:0 0 20px;}
+.member-story-home-inner .clint-text{width:64%;}
+.ladies-rides{width:100%;float:left;border:none;padding:0px;margin:0px;}
+.featured-in-inner{width:99%;}
+#body-content{margin:5px 0 0;}
+.home-banner-rids-img{background-size:100%;width:352px;height:347px;}
+.home-banner-rids-img-inner{margin:53px 0 0;width:140px;}
+.home-banner-rids-img-inner ul li{margin:0 0 19px;}
+.home-banner-rids-img-inner ul li a{font-size:17px;}
+#header-part{height:544px;}
+.index #finder{width:64%!important;margin:0!important;}
+#finder .carpool{width:100%!important;}
+#sldier{height:auto!important;width:98%!important;}
+#finder .from, #finder .to{width:184px !important;}
+.backstretch{height:530px !important;}
+#sldier .span12{float:none;margin:0 auto;width:98%;}
+.index #finder .intro h3{font-size:28px!important;}
+#finder .datepicker{width:80px !important;}
+.how-work-bottom-img img{width:100%;}
+.how-does-work-inner{width:98%;}
+.how-does-work-left{margin:63px 0 0 20px;}
+.how-does-work-mid{width:475px;}
+.how-does-work-mid img{width:100%;}
+.travelling-alone-inner{width:98%;}
+.travelling-alone-left-part{margin:42px 0 0 30px;}
+.share-ride-part-inner{width:98%;}
+.share-ride-part-box1{width:30%;}
+.share-ride-part-box2{width:30%;}
+.share-ride-part-box3{width:33%;}
+.latest-blog-part-inner{width:98%;}
+.latest-blog-box{width:380px;}
+.latest-blog-box .home-blog-text{width:290px;}
+.facebook-like-div{margin:0 0 0 27px;}
+#footer{height:auto;padding:0 0 10px;}
+.footer-inner{width:97%;}
+.footer-box1{width:300px;}
+.footer-box1 h2{font-size:18px;}
+.footer-box2{width:180px;}
+.footer-box2 h2{font-size:18px;}
+.footer-box3{width:285px;}
+.footer-box3 h2{font-size:18px;}
+.footer-box4 h2{font-size:18px;}
+.footer-bottom-part{padding:16px 0 2px;}
+}
