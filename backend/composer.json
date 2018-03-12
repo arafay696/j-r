@@ -12,7 +12,6 @@
   },
   "require": {
     "php": ">=5.3.7",
-    "spomky-labs/jose": "^6.1",
     "apache/log4php": "2.3.0"
   },
   "suggest": {
