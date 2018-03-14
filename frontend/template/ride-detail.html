@@ -1,18 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- Mirrored from www.ridesharingscript.com/ridesharing/sign-up by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 09:29:38 GMT -->
+<!-- Mirrored from www.ridesharingscript.com/ridesharing/index.php?file=c-ride_details&id=264 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 09:59:36 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="Keyword" content="Ride Sharing"/>
-    <meta name="Descriptions" content=""/>
-    <title>Ride Sharing</title>
-    <meta name="keywords" content="Ride Sharing"/>
-    <meta name="description" content=""/>
+    <meta name="Keyword" content="Ride Details"/>
+    <meta name="Descriptions" content="Ride Details"/>
+    <title>Ride Details</title>
+    <meta name="keywords" content="Ride Details"/>
+    <meta name="description" content="Ride Details"/>
     <base/>
     <link rel="icon" href="Page-Not-Found.html" type="image/x-icon"/>
     <link rel="shortcut icon" href="Page-Not-Found.html" type="image/x-icon">
@@ -271,7 +270,7 @@
 </div>
 
 <script>
-    var cPage = 'c-registration';
+    var cPage = 'c-ride_details';
     var offerRidePage = 'c-offer_ride';
     var offerRideEditPage = 'm-offer_ride_edit';
     var offerRideDuplicatePage = 'm-offer_ride_duplicate';
@@ -301,17 +300,17 @@
         }
     }
 
-    //console.log('c-registration');//curr_page
+    //console.log('c-ride_details');//curr_page
 
     function change_lang(lang) {
-        var rdURL = 'sign-up.html?lang=' + lang;
+        var rdURL = 'index5666.html?lang=' + lang;
         lostData(rdURL, 1);
 
         //window.location = 'http://www.ridesharingscript.com/ridesharing/index.php?lang='+lang;
     }
 
     function change_currency(currency) {
-        var rdURL = 'sign-up.html?currency=' + currency;
+        var rdURL = 'index0a96.html?currency=' + currency;
         lostData(rdURL, 2);
         //window.location = 'http://www.ridesharingscript.com/ridesharing/index.php?currency='+currency;
     }
@@ -616,195 +615,488 @@
     <div id="main-div-top-second-bg">
         <div id="main-div-top-second-bg-new-in">
             <div id="body-content">
+                <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyDvVTRDkVBKwGRLZLB4b-s_gANsV6zrtbY&amp;libraries=places"></script>
+                <script type="text/javascript" src="public_html/javascripts/gmap3.js"></script>
+                <script type="text/javascript" src="public_html/javascripts/jquery.fancybox8cbb.js?v=2.1.5"></script>
+                <link rel="stylesheet" type="text/css"
+                      href="public_html/stylesheets/Theme36/front/jquery.fancybox8cbb.css?v=2.1.5" media="screen"/>
+                <link rel="stylesheet" type="text/css" href="public_html/stylesheets/Theme36/front/simptip-mini.css"
+                      media="screen,projection"/>
+                <script type="text/javascript" src="public_html/javascripts/jquery.raty.js"></script>
+
+                <style type="text/css">
+
+                </style>
+
+
                 <div class="body-inner-part">
                     <div class="bradcram"><span><a href="index.html"><img
-                            src="public_html/images/bradcram-home-icon.jpg" alt=""/></a><b>Sign Up</b></span></div>
+                            src="public_html/images/bradcram-home-icon.jpg" alt=""/></a><b>Trip Details</b></span></div>
                     <div class="main-inner-page">
-                        <h2 class="page-heading-in">Sign Up</h2>
-                        <!-- -->
-                        <div class="registration-page">
-                            <h3 style="color:red; text-align:center; width:100%;"><B>Note</B>: All the member
-                                registrations past 1 week will be deleted from this demo version</h3><BR>
-                            <div class="registration-page-inner">
+                        <div class="ride-detail-page">
+                            <!-- -->
+
+                            <div class="ride-detail-page-top-part">
+                                <form name="frmrent" id="frmrent" method="post"
+                                      action="http://www.ridesharingscript.com/ridesharing/index.php?file=m-bookingform&amp;id=264">
+                                    <input type="hidden" name="imemberId" id="imemberId" value="">
+                                    <input type="hidden" name="id" id="id" value="264">
+                                </form>
+                                <h3>
+                                    <b><a href="indexa9c0.html?file=c-ride_list&amp;action=old">&larr; Back to search
+                                        results</a></b>
+
+                                    <a href="indexf311.html?file=c-ride_details&amp;id=265" class="last">Next Ride
+                                        &raquo </a>
+                                    <a href="indexd2cb.html?file=c-ride_details&amp;id=263" class="last">&larr; Previous
+                                        ride</a>
+                                </h3>
 
 
-                                <div class="registration-page-right">
-                                    <form name="registration_box" id="registration_box"
-                                          action="http://www.ridesharingscript.com/ridesharing/index.php?file=c-registration_a"
-                                          method="post">
-                                        <input type="hidden" name="lgfor" id="lgfor" value="">
-                                        <input type="hidden" name="from" id="from" value="">
-                                        <input type="hidden" name="action" id="action" value="registrationchk">
-                                        <input type="Hidden" name="mode" value="register">
-                                        <label><b>First name :</b>
-                                            <input type="text" name="vFirstName" id="vFirstName"
-                                                   class="validate[required] registration-input" value=""></label>
-                                        <label><b>Last name :</b>
-                                            <input type="text" name="vLastName" id="vLastName"
-                                                   class="validate[required] registration-input" value=""></label>
-                                        <!-- <label><b>Nick Name :</b>
-                                        <input type="text"  name="vNickName" id="vNickName" class="validate[required] registration-input" value=""></label>-->
-                                        <label><b>E-mail :</b>
-                                            <input type="vEmail" name="vEmail" id="vEmail"
-                                                   class="validate[required,,custom[email]] registration-input"
-                                                   value=""></label>
-                                        <label><b>Password :</b>
-                                            <input type="password" name="vPassword" id="vPassword"
-                                                   class="validate[required,minSize[6]] registration-input"
-                                                   value=""></label>
-                                        <label><!--b>Re-Enter Password  :</b--><b>Re-Enter Password :</b>
-                                            <input type="password" name="vRePassword" id="vRePassword"
-                                                   class="validate[required,equals[vPassword]] registration-input"
-                                                   title="Re-Enter Password"></label>
-                                        <label><b>Preferred Language</b>
-                                            <select name="vLanguageCode" id="vLanguageCode" class="custom-select-new">
-                                                <option value="EN" selected>
-                                                    English
-                                                </option>
-                                                <option value="DN">
-                                                    Danish
-                                                </option>
-                                                <option value="EE">
-                                                    Estonian
-                                                </option>
-                                                <option value="FI">
-                                                    Finnish
-                                                </option>
-                                                <option value="FN">
-                                                    French
-                                                </option>
-                                                <option value="DE">
-                                                    German
-                                                </option>
-                                                <option value="LV">
-                                                    Latvian
-                                                </option>
-                                                <option value="AF">
-                                                    Afrikaans
-                                                </option>
-                                                <option value="LT">
-                                                    Lithuanian
-                                                </option>
-                                                <option value="NO">
-                                                    Norwegian
-                                                </option>
-                                                <option value="PO">
-                                                    Polish
-                                                </option>
-                                                <option value="RS">
-                                                    Russian
-                                                </option>
-                                                <option value="ES">
-                                                    Spanish
-                                                </option>
-                                                <option value="SW">
-                                                    Swedish
-                                                </option>
-                                                <option value="IT">
-                                                    Italian
-                                                </option>
-                                                <option value="AR">
-                                                    Arabic
-                                                </option>
-                                                <option value="PS">
-                                                    Persian
-                                                </option>
-                                                <option value="AZ">
-                                                    Ajarbaijani
-                                                </option>
-                                                <option value="BG">
-                                                    Bulgarian
-                                                </option>
-                                                <option value="ZH">
-                                                    Chinese
-                                                </option>
-                                                <option value="HR">
-                                                    Croatian
-                                                </option>
-                                                <option value="CS">
-                                                    Czech
-                                                </option>
-                                                <option value="NL">
-                                                    Dutch
-                                                </option>
-                                                <option value="EL">
-                                                    Greek
-                                                </option>
-                                                <option value="HU">
-                                                    Hungrain
-                                                </option>
-                                                <option value="GA">
-                                                    Irish
-                                                </option>
-                                                <option value="JA">
-                                                    Japanese
-                                                </option>
-                                                <option value="MT">
-                                                    Maltese
-                                                </option>
-                                                <option value="PT">
-                                                    Portuguese
-                                                </option>
-                                                <option value="SK">
-                                                    Slovak
-                                                </option>
-                                                <option value="AF">
-                                                    Afrikaans
-                                                </option>
-                                                <option value="SL">
-                                                    Slovenian
-                                                </option>
-                                                <option value="TS">
-                                                    Turkish
-                                                </option>
-                                                <option value="RO">
-                                                    Romaian
-                                                </option>
-                                            </select>
-                                        </label>
-                                        <label><b>Enter given Code</b>
-                                            <input type="text" name="capthca" id="capthca"
-                                                   class="validate[required] registration-input1" title="Captcha Code">
-                                            <img src="plugins/captcha/CaptchaSecurityImages.jpg" align="top"
-                                                 height="31"/></label>
-                                        <label><a onClick="check_registration();" href="javascript:void(0);">Sign Up</a></label>
-                                        <p>Already Registered <a href="sign-in.html">click here</a></p>
-                                    </form>
-                                </div>
-                                <div class="registration-mid-part"><span><em>OR</em></span></div>
-                                <div class="registration-page-left">
-                                    <h3>Register with one click:</h3>
-                                    <p><a href="javascript:void(0);" onclick="fbconnect();"><img
-                                            src="public_html/images/reg-fb.jpg" alt=""/>Sign up with Facebook</a></p>
+                                <h4><b>Bristol, United Kingdom &raquo London, United Kingdom</b>
+                                    <span><p><strong>Posted on:</strong> 25 Jul 2017</p>
+					</span>
+                                </h4>
+                            </div>
+                            <!-- -->
+                            <div class="ride-detail-page-top-mid-part">
+                                <div class="ride-detail-page-top-mid-part-left">
                                     <ul>
-                                        <li>Facebook login makes your profile more trustworthy</li>
-                                        <li>We will never post on your wall without asking</li>
-                                        <li>We respect your exising FB privacy setting</li>
+                                        <li><b>From: </b><img src="public_html/images/location-ride1.jpg" alt=""/>
+                                            Bristol, United Kingdom
+                                        </li>
+                                        <li><b>To: </b><img src="public_html/images/location-ride2.jpg" alt=""/> London,
+                                            United Kingdom
+                                        </li>
+                                        <li><!--b> Departure Date:</b--><b> Departure date:</b> 1 May 2018 10:00 PM</li>
+                                        <li><b>Schedule Flexibility:</b>Right on time</li>
+                                    </ul>
+                                    <ul class="last">
+                                        <li>
+                                            <img src="public_html/images/shopping.png" title="Shopping rides" alt=""/>
+                                            <img src="public_html/images/ladies.png" title="Ladies Only" alt=""/>
+                                        </li>
+
+
+                                        <li>&nbsp;</li>
+                                        <li><b>Detour:</b>None</li>
+                                        <li><b>Luggage size:</b>Small<img src="public_html/images/bag.jpg" alt=""/></li>
                                     </ul>
                                 </div>
-                                <div style="clear:both;"></div>
+                                <div class="ride-detail-page-top-mid-part-right">
+                                    <ul>
+                                        <li><h3>USD 12.00</h3>Per Passenger</li>
+                                        <li><h4>3<img src="public_html/images/empty-seat.png" alt=""/></h4>Available
+                                            seats
+                                        </li>
+                                    </ul>
+                                    <span>
+																		 
+												 
+						<!---->
+                                                <p>
+							
+                            <a href="javascript:void()" class="seat-new" id="support_link" onClick="chk_booking_frm();">
+                                Book A Seat Now
+							</a>
+						</p>
+																																				
+						<p>380 times Offered Ride seen</p>
+					</span>
+                                </div>
                             </div>
+                            <!-- -->
+                            <div class="ride-detail-page-body-part">
+                                <div class="ride-detail-page-left">
+                                    <!-- -->
+                                    <div class="ride-detail-page-left-car-detail">
+                                        <h3>Car Details</h3>
+                                        <ul>
+                                            <li><b>Cars: </b>5-serie, BMW</li>
+                                            <li><!--b>Car share Preferences: </b--><b>Car share
+                                                Preferences: </b><em><span data-tooltip="No Smoking Please"><img alt=""
+                                                                                                                 src="public_html/uploads/preferences/1453751900_43686.jpg"></span>&nbsp;<span
+                                                    data-tooltip="No pets in my Vehicle please"><img alt=""
+                                                                                                     src="public_html/uploads/preferences/1453751871_91908.jpg"></span>&nbsp;<span
+                                                    data-tooltip="I'm the quiet type :)"><img alt=""
+                                                                                              src="public_html/uploads/preferences/1453751767_90404.jpg"></span>&nbsp;<span
+                                                    data-tooltip="Silence is golden"><img alt=""
+                                                                                          src="public_html/uploads/preferences/1453751851_90808.jpg"></span>&nbsp;</em>
+                                            </li>
+                                            <li><b>Comfort:</b>Normal</li>
+                                            <li><b>Type: </b>Hatchback</li>
+                                            <li><b>Plate No.:</b>GJ 123</li>
+                                        </ul>
+                                        <div class="car-detail-ride">
+                                            <img src="public_html/images/noimg150x150.jpg" alt=""/>
+                                            <!-- <img src="http://www.ridesharingscript.com/ridesharing/public_html/images//new-demo.jpg" alt="" /> -->
+                                        </div>
+                                    </div>
+                                    <!-- -->
+                                    <!-- <div class="ride-passenger">
+                                        <h3>Ride & Passenger Details</h3>
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                        <th align="left" valign="bottom" style="padding-bottom:0px;" class="start-loaction" width="48%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//start-location.jpg" alt="" align="bottom"/><b>Gurgaon</b></th>
+                                        <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon1.jpg" alt="" /></th>
+                                        <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon2.jpg" alt="" /></th>
+                                        <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon3.jpg" alt="" /></th>
+                                        <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon3.jpg" alt="" /></th>
+                                        </tr>
+                                        <tr>
+                                        <td class="start-loaction-part1" valign="top">
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" height="100%">
+                                        <tr>
+                                        <td valign="top"><strong>18:00</strong></td>
+                                        </tr>
+                                        <tr>
+                                        <td valign="bottom"><b><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//pickup-location.jpg" alt="" />Delhi</b></td>
+                                        </tr>
+
+                                        </table>
+
+                                        </td>
+                                        <td class="passenger-detail" style="border-right:1px solid #dddddd;"><b><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//dashboard-user-img.jpg" alt="" /></b><h4>Jatinder</h4><p>38 years old</p></td>
+                                        <td style="border-right:1px solid #dddddd;">3</td>
+                                        <td style="border-right:1px solid #dddddd;">4</td>
+                                        <td style="">5</td>
+                                        </tr>
+                                        <tr>
+                                        <td class="start-loaction-part1" valign="top">
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" height="100%">
+                                        <tr>
+                                        <td valign="top"><strong>~19:50<br />(Estimated time of passage)</strong></td>
+                                        </tr>
+                                        <tr>
+                                        <td valign="bottom"><b><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//drop-location.jpg" alt="" />Chandigarh</b></td>
+                                        </tr>
+
+                                        </table>
+
+                                        </td>
+                                        <td class="passenger-detail" style="border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;">&nbsp;</td>
+                                        <td style="border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;">3</td>
+                                        <td style="border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;">4</td>
+                                        <td style="border-bottom:1px solid #dddddd;">5</td>
+                                        </tr>
+                                        <tr><td colspan="4" class="table-bottom-part"><b><strong>~23:50</strong><br />(Estimated time of passage)</b></td></tr>
+                                        </tr>
+
+                                        </table>
+
+                                    </div> -->
+                                    <!-- -->
+
+                                    <!-----------------------dynamic content-------------------------- -->
+                                    <!-- -- >
+                                    <div class="ride-passenger">
+                                        <h3>Ride & Passenger Details</h3>
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <th align="left" valign="bottom" style="padding-bottom:0px;" class="start-loaction" width="48%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//start-location.jpg" alt="" align="bottom"/><b>Bristol, United Kingdom</b></th>
+                                                <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon1.jpg" alt="" /></th>
+                                                <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon2.jpg" alt="" /></th>
+                                                <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon3.jpg" alt="" /></th>
+                                                <th width="13%"><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//ride-passenger-icon3.jpg" alt="" /></th>
+                                            </tr>
+                                                                            <td class="start-loaction-part1" valign="top">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" height="100%">
+                                                        <tr>
+                                                            <td valign="top"> <strong>~22:00:00<br />(Estimated time of passage)</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="bottom"><b><img src="http://www.ridesharingscript.com/ridesharing/public_html/images//drop-location.jpg" alt="" />London, United Kingdom</b></td>
+                                                        </tr>
+
+                                                    </table>
+
+                                                </td>
+                                                <td class="passenger-detail" style="border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;">&nbsp;</td>
+                                                <td style="border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;">3</td>
+                                                <td style="border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;">4</td>
+                                                <td style="border-bottom:1px solid #dddddd;">5</td>
+                                            </tr>
+                                            <tr><td colspan="4" class="table-bottom-part"><b><strong>~22:00</strong><br />(Estimated time of passage)</b></td></tr>
+                                        </tr>
+
+                                    </table>
+
+                                </div>
+                                <!-- -->
+                                    <!-----------------------dynamic content End-------------------------- -->
+
+
+                                    <div class="ride-detail-map">
+                                        <h3>Route Map</h3>
+                                        <span>
+						<div id="map-canvas" class="gmap3" style="width: 100%;height: 100%;"></div>
+					</span>
+                                    </div>
+                                    <!-- -->
+                                </div>
+                                <div class="ride-detail-page-right">
+                                    <!-- -->
+                                    <div class="car-owner">
+                                        <h2><img src="public_html/images/car-owiner-img.jpg" alt=""/>Car Owner</h2>
+                                        <div class="car-owner-detail">
+                                            <div class="car-owner-detail-pic"><span><img
+                                                    src="public_html/images/3_female.png" alt=""/></span></div>
+                                            <div class="car-owner-detail-info">
+                                                <h3><a href="Public-Profile/2.html">Lisa Peter</a>
+                                                    <b>
+                                                        28 Years Old
+                                                    </b>
+                                                </h3>
+
+                                                <p><b>Ratings:</b> <span
+                                                        style="display: block; width: 65px; height: 13px; background: url(public_html/images/star-rating-sprite.png) 0 0;">
+	<span style="margin: 0;display: block; width: 100%; height: 13px; background: url(public_html/images/star-rating-sprite.png) 0 -13px;"></span>
+	</span></p>
+                                            </div>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <em><img src="public_html/images/email-ride.jpg" alt=""/>E-mail</em>
+                                                <img src="public_html/images/green-right.jpg" alt=""/>verified
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <!-- -->
+                                    <div class="activity">
+                                        <h2><img src="public_html/images/activity-img.jpg" alt=""/>Member activity</h2>
+                                        <ul>
+                                            <li><img src="public_html/images/ride-off.jpg" alt=""/>1 rides offered</li>
+                                            <li><strong><img src="public_html/images/since.jpg" alt=""/>Member
+                                                since:</strong> 25 Jul 2017
+                                            </li>
+                                            <li><strong><img src="public_html/images/visit.jpg" alt=""/>Last
+                                                visit:</strong> 25 Jul 2017
+                                            </li>
+                                        </ul>
+                                        <span><a href="Public-Profile/2.html">See Public Profile</a></span>
+                                    </div>
+                                    <!-- -->
+                                </div>
+                            </div>
+                            <!-- -->
                         </div>
-                        <!-- -->
                     </div>
-                    <div style="clear:both;"></div>
+                </div>
+                <div style="display:none">
+                    <div id="loginmodel">
+                        <div class="popup-from">
+                            <h3 style="color:red; text-align:center; width:100%;"><B>Note</B>: All the member
+                                registrations past 1 week will be deleted from this demo version</h3><BR>
+                            <h3>New customer?</h3>
+                            <p>If you are new to RideSharing, please click on the button below to register now.</p>
+                            <div class="singlerow-login-log">
+                                <a href="sign-up.html">Register now</a>
+                            </div>
+                            <div class="bot-line-login">OR</div>
+                            <h4>Login</h4>
+                            <form name="login_box" id="login_box" method="post">
+                                <input type="hidden" name="lgfor" id="lgfor" value="">
+                                <input type="hidden" name="from" id="from" value="">
+                                <input type="hidden" name="action" id="action" value="loginchk">
+                                <div class="popup-form-inner">
+                                    <label><b>E-mail : <strong>*</strong></b><input type="text" name="vEmail"
+                                                                                    id="vEmail"
+                                                                                    class="validate[required,custom[email]] form-input-popup"
+                                                                                    value="demo@demo.com"></label>
+                                    <label><b>Password : <strong>*</strong></b>
+                                        <input type="password" name="vPassword" id="vPassword"
+                                               class="validate[required,minSize[6]] form-input-popup" value="123456">
+                                    </label>
+                                    <label><b class="blank">&nbsp;</b>
+                                        <a onClick="check_login_small();" href="javascript:void(0);">Submit</a>
+                                        <a onclick="document.login_box.reset();return false;"
+                                           href="javascript:void(0);">Reset</a>
+
+                                    </label>
+                                    <div style="clear:both;"></div>
+                                </div>
+                            </form>
+                            <div class="uper-name-pas">
+
+                                <p>Please use below info for viewing the Demo</p>
+                                <b><em>Email : </em>demo@demo.com</b><br/>
+                                <b><em>Password : </em>123456</b>
+
+                            </div>
+                            <div class="bot-line-login">OR</div>
+                            <table width="100%" cellspacing="0" cellpadding="7" border="0">
+                                <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <button class="btn btn-primary-popup" onclick="fbconnect();return false;">
+                                            <a style="color:#fff;" onclick="fbconnect();"><img
+                                                    src="public_html/images/fb-but-icon.png" alt=""/>Sign up with
+                                                Facebook</a>
+                                        </button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
 
-
                 <script>
-                    function check_registration() {
-                        jQuery("#registration_box").validationEngine('init', {scroll: false});
-                        jQuery("#registration_box").validationEngine('attach', {scroll: false});
-                        resp = jQuery("#registration_box").validationEngine('validate');
+                    function show_hide(type) {
+                        if (type == 'details') {
+                            $("#detia").addClass("active");
+                            $("#reva").removeClass("active");
+                            $('#ratinfo').hide();
+                            $('#geninfo').show();
+                        } else {
+                            $("#reva").addClass("active");
+                            $("#detia").removeClass("active");
+                            $('#geninfo').hide();
+                            $('#ratinfo').show();
+                        }
+                    }
+
+                    function clearThat() {
+                        var opts = {};
+                        opts.name = ["marker", "directionsrenderer"];
+                        opts.first = true;
+                        $('#map-canvas').gmap3({clear: opts});
+                    }
+
+                    from_to();
+
+                    function from_to() {
+                        clearThat();
+
+                        var waypts = [];
+                        var loc1 = '';
+                        var loc2 = '';
+                        var loc3 = '';
+                        var loc4 = '';
+                        var loc5 = '';
+                        var loc6 = '';
+
+                        if (loc1 != '') {
+                            waypts.push({location: loc1, stopover: true});
+                        }
+                        if (loc2 != '') {
+                            waypts.push({location: loc2, stopover: true});
+                        }
+                        if (loc3 != '') {
+                            waypts.push({location: loc3, stopover: true});
+                        }
+                        if (loc4 != '') {
+                            waypts.push({location: loc4, stopover: true});
+                        }
+                        if (loc5 != '') {
+                            waypts.push({location: loc5, stopover: true});
+                        }
+                        if (loc6 != '') {
+                            waypts.push({location: loc6, stopover: true});
+                        }
+
+                        $("#map-canvas").gmap3({
+                            getroute: {
+                                options: {
+                                    origin: 'Bristol, United Kingdom',
+                                    destination: 'London, United Kingdom',
+                                    waypoints: waypts,
+                                    travelMode: google.maps.DirectionsTravelMode.DRIVING
+                                },
+                                callback: function (results) {
+                                    if (!results) return;
+                                    $(this).gmap3({
+                                        map: {
+                                            options: {
+                                                zoom: 13,
+                                                center: [-33.879, 151.235]
+                                            }
+                                        },
+                                        directionsrenderer: {
+                                            options: {
+                                                directions: results
+                                            }
+                                        }
+                                    });
+                                }
+                            }
+                        });
+                        $('#map').show();
+                        $('#show_link').hide();
+                        $('#hide_link').show();
+                    }
+
+                    function from_to_hide() {
+                        //clearThat();
+                        $('#map').hide();
+                        $('#hide_link').hide();
+                        $('#show_link').show();
+                    }
+
+                    function chk_booking_frm() {
+                        if ('' == '') {
+                            $.fancybox("#loginmodel");
+                            return false;
+                        } else {
+                            document.frmrent.submit();
+                        }
+                    }
+
+                    function check_login_small() {
+                        jQuery("#login_box").validationEngine('attach', {scroll: false});
+                        resp = jQuery("#login_box").validationEngine('validate');
                         if (resp == true) {
-                            document.registration_box.submit();
+                            var request = $.ajax({
+                                type: "POST",
+                                url: site_url + 'index.php?file=c-login',
+                                data: $("#login_box").serialize(),
+
+                                success: function (data) {
+                                    $("#loginloader").hide();
+                                    $("#loginbtn").show();
+                                    if (data == 0) {
+                                        showNotification({
+                                            type: 'error',
+                                            message: 'Your login failed. Incorrect Username or Password.'
+                                        });
+                                    }
+                                    else if (data == 1) {
+                                        showNotification({
+                                            type: 'error',
+                                            message: 'Your account is not active. Please contact administrator..'
+                                        });
+                                    }
+                                    else if (data == 2) {    // Male user logged in
+
+                                        if ('Yes' == 'Yes') {
+                                            window.location = 'find-ride.html?file=c-ride_details&amp;from=&amp;id=264&amp;dt=&amp;ret=';
+                                        }
+                                        else {
+                                            document.frmrent.submit();
+                                        }
+                                    }
+                                    else if (data == 3) { // Female user logged in
+
+                                        document.frmrent.submit();
+                                    }
+                                    else {
+                                        //alert('')'
+                                        document.frmrent.submit();
+                                    }
+                                }
+                            });
+
+                            request.fail(function (jqXHR, textStatus) {
+                                alert("Request failed: " + textStatus);
+                            });
                         } else {
                             return false;
                         }
                     }
 
                     function fbconnect() {
-                        javscript:window.location = 'https://www.facebook.com/v2.2/dialog/oauth?client_id=440138386197182&amp;redirect_uri=http%3A%2F%2Fwww.ridesharingscript.com%2Fridesharing%2Ffbconnect.php&amp;state=48d60f086f01749ac9152f4d3140921a&amp;sdk=php-sdk-4.0.15&amp;scope=email%2Cuser_location';
+                        javscript:window.location = 'https://www.facebook.com/v2.2/dialog/oauth?client_id=440138386197182&amp;redirect_uri=http%3A%2F%2Fwww.ridesharingscript.com%2Fridesharing%2Ffbconnect.php&amp;state=5115e84caaad751d4be76c72320e44cb&amp;sdk=php-sdk-4.0.15&amp;scope=email%2Cuser_location';
                     }
                 </script>
 
@@ -995,5 +1287,5 @@
 </script>
 </body>
 
-<!-- Mirrored from www.ridesharingscript.com/ridesharing/sign-up by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 09:29:46 GMT -->
+<!-- Mirrored from www.ridesharingscript.com/ridesharing/index.php?file=c-ride_details&id=264 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 09:59:38 GMT -->
 </html>
