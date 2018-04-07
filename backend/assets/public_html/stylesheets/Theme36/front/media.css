@@ -1,0 +1,7905 @@
+@media print {
+    * {
+        text-shadow: none !important;
+        color: #000 !important;
+        background: transparent !important;
+        box-shadow: none !important
+    }
+
+    a, a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")"
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")"
+    }
+
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: ""
+    }
+
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+
+    thead {
+        display: table-header-group
+    }
+
+    tr, img {
+        page-break-inside: avoid
+    }
+
+    img {
+        max-width: 100% !important
+    }
+
+    @page {
+        margin: .5cm
+    }
+
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2, h3 {
+        page-break-after: avoid
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+
+    .body-inner-part {
+        width: 98%;
+    }
+
+    .bradcram-new-inner {
+        width: 98%;
+    }
+
+    .inner-submenu-inner {
+        width: 98%;
+    }
+
+    #top-part {
+        height: auto;
+        position: relative;
+        background: url(../../../images/Theme36/color-blue/top-inner-heading-img.jpg) repeat;
+    }
+
+    .top-select-part {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+    }
+
+    .top-part-inner {
+        width: 100%;
+    }
+
+    .menu-part {
+        margin: 0px;
+        float: left;
+        width: 100%;
+    }
+
+    .menu-collapser {
+        padding: 0px !important;
+    }
+
+    .logo {
+        margin: 10px 0 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+
+    .logo img {
+        margin: 0px;
+    }
+
+    .select-box {
+        margin: 6px 10px 0 0;
+    }
+
+    .top-logo-menu-part {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .header-up-bg {
+        padding: 0 0 6px 6px;
+    }
+
+    .select-box select {
+        padding: 4px 3px;
+    }
+
+    #footer {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .footer-inner {
+        width: 97%;
+    }
+
+    .footer-box1 {
+        width: 270px;
+    }
+
+    .footer-box1 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box2 {
+        width: 180px;
+        margin-left: 30px;
+    }
+
+    .footer-box2 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box3 {
+        width: 245px;
+        float: right;
+    }
+
+    .footer-box3 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box4 {
+        width: 280px;
+        float: left;
+        margin: 25px 0 0;
+    }
+
+    .footer-box4 h2 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .footer-bottom-part {
+        padding: 16px 0 2px;
+    }
+
+    .email-alerts1 {
+        overflow: auto;
+        overflow-x: scroll;
+    }
+
+    .email-alerts1 table {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 900px;
+    }
+
+    .list-rides-offer-part {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+        padding: 0;
+    }
+
+    .list-rides-offer-part-inner {
+        width: 1000px;
+        margin: 0px;
+    }
+
+    .list-rides-offer-part-left {
+        width: 730px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .list-rides-offer {
+        min-height: inherit;
+    }
+
+    .my-booking-block {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+        width: 95%;
+        padding: 0 5px 0 10px;
+    }
+
+    .my-booking-block-1 {
+        width: 1150px;
+    }
+
+    .my-booking-block-inner {
+        width: 830px;
+        margin: 0 auto 15px;
+    }
+
+    .my-booking-block-1 .my-booking-block-inner {
+        width: 1170px;
+    }
+
+    .my-booking-tab {
+        margin: 0 0 20px;
+    }
+
+    .forgot-pas-inner {
+        width: 98%;
+    }
+
+    /*.bradcram{ display:none;}*/
+    .email-alerts1-right-part ul {
+        overflow: auto;
+        overflow-x: scroll;
+        padding: 0 0 10px;
+    }
+
+    .email-alerts1-right-part li {
+        width: 700px;
+    }
+
+    .cancel-booking-bottom-part span .blank {
+        display: none;
+    }
+
+    .cancel-booking-bottom-part span em {
+        margin: 0 0 8px;
+    }
+
+    .faq-page {
+        margin: 0 0 15px;
+    }
+
+    .member-stories {
+        margin: 0;
+    }
+
+    .member-stories-form {
+        margin: 0 0 15px;
+    }
+
+    .changepassword-page {
+        margin: 0 0 15px;
+    }
+
+    .offer-ride-page {
+        margin: 0;
+    }
+
+    .inner-submenu {
+        display: none;
+    }
+
+    .car-details {
+        margin: 0;
+    }
+
+    .car-form {
+        margin: 0 0 20px;
+    }
+
+    .ride-listing-page {
+        margin: 0 0 20px;
+    }
+
+    .edit-ride-detail-left {
+        width: 100%;
+    }
+
+    .type-of-trip {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .type-of-trip2 {
+        width: 95%;
+    }
+
+    .type-of-trip3 {
+        width: 95%;
+    }
+
+    .offer-a-ride {
+        width: 95%;
+    }
+
+    .offer-a-ride {
+        width: 95%;
+    }
+
+    .offer-a-ride3 {
+        width: 95%;
+    }
+
+    .edit-ride-detail-right {
+        float: left;
+        width: 99%;
+    }
+
+    .edit-ride-detail-right #map-canvas {
+        height: 300px;
+    }
+
+    .search-car-top-part-inner {
+        width: 98%;
+    }
+
+    .list-rides-tab-inner {
+        width: 98%;
+    }
+
+    .my-booking-block-1 {
+        width: 100%;
+        overflow-x: scroll;
+        padding: 0px;
+    }
+
+    .my-booking-box {
+        width: 1150px;
+        padding: 10px;
+    }
+
+    .member-rating {
+        margin-top: 0px;
+    }
+
+    .leaverrating-page {
+        margin-top: 0px;
+    }
+
+    .profile-photo-page {
+        margin-top: 0px;
+    }
+
+    .profile-facebook em {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 567px) {
+
+    .page-inner-left-part {
+        width: 100%;
+    }
+
+    .profile-information {
+        width: 93%;
+    }
+
+    .about-page-right-part {
+        margin: 0 0 25px;
+        width: 100%;
+    }
+
+    .login-page-inner {
+        width: 300px;
+    }
+
+    .login-page-left {
+        float: left;
+        margin: 20px 0 0;
+        padding: 10px;
+        width: 93%;
+    }
+
+    .login-page-right {
+        width: 300px;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .login-page-right span {
+        width: 97%;
+    }
+
+    .login-mid-part {
+        margin: 10px 0 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .login-mid-part span {
+        background: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .login-mid-part span img {
+        margin: 0px;
+        float: none;
+    }
+
+    .registration-page-inner {
+        width: 300px;
+    }
+
+    .registration-page-left {
+        width: 93%;
+        margin: 20px 0 0;
+        padding: 10px;
+        float: left;
+    }
+
+    .registration-page-right {
+        width: 300px;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .registration-page-right label {
+        width: 97%;
+    }
+
+    .registration-mid-part {
+        margin: 10px 0 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .registration-mid-part span {
+        background: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .registration-mid-part span em {
+        margin: 0px;
+        float: none;
+        display: inline-block;
+    }
+
+    .registration-mid-part span img {
+        margin: 0px;
+        float: none;
+    }
+
+    .login-mid-part span em {
+        margin: 0px;
+        float: none;
+        display: inline-block;
+    }
+
+    .car-form-right-part {
+        width: 95%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .car-form-right-part span em {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .car-form-right-part span input {
+        width: 95%;
+    }
+
+    .car-form-right-part span select {
+        width: 98%;
+    }
+
+    .blank-fo {
+        display: none;
+    }
+
+    .car-form-right-part span b {
+        margin-left: 0px;
+    }
+
+    .cancel-booking-right-part {
+        width: 95%;
+        padding: 10px;
+        margin: 0px;
+        border: 1px solid #dddddd;
+    }
+
+    .cancel-booking-right-part-inner {
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .car-details-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .car-detail-img {
+        width: 150px;
+        height: 110px;
+    }
+
+    .car-detail-img span {
+        width: 150px;
+        height: 110px;
+        padding: 0px;
+    }
+
+    .car-detail-img-info {
+        margin: 10px 0 0;
+        width: 73%;
+    }
+
+    .car-detail-img-edit-delete {
+        margin: 10px 0 0;
+    }
+
+    .car-preferences-right-part {
+        width: 94%;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .car-preferences-right-part ul {
+        margin: 0;
+    }
+
+    .car-preferences-right-part li .preferences-chat {
+        margin: 0 0 0 10px;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        margin: 0 10px 0 0;
+        padding: 10px;
+    }
+
+    .car-preferences-right-part .pre-but-save {
+        margin: 5px 0 0 11px;
+    }
+
+    .edit-profile-right-part {
+        width: 95%;
+        padding: 9px;
+        margin: 0px;
+    }
+
+    .edit-profile-right-part span p {
+        width: 100%;
+    }
+
+    .edit-profile-right-part span b {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .edit-profile-right-part span .new-sub {
+        margin: 0 0 8px;
+    }
+
+    .edit-profile-right-part span .profile-input {
+        width: 97%;
+    }
+
+    .edit-profile-right-part span .profile-select {
+        width: 100%;
+    }
+
+    .edit-profile-right-part span .profile-textarea {
+        width: 97%;
+    }
+
+    .edit-profile-right-part .pro-last {
+        display: none;
+    }
+
+    .edit-profile-right-part span .profile-select1 {
+        width: 40%;
+    }
+
+    .edit-profile-right-part span .profile-input1 {
+        width: 40%;
+    }
+
+    .edit-profile-right-part .edit-select-full .select-wrapper, .select-wrapper select {
+        width: 99%;
+    }
+
+    .member-profile-left-part {
+        width: 100%;
+    }
+
+    .member-profile-pic {
+        width: 180px;
+    }
+
+    .member-profile-left-part-box1 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .member-profile-pic-detail {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-pic-detail li b {
+        width: 160px;
+    }
+
+    .member-profile-left-part-box2 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .member-profile-left-part-box3 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .rides-posted-table {
+        overflow: auto;
+        overflow-x: scroll;
+    }
+
+    .rides-posted-table table {
+        width: 800px;
+    }
+
+    .member-profile-left-part-box4 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .member-profile-left-part-box4-left {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .member-profile-left-part-box4-right {
+        float: left;
+        width: 100%;
+    }
+
+    .member-profile-right-part {
+        width: 380px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .send-message {
+        margin: 20px 0 0;
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-status {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-verifications {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars-detail p b {
+        width: 90px;
+    }
+
+    .member-profile-cars-img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .member-facebook-part-bottom {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .member-facebook-part-bottom-left {
+        width: 100%;
+        border: none;
+    }
+
+    .member-facebook-part-bottom-left h3 {
+        font-size: 17px;
+        margin: 0 0 10px;
+    }
+
+    .member-facebook-part-bottom-right {
+        width: 100%;
+        border: none;
+        float: left;
+        margin: 14px 0 0;
+    }
+
+    .member-facebook-part-bottom-right h3 {
+        font-size: 17px;
+        margin: 0 0 10px;
+    }
+
+    .member-facebook-part-bottom-right p img {
+        width: 100%;
+    }
+
+    .faq-page-left-part {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .accordion .faq-ques p {
+        width: 99%;
+    }
+
+    .accordion-section-title {
+        padding: 16px 0;
+        font-size: 18px;
+    }
+
+    .member-stories-right-part {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .member-stories-right-part ul {
+        margin: 0;
+    }
+
+    .member-stories-right-part li p b {
+        width: 100px;
+        height: 100px;
+    }
+
+    .member-stories-right-part h4 {
+        margin: 0 0 10px;
+    }
+
+    .member-stories-form-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .member-stories-form-inner {
+        padding: 10px 10px 6px 10px;
+    }
+
+    .member-stories-form-right-part {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .member-stories-form-inner span em {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .member-stories-form-inner span select {
+        width: 100%;
+    }
+
+    .member-stories-form-inner span input {
+        width: 94%;
+    }
+
+    .member-stories-form-inner span textarea {
+        width: 94%;
+    }
+
+    .member-stories-form-inner span .add-m {
+        display: none;
+    }
+
+    .profile-photo-page-right-part {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .profile-facebook {
+        width: 100%;
+    }
+
+    /*..........*/
+    .dashboard-user-img {
+        width: 100px;
+    }
+
+    .dashboard-user-img span {
+        width: 100px;
+        height: 100px;
+    }
+
+    .dashboard-user-part-left {
+        width: 100%;
+    }
+
+    .dashboard-user-info {
+        width: 71%;
+        margin: 0 0 0 10px;
+    }
+
+    .dashboard-user-info h3 {
+        font-size: 20px;
+    }
+
+    .dashboard-user-info h3 a {
+        margin: 10px 0;
+        float: left;
+    }
+
+    .dashboard-user-info span {
+        margin: 10px 0 0;
+    }
+
+    .dashboard-user-part-right {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+        float: left;
+        border: none;
+    }
+
+    .dashboard-user-part-right span {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .dashboard-body-part {
+        margin: 15px 0 0;
+    }
+
+    .dashboard-body-part-left {
+        width: 100%;
+    }
+
+    .car-share-preferences {
+        padding: 9px;
+        width: 96%;
+    }
+
+    .member-verifications {
+        padding: 9px;
+        width: 96%;
+        background: #ff4e50;
+    }
+
+    .dashboard-car {
+        padding: 9px;
+        width: 96%;
+    }
+
+    .dashboard-body-part-right {
+        width: 100%;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .dashboard-new-page-bottom-part-list .dashboard-bottom-box1 h2 {
+        float: left;
+    }
+
+    .dashboard-new-page-bottom-part-list .dashboard-bottom-box2 h2 {
+        float: left;
+    }
+
+    .dashboard-new-page-bottom-part-list .dashboard-bottom-box6 h2 {
+        float: left;
+    }
+
+    .dashboard-new-page-bottom-part-list .dashboard-bottom-box4 h2 {
+        float: left;
+    }
+
+    .dashboard-new-page-bottom-part-list .dashboard-bottom-box5 h2 {
+        float: left;
+    }
+
+    .dashboard-new-page-bottom-part-list .dashboard-bottom-box3 h2 {
+        float: left;
+    }
+
+    .dashboard-new-page-bottom-part-list li {
+        margin: 100%;
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(3n) {
+        margin: 0 0 15px;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(even) {
+        margin: 0 0 15px;
+        float: left;
+    }
+
+    .dash-last-login-details {
+        margin: 0 0 10px;
+        width: 96%;
+        padding-right: 0px;
+    }
+
+    .dash-useful-links {
+        width: 96%;
+        padding-right: 0px;
+        float: left;
+    }
+
+    .notifications-part {
+        width: 95%;
+        padding: 10px;
+        margin: 10px 0 0;
+    }
+
+    .dash-mgs {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .dash-mgs .clint-mgs {
+        width: 82%;
+    }
+
+    .dash-mgs .clint-mgs p strong {
+        width: auto;
+        margin: 0 20px 0 0;
+    }
+
+    .verification-page-right-part {
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 0;
+    }
+
+    .email-verification {
+        width: 95%;
+    }
+
+    .verifymail-right-page {
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .verifymail-right-page-inner {
+        width: 95%;
+    }
+
+    .verifications-zone {
+        width: 100%;
+    }
+
+    .mpv {
+        margin: 10px 0 0;
+    }
+
+    .mpv span p {
+        margin: 0 0 10px;
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    .mpv1 span strong {
+        width: 79%;
+    }
+
+    .phone-verification {
+        width: 94%;
+    }
+
+    .notifications-page-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .notifications {
+        width: 95%;
+    }
+
+    .member-rating-right-part {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .rate-your-experience h4 {
+        font-size: 16px;
+    }
+
+    .rate-your-experience ul {
+        width: 100%;
+    }
+
+    .rate-your-experience span {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .received-message-body-part {
+        margin: 0 0 20px;
+        padding: 0 10px;
+        width: 96%;
+    }
+
+    .received-message-body-part-left {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .received-message-body-part-left h3 {
+        font-size: 23px;
+    }
+
+    .received-message-body-part-left li .received-message-text {
+        width: 83%;
+    }
+
+    .received-message-body-part-left li .received-message-text p {
+        width: auto;
+        margin: 4px 0 0;
+    }
+
+    .received-message-body-part-right {
+        float: none;
+        width: 180px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .received-message-body-part-right p {
+        margin-left: 0px;
+    }
+
+    .received-message-body-part-right .clint-pic {
+        float: left;
+    }
+
+    .received-messages-tab ul {
+        margin: 7px 0 4px;
+    }
+
+    .received-messages-tab li a {
+        padding: 5px 11px;
+        background-position: right 7px;
+    }
+
+    .received-message-body-part-left li .received-message-img {
+        margin: 0px;
+    }
+
+    .search-car-top-part span {
+        font-size: 20px;
+        margin: 0 0 10px 10px;
+        width: 90%;
+    }
+
+    .search-car-find-cla {
+        width: 36%;
+        margin: 0 0 10px 10px;
+    }
+
+    .search-car-find-date {
+        margin: 0 0 0 10px;
+        width: 120px;
+    }
+
+    .body-mid-ride-inner {
+        margin: 0 auto;
+        float: none;
+        width: 470px;
+    }
+
+    .rides-around1 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around2 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around3 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around4 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around5 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around6 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .trip-main {
+        margin: 0 0 15px;
+        width: 100%;
+    }
+
+    .body-mid-part-inner .trip-main-last {
+        float: left;
+    }
+
+    .body-mid-part-inner .last {
+        float: left;
+    }
+
+    .trip {
+        width: 97%;
+        padding: 5px;
+    }
+
+    .ho-box-left2 {
+        width: 105px;
+        height: 100px;
+    }
+
+    .search-car-top-part .ride-list-but1 {
+        margin: 0 0 0 11px;
+    }
+
+    .ride-listing-left-part {
+        width: 99%;
+    }
+
+    .filter-results-listing ul {
+        width: 96%;
+    }
+
+    .user-rating-listing ul {
+        width: 96%;
+    }
+
+    .by-time span p {
+        width: 95%;
+    }
+
+    .by-time span {
+        width: 98%;
+    }
+
+    .ui-widget-content {
+        width: 92% !important;
+    }
+
+    .ride-listing-right-part {
+        width: 96%;
+        margin: 10px 0 0 10px;
+    }
+
+    .ride-listing-search-part span .search-location {
+        width: 37%;
+        margin: 0 0 15px;
+    }
+
+    .ride-listing-search-part span .search-date {
+        border: 1px solid #ccc;
+    }
+
+    .ride-listing-search-part span .ride-list-but {
+        width: auto;
+        padding: 0 20px 0 30px;
+        background-position: left 8px top 12px;
+    }
+
+    .rides-available h3 {
+        width: auto;
+        margin: 4px 0 0 10px;
+    }
+
+    .rides-available span {
+        float: right;
+        margin: 0;
+    }
+
+    .rides-available-lising-box-left {
+        width: 100%;
+    }
+
+    .rides-available-lising-box-right {
+        width: 100%;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .rides-available-pic-detail {
+        width: 67%;
+        margin: 10px 0 0 15px;
+    }
+
+    .filter-results-listing ul li {
+        font-size: 14px;
+    }
+
+    .rides-available-lising-box-left h3 b {
+        margin: 0 0 0 20px;
+        font-size: 15px;
+    }
+
+    .received-message-body-part-new li .received-message-img {
+        margin: 0px;
+    }
+
+    .received-message-body-part-new li .received-message-text {
+        width: 83%;
+        margin: 0 0 0 10px;
+    }
+
+    .received-message-body-part-new li .received-message-text p {
+        width: auto;
+        margin: 0px;
+    }
+
+    .rating-given-right-part {
+        width: 95%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .rating-alerts1 {
+        overflow-x: scroll;
+        overflow-y: auto;
+    }
+
+    .rating-alerts1 table {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 800px;
+    }
+
+    .member-profile-left-part-box4-rating ul li p {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .sharing-result-box {
+        width: 95.5%;
+    }
+
+    .sharing-result-box-left {
+        width: 100%;
+    }
+
+    .sharing-result-box-left span {
+        width: 100%;
+    }
+
+    .sharing-result-box-right {
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .booking-form-part span em {
+        width: 100%;
+        margin: 0 0 8px;
+    }
+
+    .booking-form-part span input {
+        width: 95%;
+    }
+
+    .booking-form-part span textarea {
+        width: 95%;
+    }
+
+    .booking-form-part span select {
+        width: 98%;
+    }
+
+    .booking-form-part span .block1 {
+        display: none;
+    }
+
+    .ride-confirm h2 img {
+        width: 350px;
+    }
+
+    .ride-confirm h3 {
+        font-size: 20px;
+    }
+
+    .leaverrating-page-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .leaverrating-list {
+        width: 100%;
+    }
+
+    .booking-confirmation-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .booking-confirmation-right-part b {
+        width: 95%;
+    }
+
+    /**********/
+    .ride-detail-page-top-mid-part-left {
+        margin: 10px;
+        width: 96%;
+    }
+
+    .ride-detail-page-top-mid-part-left ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-top-mid-part-left .last {
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .ride-detail-page-top-mid-part-right {
+        margin: 15px 0 0;
+        width: 100%;
+    }
+
+    .ride-claint {
+        height: auto;
+    }
+
+    .ride-claint span {
+        margin: 10px;
+    }
+
+    .ride-claint span p {
+        width: 74%;
+    }
+
+    .ride-detail-page-top-mid-part-left ul li b {
+        width: 150px;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h3 {
+        font-size: 31px;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h4 {
+        font-size: 31px;
+    }
+
+    .ride-detail-page-top-mid-part-right span {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .ride-detail-page-top-mid-part-right span .seat-new {
+        font-size: 20px;
+    }
+
+    .ride-detail-page-left-car-detail ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-left {
+        width: 100%;
+    }
+
+    .ride-detail-page-left-car-detail {
+        padding: 10px 10px 0 10px;
+        width: 96%;
+    }
+
+    .ride-detail-map {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .ride-detail-page-right {
+        width: 100%;
+        float: left;
+        margin: 15px 0 0;
+    }
+
+    .car-owner-detail-info {
+        width: 150px;
+    }
+
+    .car-owner {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .activity {
+        padding: 10px;
+        width: 96%;
+    }
+
+    /*................*/
+    .offer-ride-page {
+        margin: 15px 0 30px;
+    }
+
+    .offer-ride-left-part {
+        width: 99%;
+        border: 1px solid #e1dfdf;
+    }
+
+    .offer-ride-box1 {
+        padding: 12px 10px 4px;
+        margin: 0px;
+        width: 95%;
+    }
+
+    .offer-ride-box1 span .ride-location1 {
+        width: 94%;
+    }
+
+    .offer-ride-box1 span .ride-location2 {
+        width: 94%;
+    }
+
+    .offer-ride-box2 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 96%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box3 {
+        padding: 12px 10px 0 9px;
+        margin: 0px;
+        width: 96%;
+    }
+
+    .offer-ride-box3 span .price-date {
+        width: 150px;
+    }
+
+    .offer-ride-box3 span select {
+        float: none;
+        width: 90px;
+    }
+
+    .offer-ride-box4 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 96%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box5 {
+        padding: 10px;
+        margin: 0px;
+        width: 96%;
+    }
+
+    .offer-ride-box5 span textarea {
+        width: 94%;
+    }
+
+    .offer-ride-box6 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 96%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-right-part {
+        width: 100%;
+        float: left;
+        margin: 10px 0 0;
+    }
+
+    #map-canvas {
+        height: 400px;
+    }
+
+    .price-details-popup {
+        left: 4px;
+        z-index: 999;
+        width: 98%;
+        border: 1px solid #ddd;
+        margin: 5px 0 0;
+    }
+
+    .price-details-popup-inner {
+        margin: 10px 10px 0 10px;
+        width: 95%;
+    }
+
+    .price-details-popup-hide {
+        z-index: 0;
+    }
+
+    .regular-trip-popup {
+        left: 4px;
+        z-index: 999;
+        width: 98%;
+        border: 1px solid #ddd;
+    }
+
+    .regular-trip-popup-inner {
+        margin: 10px 10px 0 10px;
+        width: 95%;
+    }
+
+    .regular-trip-popup-hide {
+        z-index: 0;
+    }
+
+    .offer-ride-box4-popup {
+        left: 4px;
+        z-index: 999;
+        width: 98%;
+        border: 1px solid #ddd;
+    }
+
+    .offer-ride-box4-popup-inner {
+        margin: 10px 10px 0 10px;
+        width: 95%;
+    }
+
+    .offer-ride-box4-popup-hide {
+        z-index: 0;
+    }
+
+    .offer-ride-box4-popup-inner label b {
+        margin: 0 8px 12px 0;
+        width: 47%;
+    }
+
+    .offer-ride-box4-popup-inner .browse-img {
+        margin-bottom: 0px;
+    }
+
+    .offer-ride-box4-popup-inner .browse-img b {
+        margin-bottom: 0px;
+    }
+
+    .email-alerts1-right-part {
+        margin: 0;
+        padding: 9px;
+        width: 95%;
+    }
+
+    .received-message-body-part {
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .member-alert h2 a {
+        top: 0px;
+        margin: 10px 0;
+    }
+
+    .changepassword-page-inner {
+        width: 95%;
+        padding: 10px 10px 0;
+    }
+
+    .changepassword-page-right-part {
+        margin: 0px;
+        padding: 10px;
+        width: 94%;
+        min-height: 200px;
+        float: left;
+    }
+
+    .changepassword-page-right-part span b {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .changepassword-page-right-part input {
+        width: 95%;
+    }
+
+    .changepassword-page-right-part span .blank {
+        display: none;
+    }
+
+    .miss-ride {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .mgs-img {
+        margin: 0px;
+    }
+
+    .miss-ride-right {
+        width: 98%;
+        margin: 10px 0 0 10px;
+    }
+
+    .miss-ride-right span .e-alert-date {
+        width: 30%;
+    }
+
+    .miss-ride-right span .miss-ride-input {
+        width: 55%;
+        border: 1px solid #cccccc;
+    }
+
+    .miss-ride-right span .notify-but {
+        margin: 10px 0 0;
+        float: left;
+    }
+
+    /*****************************/
+    .footer-box1 {
+        width: 100%;
+        margin: 16px 0 0;
+    }
+
+    .footer-box2 {
+        width: 100%;
+        margin: 16px 0 0;
+        min-height: initial;
+    }
+
+    .footer-box3 {
+        width: 100%;
+        margin: 17px 0 0;
+        float: left;
+    }
+
+    .footer-box4 {
+        margin: 17px 0 0;
+        float: left;
+        width: 100%;
+    }
+
+    .footer-box4 span p {
+        width: 230px;
+    }
+
+    .footer-bottom-part p {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 6px;
+    }
+
+    .footer-bottom-part span {
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+
+    .bookintform-page-right-part {
+        margin: 0 auto;
+        padding: 0px;
+        width: 98%;
+        float: none;
+    }
+
+    .bookingform-main-left {
+        width: 100%;
+    }
+
+    .bookingform-main-left-sharing-result-box {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .booking-form-part span em {
+        width: 100px;
+    }
+
+    .booking-form-part span input {
+        width: 68%;
+    }
+
+    .booking-form-part span textarea {
+        width: 68%;
+    }
+
+    .booking-form-part span select {
+        width: 72%;
+    }
+
+    .booking-form-part {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-right {
+        margin: 20px 0 0;
+        width: 100%;
+    }
+
+    .bookingform-main-right-top-box {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-right-box1 {
+        width: 100%;
+    }
+
+    .bookingform-main-right-box2 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-left .booking-form-part span .block1 {
+        display: block;
+    }
+
+    .bookintform-page-right-part {
+        margin: 0 auto;
+        padding: 0px;
+        width: 98%;
+        float: none;
+    }
+
+    .bookingform-main-left {
+        width: 100%;
+    }
+
+    .bookingform-main-left-sharing-result-box {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .booking-form-part span em {
+        width: 100px;
+    }
+
+    .booking-form-part span input {
+        width: 68%;
+    }
+
+    .booking-form-part span textarea {
+        width: 68%;
+    }
+
+    .booking-form-part span select {
+        width: 72%;
+    }
+
+    .booking-form-part {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-right {
+        margin: 20px 0 0;
+        width: 100%;
+    }
+
+    .bookingform-main-right-top-box {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-right-box1 {
+        width: 100%;
+    }
+
+    .bookingform-main-right-box2 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-left .booking-form-part span .block1 {
+        display: block;
+    }
+
+    .bookingform-main-right-box2 {
+        overflow: hidden;
+    }
+
+    .booking-confirmation-page-left-part {
+        width: 100%;
+    }
+
+    .booking-confirmation-page-left-part-top li b {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .booking-confirmation-page-left-part-bottom-box1-right {
+        width: 60%;
+    }
+
+    .booking-confirmation-page-right-part {
+        width: 100%;
+    }
+
+    .booking-confirmation-page-right-part-box1 {
+        width: 96%;
+        padding: 10px;
+    }
+
+    .booking-confirmation-page-right-part-box1-right {
+        width: 60%;
+    }
+
+    .booking-confirmation-top-box {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .booking-confirmation-top-box span p {
+        width: 76%;
+    }
+
+    .error-page-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .error-page-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ride-booking-failed {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .ride-booking-failed span p {
+        width: 76%;
+    }
+
+    .offer-ride-box4 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .offer-ride-box6 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    /*...........*/
+    .member-stories-form-inner .select-wrapper, .select-wrapper select {
+        width: 98%;
+    }
+
+    .car-form-right-part span strong {
+        width: 100%;
+        margin: 0 0 8px;
+    }
+
+    .car-form-right-part h2 {
+        margin: 0 0 15px;
+    }
+
+    .car-form-right-part .select-wrapper, .select-wrapper select {
+        width: 98%;
+    }
+
+    .car-form-right-part span input {
+        width: 96%;
+    }
+
+    .car-form-right-part span .blank-fo {
+        display: none;
+    }
+
+    .sate-select .select-wrapper, .select-wrapper select {
+        width: 98%;
+    }
+
+    .ride-detail-page-left-car-detail ul {
+        overflow: hidden;
+    }
+
+    .member-profile-pic-detail ul {
+        overflow: hidden;
+    }
+
+    .money-detail-page {
+        padding: 0px;
+        width: 99%;
+    }
+
+    .money-detail-page-inner {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+    }
+
+    .money-detail-page-inner table {
+        width: 850px;
+        float: left;
+    }
+
+    .car-preferences-right-part li b {
+        margin-top: 25px;
+    }
+
+    .money-detail-page {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .contact-address {
+        width: 100%;
+    }
+
+    .contact-phone-number {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact-phone-number label {
+        margin: 0px;
+    }
+
+    .contact-phone-number label h3 {
+        margin: 0px;
+    }
+
+    .contact-message {
+        width: 100%;
+    }
+
+    .contact-message h3 {
+        margin: 0px;
+    }
+
+    .contact-left .map {
+        height: 250px;
+    }
+
+    .contact-right h3 {
+        margin: 10px 0;
+    }
+
+    .form-box {
+        width: 95%;
+    }
+
+    .form span {
+        width: 100%;
+    }
+
+    .form span.mid {
+        margin: 0 0 20px;
+    }
+
+    .form-box1 {
+        width: 96%;
+    }
+
+    .form span.captcha-c {
+        width: 100%;
+    }
+
+    .ride-listing-search-part span .search-location1 {
+        width: 39%;
+        margin: 0 0 10px;
+    }
+
+    .ride-listing-search-part span .search-location2 {
+        width: 39%;
+        margin: 0 0 10px;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 460px) {
+    .ho-box-left2 {
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .trip-deails {
+        float: left;
+        width: 100%;
+        margin: 15px 0 10px;
+        text-align: center;
+    }
+
+    .trip-deails .trip-deails-left h2 .ride-star {
+        float: none;
+        width: 65px;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+
+    .trip-deails .trip-deails-left .find-ride-box-bottom-left {
+        width: 100%;
+    }
+
+    .trip-deails .trip-deails-left .trip-deails-right-price {
+        float: left;
+        width: 100%;
+    }
+
+    .trip-deails .no-smoking-img {
+        text-align: center;
+    }
+
+    .trip-deails .no-smoking-img span {
+        float: none;
+        display: inline-table;
+    }
+
+    .trip-deails .trip-deails-left {
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 430px) {
+    .offer-ride-box1 span .ride-location1 {
+        width: 93%;
+    }
+
+    .offer-ride-box1 span .ride-location2 {
+        width: 93%;
+    }
+
+    .popup-from {
+        width: 98%;
+    }
+
+    .offer-ride-box1 {
+        width: 95%;
+    }
+
+    .offer-ride-box2 {
+        width: 95%;
+    }
+
+    .offer-ride-box3 {
+        width: 95%;
+    }
+
+    .offer-ride-box4 {
+        width: 95%;
+    }
+
+    .offer-ride-box5 {
+        width: 95%;
+    }
+
+    .offer-ride-box6 {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 414px) {
+    .my-booking-block-1 {
+        width: 95%;
+        padding: 0 5px 0 7px;
+    }
+
+    .popup-form-inner label .blank {
+        display: none;
+    }
+
+    .popup-form-inner label b {
+        width: 100%;
+        margin: 0 0 8px;
+    }
+
+    .popup-form-inner label .form-input-popup {
+        width: 92%;
+    }
+
+    .body-mid-ride-inner {
+        width: 384px;
+    }
+
+    .sharing-result-box-left .booking-price1 ul li {
+        width: 100%;
+    }
+
+    .booking-confirmation-top-box span p {
+        width: 96%;
+        margin: 11px;
+    }
+
+    .ride-booking-failed span p {
+        width: 94%;
+    }
+
+    .offer-ride-box3 .select-wrapper, .select-wrapper select {
+        width: 23%;
+    }
+
+    .cancel-booking-right-part-inner {
+        width: 98%;
+        padding: 8px;
+    }
+
+    .cancel-booking-bottom-part span textarea {
+        width: 93%;
+    }
+
+    .edit-profile-right-part .sate-select .select-wrapper, .select-wrapper select {
+        width: 98%;
+    }
+
+    .booking-form-part {
+        width: 94%;
+    }
+
+    .booking-form-part span textarea {
+        width: 96%;
+    }
+
+    .booking-form-part span input {
+        width: 96%;
+    }
+
+    .booking-form-part .select-wrapper, .select-wrapper select {
+        width: 98%;
+    }
+
+    .booking-form-part span .block1 {
+        display: none !important;
+    }
+
+    .bookingform-main-right-box2 {
+        width: 94%;
+    }
+
+    .car-share-preferences {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .dashboard-car {
+        width: 95%;
+    }
+
+    .car-preferences-right-part li {
+        margin: 0 0 25px;
+    }
+
+    .car-preferences-right-part li b {
+        margin: 0 0 15px;
+        width: 100%;
+    }
+
+    .car-preferences-right-part li .preferences-chat {
+        margin: 0px;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        padding: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 400px) {
+    .profile-information {
+        width: 94%;
+        padding: 12px 9px;
+    }
+
+    .car-form-right-part {
+        width: 94%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .cancel-booking-right-part {
+        width: 94%;
+        padding: 10px;
+        margin: 0px;
+        border: 1px solid #dddddd;
+    }
+
+    .cancel-booking-right-part-inner {
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .car-detail-img-info {
+        width: 71%;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        margin: 0 8px 0 0;
+        padding: 7px;
+    }
+
+    .car-preferences-right-part li .preferences-chat span img {
+        width: 40px;
+    }
+
+    .edit-profile-right-part {
+        width: 94%;
+    }
+
+    .edit-profile-right-part span .profile-input {
+        width: 95%;
+    }
+
+    .edit-profile-right-part span .profile-textarea {
+        width: 95%;
+    }
+
+    .email-alerts1-right-part {
+        width: 94%;
+    }
+
+    .received-message-body-part {
+        width: 94%;
+        padding-bottom: 15px;
+    }
+
+    .member-profile-right-part {
+        width: 98%;
+    }
+
+    .member-profile-status p img {
+        width: 100%;
+    }
+
+    .member-profile-pic-detail li b {
+        width: 120px;
+        font-size: 13px;
+    }
+
+    .member-profile-pic-detail li img {
+        font-size: 28px;
+    }
+
+    .progress {
+        width: 73%;
+    }
+
+    .member-profile-cars-detail {
+        width: 185px;
+    }
+
+    .member-stories-right-part li p b {
+        width: 70px;
+        height: 70px;
+    }
+
+    .member-stories-form-inner {
+        width: 94%;
+    }
+
+    ul.slimmenu.collapsed li a {
+        width: 98% !important;
+    }
+
+    .profile-photo-page-right-part {
+        width: 94%;
+        padding: 10px;
+    }
+
+    .dashboard-user-info {
+        width: 67%;
+    }
+
+    .dashboard-user-part-right {
+        width: 100%;
+    }
+
+    .car-share-preferences {
+        width: 95%;
+    }
+
+    .member-verifications {
+        width: 95%;
+    }
+
+    .dashboard-car {
+        width: 95%;
+    }
+
+    .dash-mgs .clint-mgs {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .email-verification {
+        width: 94%;
+    }
+
+    .verifymail-right-page-inner {
+        width: 94%;
+    }
+
+    .notifications {
+        width: 94%;
+    }
+
+    .notifications h3 span {
+        float: left;
+        width: 100%;
+    }
+
+    .search-car-find-cla {
+        width: 88%;
+    }
+
+    .search-car-top-part .swap-img {
+        margin: 4px 0 6px 10px;
+    }
+
+    .body-mid-ride-inner {
+        width: 98%;
+    }
+
+    .ho-box-left2 {
+        margin: 0 auto;
+        float: none;
+    }
+
+    .trip-deails {
+        margin: 10px 0;
+        float: left;
+        width: 100%;
+    }
+
+    /*.trip-deails .trip-deails-left h2 .trip-deails-right-price{float:left; width:100%;}
+.trip-deails .trip-deails-left{ width:100%; text-align:center;}
+.trip-deails .trip-deails-left .ride-star{float:none; margin:0 auto; width:65px;}
+.trip-deails .no-smoking-img {display:inline-block; float:none; margin:10px auto; padding:0; width:180px;}
+.trip-deails .no-smoking-img img{ float:none;}
+.trip-deails .trip-deails-right{ width:100%; text-align:center; margin:15px 0 0;}
+.trip{ width:97%;}
+*/
+    .rides-available-pic-detail {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .rating-given-right-part {
+        padding: 8px;
+    }
+
+    .sharing-result-box {
+        width: 95%;
+    }
+
+    .edit-profile-right-part span .profile-input1 {
+        width: 38%;
+    }
+
+    .ride-confirm h2 img {
+        width: 290px;
+    }
+
+    .ride-confirm h3 {
+        font-size: 18px;
+    }
+
+    .ride-confirm p {
+        margin: 9px 0;
+    }
+
+    .booking-confirmation-right-part table td {
+        display: block;
+        width: 94% !important;
+    }
+
+    .ride-detail-page-left-car-detail {
+        width: 95%;
+        padding: 10px 8px 0;
+    }
+
+    .ride-detail-map {
+        width: 95%;
+        padding: 10px 8px 10px;
+    }
+
+    .car-owner {
+        width: 95%;
+        padding: 10px 8px 10px;
+    }
+
+    .activity {
+        width: 95%;
+        padding: 10px 8px 10px;
+    }
+
+    .ride-detail-page-top-mid-part-right span {
+        width: 94%;
+    }
+
+    .ride-detail-page-left-car-detail ul li b {
+        width: 160px;
+    }
+
+    .ride-detail-page-top-mid-part-left ul li img {
+        margin: 0 5px 0 0;
+    }
+
+    .offer-ride-box1 span .ride-location1 {
+        width: 92%;
+    }
+
+    .offer-ride-box1 span .ride-location2 {
+        width: 92%;
+    }
+
+    .offer-ride-box3 span .price-date {
+        width: 70%;
+        margin: 0 0 7px;
+    }
+
+    .offer-ride-box3 span select {
+        margin: 0px;
+        width: 110px;
+    }
+
+    .offer-ride-box4 span {
+        width: 100%;
+    }
+
+    .offer-ride-box5 span textarea {
+        width: 94%;
+    }
+
+    .offer-ride-box6 span {
+        width: 100%;
+    }
+
+    .forgot-pas span input {
+        width: 50%;
+    }
+
+    .received-message-body-part-new li .received-message-text {
+        width: 81%;
+    }
+
+    .received-message-body-part-left li .received-message-text {
+        width: 79%;
+    }
+
+    .received-message-body-part-left li .received-message-text b {
+        width: 100%;
+    }
+
+    .changepassword-page-inner {
+        width: 94%;
+        padding: 10px 10px 0;
+    }
+
+    .changepassword-page input {
+        width: 94%;
+    }
+
+    .miss-ride-right span .miss-ride-input {
+        width: 52%;
+        border: 1px solid #cccccc;
+    }
+
+    .ride-claint span p {
+        margin: 6px 0 0;
+        width: 100%;
+    }
+
+    .booking-form-part span input {
+        width: 97%;
+    }
+
+    .booking-form-part span textarea {
+        width: 97%;
+    }
+
+    .booking-form-part span select {
+        width: 100%;
+    }
+
+    .bookingform-main-left .booking-form-part span .block1 {
+        display: none;
+    }
+
+    .my-booking-tab li a {
+        padding: 13px 10px;
+    }
+
+    .offer-ride-box1 {
+        padding: 8px;
+        width: 95%;
+    }
+
+    .offer-ride-box2 {
+        padding: 13px 8px;
+        width: 95%;
+    }
+
+    .offer-ride-box3 {
+        padding: 8px;
+    }
+
+    .offer-ride-box4 {
+        padding: 8px;
+    }
+
+    .offer-ride-box5 {
+        padding: 8px;
+    }
+
+    .offer-ride-box6 {
+        padding: 8px;
+    }
+
+    /*..............*/
+    .bookingform-main-left-sharing-result-box ul li em {
+        width: 140px;
+    }
+
+    .bookingform-main-left-sharing-result-box .select-wrapper, .select-wrapper select {
+        width: 140px;
+    }
+
+    .notifications h4 {
+        text-transform: none;
+    }
+
+    .car-preferences-right-part li b {
+        margin-top: 17px;
+        font-size: 15px;
+    }
+
+    .member-profile-left-part-box4 {
+        width: 94%;
+    }
+
+    .member-profile-status {
+        width: 94%;
+    }
+
+    .member-profile-verifications {
+        width: 94%;
+    }
+
+    .member-profile-cars {
+        width: 94%;
+    }
+
+    .edit-ride-detail-left {
+        width: 100%;
+    }
+
+    .type-of-trip {
+        padding: 10px;
+        width: 94%;
+    }
+
+    .type-of-trip2 {
+        width: 94%;
+    }
+
+    .type-of-trip3 {
+        width: 94%;
+    }
+
+    .offer-a-ride {
+        width: 94%;
+    }
+
+    .offer-a-ride {
+        width: 94%;
+    }
+
+    .offer-a-ride3 {
+        width: 94%;
+    }
+
+    .edit-ride-detail-right {
+        float: left;
+        width: 99%;
+    }
+
+    .edit-ride-detail-right #map-canvas {
+        height: 300px;
+    }
+
+    .form-box1 {
+        width: 95%;
+    }
+
+    .contact-phone-number label h3 {
+        width: 100%;
+    }
+
+    .contact-message h3 {
+        width: 100%;
+    }
+
+    .profile-photo-page-right-part h3 {
+        font-size: 26px;
+    }
+
+    .profile-facebook {
+        padding: 30px 0;
+    }
+
+    .ride-listing-search-part span .search-location1 {
+        width: 92%;
+        margin: 0px;
+    }
+
+    .ride-listing-search-part span .search-location2 {
+        width: 92%;
+        margin: 0 0 10px;
+    }
+
+    .ride-listing-search-part span img {
+        margin: 10px 0;
+    }
+
+    .rides-available span {
+        width: 97%;
+    }
+
+    .rides-available span b {
+        float: left;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 350px) {
+    .car-details-part {
+        width: 94%;
+    }
+
+    .car-detail-img-info {
+        width: 66%;
+    }
+
+    .car-detail-img-edit-delete span b {
+        padding: 10px;
+    }
+
+    .car-preferences-right-part {
+        width: 93%;
+    }
+
+    .car-preferences-right-part ul {
+        margin: 0px;
+    }
+
+    .car-preferences-right-part li b {
+        margin: 0 0 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .car-preferences-right-part li .preferences-chat {
+        margin: 0px;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        margin: 0 8px 0 0;
+        padding: 7px;
+    }
+
+    .car-preferences-right-part li .last-pre {
+        display: none;
+    }
+
+    .car-preferences-right-part .pre-but-save {
+        margin: 0;
+    }
+
+    .member-stories-form-inner {
+        width: 93%;
+    }
+
+    .profile-photo-page-right-part {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .profile-facebook p a {
+        font-size: 13px;
+        padding: 14px 8px;
+    }
+
+    .notifications-part {
+        width: 94%;
+    }
+
+    .dash-mgs {
+        width: 94%;
+    }
+
+    .car-share-preferences {
+        width: 94%;
+    }
+
+    .member-verifications {
+        width: 94%;
+    }
+
+    .dashboard-car {
+        width: 94%;
+    }
+
+    .dashboard-user-img {
+        width: 90px;
+    }
+
+    .dashboard-user-img span {
+        width: 90px;
+        height: 90px;
+    }
+
+    .dashboard-user-info {
+        width: 65%;
+    }
+
+    .dashboard-user-info h3 {
+        font-size: 16px;
+    }
+
+    .mpv1 span strong {
+        width: 100%;
+    }
+
+    .notifications {
+        width: 93%;
+    }
+
+    .member-rating-right-part {
+        padding: 9px;
+        width: 94%;
+    }
+
+    .received-messages-tab li a {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
+    .received-message-body-part-left h3 {
+        font-size: 19px;
+    }
+
+    .received-message-body-part-left li .received-message-text {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .received-message-body-part-left li .received-message-text p {
+        width: auto;
+    }
+
+    .member-facebook-part-bottom {
+        width: 93%;
+    }
+
+    .member-profile-cars {
+        width: 93%;
+    }
+
+    .member-profile-verifications {
+        width: 93%;
+    }
+
+    .member-profile-status {
+        width: 93%;
+    }
+
+    .send-message {
+        width: 93%;
+    }
+
+    .member-profile-left-part-box4 {
+        width: 93%;
+    }
+
+    .member-profile-left-part-box3 {
+        width: 93%;
+    }
+
+    .member-profile-left-part-box2 {
+        width: 93%;
+    }
+
+    .member-profile-left-part-box1 {
+        width: 93%;
+    }
+
+    .search-car-find-cla {
+        width: 86%;
+    }
+
+    .search-car-find-date {
+        width: 110px;
+    }
+
+    .trip {
+        width: 94%;
+        padding: 9px;
+    }
+
+    .search-car-top-part .ride-list-but1 {
+        width: 130px;
+    }
+
+    .ride-listing-search-part span .search-location {
+        width: 89%;
+    }
+
+    .ride-listing-search-part span img {
+        margin: 0 0 10px;
+    }
+
+    .rating-given-right-part {
+        width: 94%;
+    }
+
+    .sharing-result-box {
+        width: 94%;
+    }
+
+    .booking-confirmation-right-part table td {
+        width: 93% !important;
+    }
+
+    .ride-detail-page-top-mid-part-left ul li b {
+        width: 100%;
+    }
+
+    .ride-detail-page-left-car-detail ul li b {
+        width: 100%;
+        margin: 0 0 7px;
+    }
+
+    .offer-ride-box1 span .ride-location1 {
+        width: 90%;
+    }
+
+    .offer-ride-box1 span .ride-location2 {
+        width: 90%;
+    }
+
+    .offer-ride-box3 span .price-date {
+        width: 96%;
+    }
+
+    .offer-ride-box5 span textarea {
+        width: 92%;
+    }
+
+    .forgot-pas span input {
+        width: 140px;
+    }
+
+    .login-page-right {
+        width: 100%;
+    }
+
+    .registration-page-right {
+        width: 100%;
+    }
+
+    .received-message-body-part-new li .received-message-text {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .changepassword-page-inner {
+        width: 93%;
+        padding: 10px 10px 0;
+    }
+
+    .changepassword-page input {
+        width: 93%;
+    }
+
+    .changepassword-page-right-part {
+        width: 93%;
+    }
+
+    .verifymail-right-page-inner {
+        width: 93%;
+    }
+
+    .email-verification {
+        width: 93%;
+    }
+
+    .bookingform-main-left-sharing-result-box {
+        width: 93%;
+    }
+
+    .booking-form-part {
+        width: 93%;
+    }
+
+    .bookingform-main-right-top-box {
+        width: 93%;
+    }
+
+    .bookingform-main-right-box2 {
+        width: 93%;
+    }
+
+    .bookingform-main-right-box2-detail-info {
+        margin: 13px 0 0;
+        width: 205px;
+    }
+
+    .booking-confirmation-page-left-part-bottom-box1-right {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .booking-confirmation-page-right-part-box1-right {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .offer-ride-box1 {
+        width: 94%;
+    }
+
+    .offer-ride-box2 {
+        width: 94%;
+    }
+
+    .offer-ride-box3 {
+        width: 94%;
+    }
+
+    .offer-ride-box4 {
+        width: 94%;
+    }
+
+    .offer-ride-box5 {
+        width: 94%;
+    }
+
+    .offer-ride-box6 {
+        width: 94%;
+    }
+
+    .login-page-inner {
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 666px) {
+
+    .logo {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .login-b-login {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 280px;
+    }
+
+    .top-icons ul {
+        width: auto;
+    }
+
+    .select-box {
+        margin: 6px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .select-box select {
+        float: none;
+        display: inline-table;
+        margin: 0px;
+    }
+
+    .select-box .custom-select1 {
+        width: 128px;
+    }
+
+    .select-box span {
+        margin: 10px 0;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-logo-menu-part {
+        margin: 0px;
+    }
+
+    .home-top-lang {
+        margin: 0 auto;
+        float: none;
+        width: 141px;
+        text-align: left;
+    }
+
+    .show-all-ride-part {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .show-all-ride {
+        margin: 0 auto 10px;
+        float: none;
+    }
+
+    .lang-part .lang-all {
+        top: 80px;
+    }
+
+    .currency-part .lang-all {
+        top: 80px;
+    }
+
+    .lang-part .lang-all ul li {
+        width: 25%;
+    }
+
+    .currency-part .lang-all ul li {
+        width: 25%;
+    }
+
+    .car-form-right-part h2 {
+        margin: 0 0 15px;
+    }
+
+    .car-details {
+        margin: 0 0 0;
+    }
+
+    .car-preferences {
+        margin: 0 0 20px;
+    }
+
+    .list-rides-offer {
+        border: 1px solid #e6e6e6;
+        margin-top: 10px;
+    }
+
+    .my-booking {
+        border: 1px solid #e6e6e6;
+        margin-top: 0;
+        width: 99%;
+    }
+
+    .dashboard-user-part {
+        margin: 0 0 0;
+    }
+
+    .profile-photo-page {
+        margin-top: 0;
+    }
+
+    .tabs-account {
+        padding: 0 0 5px;
+    }
+
+    .tabs-account ul {
+        margin: 10px 0 0;
+    }
+
+    .tabs-account ul li {
+        width: 100%;
+    }
+
+    .tabs-account ul li:hover {
+        width: 100%;
+        background: #2578ac;
+    }
+
+    .tabs-account ul li .active {
+        width: 99%;
+        background: #2578ac;
+        border: none;
+        color: #FFFFFF;
+    }
+
+    .tabs-account ul li a:hover, .tabs-account ul li a.active {
+        border: none;
+        color: #FFFFFF;
+        padding: 10px 0 10px 5px;
+    }
+
+    .tabs-account ul li a:hover, .tabs-account ul li a.active:hover {
+        padding: 10px 0 10px 5px;
+    }
+
+    .tabs-account ul li:hover a {
+        color: #FFFFFF;
+        border-bottom: none;
+    }
+
+    .tabs-account ul li a {
+        height: auto;
+        line-height: normal;
+        border-bottom: none;
+        width: 98.7%;
+        float: left;
+        margin: 0 0 2px;
+        padding: 10px 0 10px 5px;
+        border-radius: 0px;
+        border: none;
+    }
+
+    .tabs-account ul li a:hover {
+        background: none;
+        padding: 10px 0 10px 5px;
+        border: none;
+    }
+
+    .tabs-account .open-s {
+        float: left;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 414px) {
+    .lang-part .lang-all ul li {
+        width: 33%;
+    }
+
+    .currency-part .lang-all ul li {
+        width: 33%;
+    }
+
+    .lang-part .lang-all {
+        width: 90%;
+    }
+}
+
+/*****new css********/
+
+@media screen and (min-width: 1px) and (max-width: 567px) {
+    .my-booking-mobile-tab {
+        border: none;
+    }
+
+    .my-booking-mobile-tab .my-booking-block-1 {
+        overflow: inherit;
+    }
+
+    .my-booking-mobile-tab .my-booking-box {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .my-booking-mobile-tab .my-booking-box .my-booking-box-inner {
+        margin: 0 auto;
+        padding: 15px 0;
+        width: 95%;
+        float: none;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-top-part {
+        text-align: center;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-top-part h3 {
+        width: 100%;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-top-part span {
+        width: 100%;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-top-part p {
+        width: 100%;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-top-part p img {
+        float: none;
+        margin: 0px 5px 0 0;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-left {
+        width: 100%;
+        border: none;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-left b {
+        margin: 0 auto;
+        float: none;
+        display: table;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-left .my-book-mgs-text {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-mid {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 25px;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-mid span em {
+        float: none;
+        width: auto;
+        margin: 0 15px 0 0;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-right {
+        float: left;
+        width: 100%;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-right span strong {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-right .booking-but-right b {
+        position: relative;
+        text-align: center;
+        margin: 10px 0 0;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-right .booking-but-right b a {
+        float: none;
+        display: inline-table;
+        margin: 0 5px;
+        padding: 10px 15px;
+    }
+
+    .my-booking-mobile-tab .my-booking-box-bottom-part-right .booking-but-right p {
+        text-align: center;
+    }
+
+    .list-rides-offer-part-mobile {
+        border: none;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part {
+        overflow: inherit;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-inner {
+        width: 100%;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-left {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-left p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-left p b {
+        word-break: break-all;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-inner .list-rides-offer-part-left-inner {
+        margin: 0 auto;
+        width: 95%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-right {
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-right span {
+        width: 100%;
+        border: none;
+        float: left;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-right span em {
+        width: 33%;
+        height: 24px;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-right h3 {
+        width: 100%;
+        float: left;
+        height: auto;
+        padding: 15px 0 10px;
+        font-size: 34px;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-right h3 b {
+        margin: 0px;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-left h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 414px) {
+    .my-booking-mobile-tab .my-booking-box-bottom-part-right .booking-but-right b a {
+        float: none;
+        display: inline-table;
+        margin: 0 3px;
+        padding: 10px;
+    }
+
+    .list-rides-offer-part-mobile .list-rides-offer-part-left h3 {
+        font-size: 18px;
+    }
+}
+
+/*****new css end********/
+
+@media screen and (min-width: 568px) and (max-width: 666px) {
+
+    /*****************************/
+    .page-inner-left-part {
+        width: 100%;
+    }
+
+    .profile-information {
+        width: 95.5%;
+    }
+
+    .about-page-right-part {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+
+    .login-page-inner {
+        width: 300px;
+    }
+
+    .login-page-left {
+        float: left;
+        margin: 20px 0 0;
+        padding: 10px;
+        width: 93%;
+    }
+
+    .login-page-right {
+        width: 300px;
+        float: left;
+    }
+
+    .login-page-right span {
+        width: 97%;
+    }
+
+    .login-mid-part {
+        margin: 10px 0 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .login-mid-part span {
+        background: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .login-mid-part span img {
+        margin: 0px;
+        float: none;
+    }
+
+    .login-mid-part span em {
+        margin: 0px;
+        float: none;
+        display: inline-block;
+    }
+
+    .registration-page-inner {
+        width: 300px;
+    }
+
+    .registration-page-left {
+        float: left;
+        margin: 20px 0 0;
+        padding: 10px;
+        width: 93%;
+    }
+
+    .registration-page-right {
+        width: 300px;
+        float: left;
+    }
+
+    .registration-page-right label {
+        width: 97%;
+    }
+
+    .registration-mid-part {
+        margin: 10px 0 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .registration-mid-part span {
+        background: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .registration-mid-part span em {
+        margin: 0px;
+        float: none;
+        display: inline-block;
+    }
+
+    .registration-mid-part span img {
+        margin: 0px;
+        float: none;
+    }
+
+    .car-form-right-part {
+        width: 96.5%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .cancel-booking-right-part {
+        width: 96.5%;
+        padding: 10px;
+        margin: 0px;
+        border: 1px solid #dddddd;
+    }
+
+    .cancel-booking-right-part-inner {
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .car-form-right-part span em {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .car-form-right-part span input {
+        width: 95%;
+    }
+
+    .car-form-right-part span select {
+        width: 98%;
+    }
+
+    .blank-fo {
+        display: none;
+    }
+
+    .car-form-right-part span b {
+        margin-left: 0px;
+    }
+
+    .car-details-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .car-detail-img {
+        width: 150px;
+        height: 110px;
+    }
+
+    .car-detail-img span {
+        width: 150px;
+        height: 110px;
+        padding: 0px;
+    }
+
+    .car-detail-img-info {
+        margin: 0 0 0 10px;
+        width: 50%;
+    }
+
+    .car-detail-img-edit-delete {
+        margin: 0;
+    }
+
+    .car-preferences-right-part {
+        width: 96%;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .car-preferences-right-part ul {
+        margin: 10px 0 0;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        margin: 0 15px 0 0;
+        padding: 12px;
+    }
+
+    .edit-profile-right-part {
+        width: 96%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .edit-profile-right-part span p {
+        width: 100%;
+    }
+
+    .edit-profile-right-part span b {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .edit-profile-right-part span .new-sub {
+        margin: 0 0 8px;
+    }
+
+    .edit-profile-right-part span .profile-input {
+        width: 97%;
+    }
+
+    .edit-profile-right-part span .profile-select {
+        width: 100%;
+    }
+
+    .edit-profile-right-part span .profile-textarea {
+        width: 97%;
+    }
+
+    .edit-profile-right-part .pro-last {
+        display: none;
+    }
+
+    .edit-profile-right-part span .profile-select1 {
+        width: 40%;
+    }
+
+    .edit-profile-right-part span .profile-input1 {
+        width: 40%;
+    }
+
+    .edit-profile-right-part .edit-select-full .select-wrapper, .select-wrapper select {
+        width: 99%;
+    }
+
+    .member-profile-left-part {
+        width: 100%;
+    }
+
+    .member-profile-left-part-box1 {
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .member-profile-pic-detail {
+        width: 66%;
+        margin-left: 10px;
+    }
+
+    .member-profile-pic-detail li b {
+        width: 160px;
+    }
+
+    .member-profile-left-part-box2 {
+        padding: 10px;
+    }
+
+    .member-profile-left-part-box3 {
+        padding: 10px;
+    }
+
+    .rides-posted-table {
+        overflow: auto;
+        overflow-x: scroll;
+    }
+
+    .rides-posted-table table {
+        width: 800px;
+    }
+
+    .member-profile-left-part-box4 {
+        padding: 10px;
+    }
+
+    .member-profile-right-part {
+        width: 380px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .send-message {
+        margin: 20px 0 0;
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-status {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-verifications {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars-detail p b {
+        width: 90px;
+    }
+
+    .member-profile-cars-img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .member-facebook-part-bottom {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .member-facebook-part-bottom-right p img {
+        width: 100%;
+    }
+
+    .faq-page-left-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .accordion .faq-ques p {
+        width: 99%;
+    }
+
+    .accordion-section-title {
+        padding: 16px 0;
+        font-size: 19px;
+    }
+
+    .member-stories-right-part {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .member-stories-right-part ul {
+        margin: 10px 0 0;
+    }
+
+    .member-stories-right-part li p b {
+        width: 100px;
+        height: 100px;
+    }
+
+    .member-stories-form-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .member-stories-form-inner {
+        padding: 10px 10px 6px 10px;
+        width: 96%;
+    }
+
+    .member-stories-form-right-part {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .member-stories-form-inner span em {
+        margin: 7px 0 0;
+        width: 130px;
+    }
+
+    .member-stories-form-inner span select {
+        width: 71%;
+    }
+
+    .member-stories-form-inner span input {
+        width: 67%;
+    }
+
+    .member-stories-form-inner span textarea {
+        width: 67%;
+    }
+
+    .profile-photo-page-right-part {
+        width: 100%;
+        margin: 0px;
+        min-height: inherit;
+    }
+
+    .profile-facebook {
+        width: 100%;
+    }
+
+    /*..........*/
+    .dashboard-user-img {
+        width: 100px;
+    }
+
+    .dashboard-user-img span {
+        width: 100px;
+        height: 100px;
+    }
+
+    .dashboard-user-part-left {
+        width: 100%;
+    }
+
+    .dashboard-user-info {
+        width: 78%;
+        margin: 0 0 0 10px;
+    }
+
+    .dashboard-user-info h3 {
+        font-size: 19px;
+    }
+
+    .dashboard-user-info span {
+        margin: 10px 0 0;
+    }
+
+    .dashboard-user-part-right {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+        float: left;
+        border: none;
+    }
+
+    .dashboard-user-part-right span {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .dash-last-login-details {
+        width: 96%;
+        margin: 0 0 15px;
+        padding-right: 0px;
+    }
+
+    .dash-useful-links {
+        width: 96%;
+        float: left;
+        padding-right: 0px;
+    }
+
+    .dashboard-body-part {
+        margin: 15px 0 0;
+    }
+
+    .dashboard-body-part-left {
+        width: 100%;
+    }
+
+    .car-share-preferences {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .member-verifications {
+        padding: 10px;
+        width: 96%;
+        background: #ff4e50;
+    }
+
+    .dashboard-car {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .dashboard-body-part-right {
+        width: 100%;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .dashboard-new-page-bottom-part-list li {
+        margin: 0 0 15px;
+        width: 49%;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(3n) {
+        width: 49%;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(even) {
+        margin-right: 0px;
+        float: right;
+    }
+
+    .notifications-part {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0 0;
+    }
+
+    .dash-mgs {
+        width: 96%;
+        padding: 10px;
+    }
+
+    .dash-mgs .clint-mgs {
+        width: 86%;
+    }
+
+    .dash-mgs .clint-mgs p strong {
+        width: auto;
+        margin: 0 20px 0 0;
+    }
+
+    .verification-page-right-part {
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 0;
+    }
+
+    .email-verification {
+        width: 96%;
+    }
+
+    .verifymail-right-page {
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .verifymail-right-page-inner {
+        width: 96%;
+    }
+
+    .verifications-zone {
+        width: 100%;
+    }
+
+    .mpv {
+        margin: 15px 0 0;
+    }
+
+    .mpv span p {
+        margin: 0 0 10px;
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    .mpv1 span strong {
+        width: 79%;
+    }
+
+    .notifications-page-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .notifications {
+        width: 96%;
+    }
+
+    .member-rating-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .rate-your-experience h4 {
+        font-size: 16px;
+    }
+
+    .rate-your-experience ul {
+        width: 50%;
+    }
+
+    .rate-your-experience span {
+        width: 50%;
+    }
+
+    .received-message-body-part {
+        margin: 0 0 20px;
+    }
+
+    .received-message-body-part-left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .received-message-body-part-left li .received-message-text {
+        width: 86%;
+    }
+
+    .received-message-body-part-left li .received-message-img {
+        margin: 0px;
+    }
+
+    .received-message-body-part-right {
+        float: none;
+        width: 180px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .received-message-body-part-right p {
+        margin-left: 0px;
+    }
+
+    .received-message-body-part-right .clint-pic {
+        float: left;
+    }
+
+    .search-car-top-part span {
+        font-size: 20px;
+        margin: 0 0 10px 10px;
+        width: 90%;
+    }
+
+    .search-car-find-cla {
+        width: 28%;
+        margin: 0 0 10px 10px;
+    }
+
+    .search-car-find-date {
+        margin: 0 0 0 10px;
+        width: 100px;
+    }
+
+    .body-mid-ride-inner {
+        margin: 0 auto;
+        float: none;
+        width: 490px;
+    }
+
+    .rides-around1 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around2 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around3 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around4 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around5 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around6 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .trip-main {
+        margin: 0 0 15px;
+    }
+
+    .body-mid-part-inner .trip-main-last {
+        float: left;
+    }
+
+    .body-mid-part-inner .last {
+        float: left;
+    }
+
+    .search-car-top-part .ride-list-but1 {
+        margin: 0 0 0 11px;
+    }
+
+    .ride-listing-left-part {
+        width: 99%;
+    }
+
+    .by-time span p {
+        width: 97%;
+    }
+
+    .by-time span {
+        width: 98%;
+    }
+
+    .ui-widget-content {
+        width: 92% !important;
+    }
+
+    .ride-listing-right-part {
+        width: 96%;
+        margin: 10px 0 0 10px;
+    }
+
+    .ride-listing-search-part span .search-location {
+        width: 42%;
+        margin: 0 0 15px;
+    }
+
+    .ride-listing-search-part span .search-date {
+        border: 1px solid #ccc;
+    }
+
+    .ride-listing-search-part span .ride-list-but {
+        width: auto;
+        padding: 0 20px 0 30px;
+        background-position: left 8px top 12px;
+    }
+
+    .rides-available h3 {
+        width: auto;
+        margin: 4px 0 0 10px;
+    }
+
+    .rides-available span {
+        float: right;
+        margin: 0;
+    }
+
+    .rides-available-lising-box-left {
+        width: 100%;
+    }
+
+    .rides-available-lising-box-right {
+        width: 100%;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .rides-available-pic-detail {
+        width: 76%;
+        margin: 10px 0 0 20px;
+    }
+
+    .filter-results-listing ul li {
+        font-size: 14px;
+    }
+
+    .rides-available-lising-box-left h3 b {
+        margin: 0 0 0 20px;
+        font-size: 15px;
+    }
+
+    .received-message-body-part-new li .received-message-text {
+        width: 86%;
+    }
+
+    .received-message-body-part-new li .received-message-text p {
+        width: auto;
+    }
+
+    .rating-given-right-part {
+        width: 95%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .rating-alerts1 {
+        overflow-x: scroll;
+        overflow-y: auto;
+    }
+
+    .rating-alerts1 table {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 800px;
+    }
+
+    .member-profile-left-part-box4-rating ul li p {
+        width: 89%;
+    }
+
+    .sharing-result-box {
+        width: 97%;
+    }
+
+    .sharing-result-box-left {
+        width: 100%;
+    }
+
+    .sharing-result-box-right {
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .booking-form-part span em {
+        width: 100%;
+        margin: 0 0 8px;
+    }
+
+    .booking-form-part span input {
+        width: 95%;
+    }
+
+    .booking-form-part span textarea {
+        width: 95%;
+    }
+
+    .booking-form-part span select {
+        width: 98%;
+    }
+
+    .booking-form-part span .block1 {
+        display: none;
+    }
+
+    .ride-confirm h2 img {
+        width: 350px;
+    }
+
+    .ride-confirm h3 {
+        font-size: 24px;
+    }
+
+    .leaverrating-page-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .leaverrating-list {
+        width: 100%;
+    }
+
+    .booking-confirmation-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .booking-confirmation-right-part b {
+        width: 96%;
+    }
+
+    .money-detail-page {
+        width: 100%;
+        margin: 0px;
+    }
+
+    /**********/
+    .ride-detail-page-top-mid-part-left {
+        margin: 10px;
+        width: 96%;
+    }
+
+    .ride-detail-page-top-mid-part-left ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-top-mid-part-left .last {
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .ride-detail-page-top-mid-part-right {
+        margin: 15px 0 0;
+        width: 100%;
+    }
+
+    .ride-claint {
+        height: auto;
+    }
+
+    .ride-claint span {
+        margin: 10px;
+    }
+
+    .ride-claint span p {
+        width: 81%;
+    }
+
+    .ride-detail-page-top-mid-part-left ul li b {
+        width: 165px;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h3 {
+        font-size: 31px;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h4 {
+        font-size: 31px;
+    }
+
+    .ride-detail-page-top-mid-part-right span {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .ride-detail-page-top-mid-part-right span .seat-new {
+        font-size: 20px;
+    }
+
+    .ride-detail-page-left-car-detail ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-left {
+        width: 100%;
+    }
+
+    .ride-detail-page-left-car-detail {
+        padding: 10px 10px 0 10px;
+        width: 96%;
+    }
+
+    .ride-detail-map {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .ride-detail-page-right {
+        width: 100%;
+        float: left;
+        margin: 15px 0 0;
+    }
+
+    .car-owner-detail-info {
+        width: 150px;
+    }
+
+    .car-owner {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .activity {
+        padding: 10px;
+        width: 96%;
+    }
+
+    /*................*/
+    .offer-ride-left-part {
+        width: 100%;
+        border: 1px solid #e1dfdf;
+    }
+
+    .offer-ride-box1 {
+        padding: 14px 9px 9px 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box2 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box3 {
+        padding: 14px 9px 0 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box3 span select {
+        float: none;
+    }
+
+    .offer-ride-box4 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box5 {
+        padding: 14px 9px 9px 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box6 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-right-part {
+        width: 100%;
+        float: left;
+        margin: 10px 0 0;
+    }
+
+    #map-canvas {
+        height: 500px;
+    }
+
+    .price-details-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .price-details-popup-hide {
+        z-index: 0;
+    }
+
+    .regular-trip-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .regular-trip-popup-hide {
+        z-index: 0;
+    }
+
+    .offer-ride-box4-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .offer-ride-box4-popup-hide {
+        z-index: 0;
+    }
+
+    .email-alerts1-right-part {
+        margin: 0;
+        padding: 10px;
+        width: 96%;
+    }
+
+    .received-message-body-part {
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .changepassword-page-right-part {
+        margin: 0px;
+        padding: 10px;
+        width: 96%;
+        min-height: 200px;
+        float: left;
+    }
+
+    .changepassword-page-right-part input {
+        width: 61%;
+    }
+
+    .miss-ride {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .mgs-img {
+        margin: 0px;
+    }
+
+    .miss-ride-right {
+        width: 98%;
+        margin: 10px 0 0 10px;
+    }
+
+    .miss-ride-right span .e-alert-date {
+        width: 30%;
+    }
+
+    .miss-ride-right span .miss-ride-input {
+        width: 59%;
+        border: 1px solid #cccccc;
+    }
+
+    .miss-ride-right span .notify-but {
+        margin: 10px 10px 0 0;
+        float: right;
+    }
+
+    /*****************************/
+    .footer-box1 {
+        width: 55%;
+        margin: 16px 0 0;
+    }
+
+    .footer-box2 {
+        width: 40%;
+        margin: 16px 0 0;
+        min-height: 200px;
+    }
+
+    .footer-box3 {
+        width: 45%;
+        margin: 17px 0 0;
+        float: left;
+    }
+
+    .footer-box4 {
+        margin: 17px 0 0;
+        float: right;
+    }
+
+    .footer-bottom-part p {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 6px;
+    }
+
+    .footer-bottom-part span {
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+
+    .bookintform-page-right-part {
+        margin: 0 auto;
+        padding: 0px;
+        width: 520px;
+        float: none;
+    }
+
+    .bookingform-main-left {
+        width: 100%;
+    }
+
+    .bookingform-main-left-sharing-result-box {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .booking-form-part span em {
+        width: 100px;
+    }
+
+    .booking-form-part span input {
+        width: 68%;
+    }
+
+    .booking-form-part span textarea {
+        width: 68%;
+    }
+
+    .booking-form-part .select-wrapper, .select-wrapper select {
+        width: 69%;
+    }
+
+    .booking-form-part span select {
+        width: 72%;
+    }
+
+    .booking-form-part {
+        padding: 10px;
+        width: 96%;
+    }
+
+    .bookingform-main-right {
+        margin: 20px 0 0;
+        width: 100%;
+    }
+
+    .bookingform-main-right-top-box {
+        padding: 12px;
+        width: 95%;
+    }
+
+    .bookingform-main-right-box1 {
+        width: 100%;
+    }
+
+    .bookingform-main-right-box2 {
+        padding: 12px;
+        width: 95%;
+    }
+
+    .bookingform-main-left .booking-form-part span .block1 {
+        display: block;
+    }
+
+    .booking-confirmation-page-left-part {
+        width: 100%;
+    }
+
+    .booking-confirmation-page-left-part-top li b {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .booking-confirmation-page-left-part-bottom-box1-right {
+        width: 60%;
+    }
+
+    .booking-confirmation-page-right-part {
+        width: 100%;
+    }
+
+    .booking-confirmation-page-right-part-box1 {
+        width: 96%;
+        padding: 10px;
+    }
+
+    .booking-confirmation-page-right-part-box1-right {
+        width: 60%;
+    }
+
+    .booking-confirmation-top-box {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .booking-confirmation-top-box span p {
+        width: 78%;
+    }
+
+    .error-page-right {
+        width: 50%;
+    }
+
+    .error-page-right img {
+        width: 95%;
+    }
+
+    .ride-booking-failed span p {
+        width: 78%;
+    }
+
+    .offer-ride-box4 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .offer-ride-box6 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    /*........................*/
+    .member-stories-form-inner .select-wrapper, .select-wrapper select {
+        width: 70%;
+    }
+
+    .car-form-right-part span strong {
+        width: 150px;
+    }
+
+    .car-form-right-part h2 {
+        margin: 0 0 15px;
+    }
+
+    .car-form-right-part .select-wrapper, .select-wrapper select {
+        width: 67%;
+    }
+
+    .car-form-right-part span input {
+        width: 66%;
+    }
+
+    .car-form-right-part span .blank-fo {
+        display: block;
+    }
+
+    .sate-select .select-wrapper, .select-wrapper select {
+        width: 98%;
+    }
+
+    .money-detail-page {
+        padding: 0px;
+        width: 99%;
+    }
+
+    .money-detail-page-inner {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+    }
+
+    .money-detail-page-inner table {
+        width: 850px;
+        float: left;
+    }
+
+    .member-profile-left-part-box1 {
+        padding: 10px;
+    }
+
+    .member-profile-left-part-box2 {
+        padding: 10px;
+    }
+
+    .member-profile-left-part-box3 {
+        padding: 10px;
+    }
+
+    .member-profile-left-part-box4 {
+        padding: 10px;
+    }
+
+    .contact-address {
+        width: 100%;
+    }
+
+    .contact-phone-number {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .contact-phone-number label {
+        margin: 0px;
+    }
+
+    .contact-phone-number label h3 {
+        margin: 0px;
+    }
+
+    .contact-message {
+        width: 100%;
+    }
+
+    .contact-message h3 {
+        margin: 0px;
+    }
+
+    .contact-left .map {
+        height: 300px;
+    }
+
+    .contact-right h3 {
+        margin: 10px 0;
+    }
+
+    .form-box {
+        width: 95%;
+    }
+
+    .form span {
+        width: 100%;
+    }
+
+    .form span.mid {
+        margin: 0 0 20px;
+    }
+
+    .form-box1 {
+        width: 96%;
+    }
+
+    .form span.captcha-c {
+        width: 100%;
+    }
+
+    .ride-listing-search-part span .search-location1 {
+        width: 42%;
+        margin: 0 0 10px;
+    }
+
+    .ride-listing-search-part span .search-location2 {
+        width: 42%;
+        margin: 0 0 10px;
+    }
+
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+
+    .page-inner-left-part {
+        width: 40%;
+    }
+
+    .about-page-right-part {
+        margin: 0px;
+        width: 57%;
+    }
+
+    .login-page-inner {
+        width: 640px;
+    }
+
+    .login-page-right {
+        width: 270px;
+    }
+
+    .login-page-right span {
+        width: 97%;
+    }
+
+    .login-mid-part {
+        margin: 40px 0 0 11px;
+    }
+
+    .registration-page-inner {
+        width: 640px;
+    }
+
+    .registration-page-right {
+        width: 270px;
+    }
+
+    .registration-page-right span {
+        width: 97%;
+    }
+
+    .registration-mid-part {
+        margin: 40px 0 0 11px;
+    }
+
+    .car-form-right-part {
+        width: 53%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    .cancel-booking-right-part {
+        width: 53%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+        border: 1px solid #dddddd;
+    }
+
+    .cancel-booking-right-part-inner {
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .car-form-right-part span em {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .car-form-right-part span input {
+        width: 95%;
+    }
+
+    .car-form-right-part span select {
+        width: 98%;
+    }
+
+    .tabs-account ul li a {
+        padding: 11px 8px;
+        font-size: 14px;
+    }
+
+    .tabs-account ul li a:hover {
+        padding: 10px 8px;
+    }
+
+    .tabs-account ul li .active {
+        padding: 11px 8px;
+    }
+
+    .blank-fo {
+        display: none;
+    }
+
+    .car-form-right-part span b {
+        margin-left: 0px;
+    }
+
+    .car-form-right-part h2 {
+        margin: 0 0 15px;
+    }
+
+    .car-details-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .car-detail-img {
+        width: 170px;
+        height: 110px;
+    }
+
+    .car-detail-img span {
+        width: 170px;
+        height: 110px;
+        padding: 0px;
+    }
+
+    .car-detail-img-info {
+        margin: 12px 0 0;
+        width: 72%;
+    }
+
+    .car-detail-img-edit-delete {
+        margin: 12px 0 0;
+    }
+
+    .car-preferences-right-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .car-preferences-right-part ul {
+        margin: 10px 0 0;
+    }
+
+    .car-preferences-right-part li .preferences-chat {
+        margin: 0 0 0 10px;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        margin: 0 7px 0 0;
+        padding: 10px;
+    }
+
+    .edit-profile-right-part {
+        width: 53%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    .edit-profile-right-part span p {
+        width: 100%;
+    }
+
+    .edit-profile-right-part span b {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .edit-profile-right-part span .new-sub {
+        margin: 0 0 8px;
+    }
+
+    .edit-profile-right-part span .profile-input {
+        width: 95%;
+    }
+
+    .edit-profile-right-part span .profile-select {
+        width: 98%;
+    }
+
+    .edit-profile-right-part span .profile-textarea {
+        width: 95%;
+    }
+
+    .edit-profile-right-part .pro-last {
+        display: none;
+    }
+
+    .edit-profile-right-part span .profile-select1 {
+        width: 40%;
+    }
+
+    .edit-profile-right-part span .profile-input1 {
+        width: 40%;
+    }
+
+    .edit-profile-right-part .edit-select-full .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .member-profile-left-part {
+        width: 100%;
+    }
+
+    .member-profile-pic-detail {
+        width: 71%;
+    }
+
+    .member-profile-right-part {
+        width: 380px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .send-message {
+        margin: 20px 0 0;
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-status {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-verifications {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars-detail p b {
+        width: 90px;
+    }
+
+    .member-profile-cars-img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .member-facebook-part-bottom {
+        padding: 10px;
+    }
+
+    .member-facebook-part-bottom-right p img {
+        width: 100%;
+    }
+
+    .faq-page-left-part {
+        width: 57%;
+        margin: 0px;
+    }
+
+    .accordion .faq-ques p {
+        width: 99%;
+    }
+
+    .member-stories-right-part {
+        width: 57%;
+        margin: 0px;
+    }
+
+    .member-stories-right-part ul {
+        margin: 0;
+    }
+
+    .member-stories-right-part li p b {
+        width: 100px;
+        height: 100px;
+    }
+
+    .member-stories-form-right-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .member-stories-form-right-part {
+        width: 57%;
+        margin: 0px;
+    }
+
+    .member-stories-form-inner {
+        padding: 10px 10px 6px 10px;
+        width: 94%;
+    }
+
+    .member-stories-form-inner span em {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .member-stories-form-inner span select {
+        width: 100%;
+    }
+
+    .member-stories-form-inner span input {
+        width: 93%;
+    }
+
+    .member-stories-form-inner span textarea {
+        width: 93%;
+    }
+
+    .member-stories-form-inner span .add-m {
+        display: none;
+    }
+
+    .profile-photo-page-right-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .profile-facebook {
+        width: 100%;
+    }
+
+    /*..........*/
+    .dashboard-user-img {
+        width: 80px;
+    }
+
+    .dashboard-user-img span {
+        width: 80px;
+        height: 80px;
+    }
+
+    .dashboard-user-part-left {
+        width: 100%;
+    }
+
+    .dashboard-user-info {
+        width: 64%;
+        margin: 0 0 0 10px;
+    }
+
+    .dashboard-user-info h3 {
+        font-size: 19px;
+    }
+
+    .dashboard-user-info span {
+        margin: 10px 0 0;
+    }
+
+    .dashboard-user-part-right {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+        float: left;
+        border: none;
+    }
+
+    .dashboard-user-part-right span {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .dash-last-login-details {
+        width: 96%;
+        margin: 0 0 15px;
+        padding: 10px;
+    }
+
+    .dash-useful-links {
+        width: 96%;
+        float: left;
+        padding: 10px;
+    }
+
+    .dashboard-body-part {
+        margin: 15px 0 0;
+    }
+
+    .dashboard-body-part-left {
+        width: 40%;
+    }
+
+    .car-share-preferences {
+        padding: 10px;
+        width: 92%;
+    }
+
+    .member-verifications {
+        padding: 10px;
+        width: 92%;
+    }
+
+    .dashboard-car {
+        padding: 10px;
+        width: 92%;
+    }
+
+    .dashboard-body-part-right {
+        width: 56%;
+        float: left;
+        margin: 0 0 0 20px;
+    }
+
+    .dashboard-new-page-bottom-part-list li {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(3n) {
+        margin: 0 0 10px;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(even) {
+        margin: 0 0 10px;
+    }
+
+    .notifications-part {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0 0;
+    }
+
+    .dash-mgs {
+        width: 97%;
+        padding: 10px;
+    }
+
+    .dash-mgs .clint-mgs {
+        width: 82%;
+    }
+
+    .dash-mgs .clint-mgs p strong {
+        width: auto;
+        margin: 0 20px 0 0;
+    }
+
+    .verification-page-right-part {
+        width: 55%;
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .verifications-zone {
+        width: 100%;
+    }
+
+    .verifymail-right-page {
+        width: 55%;
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .verifymail-right-page-inner {
+        width: 96%;
+    }
+
+    .mpv {
+        margin: 15px 0 0;
+    }
+
+    .mpv span p {
+        margin: 0 0 10px;
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    .mpv1 span strong {
+        width: 79%;
+    }
+
+    .notifications-page-right-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .notifications {
+        width: 95%;
+    }
+
+    .member-rating-right-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .rate-your-experience h4 {
+        font-size: 16px;
+    }
+
+    .rate-your-experience ul {
+        width: 100%;
+    }
+
+    .rate-your-experience span {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .rate-your-experience em {
+        padding: 0px;
+    }
+
+    .received-message-body-part-left {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .received-message-body-part-left li .received-message-img {
+        margin: 0px;
+    }
+
+    .received-message-body-part-left li .received-message-text {
+        width: 82%;
+    }
+
+    .received-message-body-part-left li .received-message-text p {
+        width: auto;
+        margin: 4px 0 0;
+    }
+
+    .received-message-body-part-right {
+        border-top: 1px solid #ddd;
+        float: left;
+        margin: 20px 0;
+        padding: 14px 0 0;
+        width: 100%;
+    }
+
+    .received-message-body-part-right p {
+        margin-left: 0px;
+    }
+
+    .received-message-body-part-right .clint-pic {
+        float: left;
+    }
+
+    .search-car-top-part span {
+        font-size: 20px;
+    }
+
+    .search-car-find-cla {
+        width: 29.5%;
+        margin: 0 0 10px;
+    }
+
+    .search-car-find-date {
+        margin: 0 10px 0 0;
+    }
+
+    .body-mid-ride-inner {
+        margin: 0 auto;
+        float: none;
+        width: 490px;
+    }
+
+    .rides-around1 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around2 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around3 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around4 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around5 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around6 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .trip-main {
+        margin: 0 0 15px;
+    }
+
+    .body-mid-part-inner .trip-main-last {
+        float: left;
+    }
+
+    .body-mid-part-inner .last {
+        float: left;
+    }
+
+    .ride-listing-left-part {
+        width: 39%;
+    }
+
+    .by-time span p {
+        width: 92%;
+    }
+
+    .by-time span {
+        width: 98%;
+    }
+
+    .ui-widget-content {
+        width: 92% !important;
+    }
+
+    .ride-listing-right-part {
+        width: 58%;
+        margin: 0 0 0 15px;
+    }
+
+    .ride-listing-search-part span .search-location {
+        width: 38%;
+        margin: 0 0 15px;
+    }
+
+    .ride-listing-search-part span .search-date {
+        border: 1px solid #ccc;
+    }
+
+    .ride-listing-search-part span .ride-list-but {
+        width: auto;
+        padding: 0 20px 0 30px;
+        background-position: left 8px top 12px;
+    }
+
+    .rides-available h3 {
+        width: 80%;
+        margin: 4px 0 0 10px;
+    }
+
+    .rides-available span {
+        float: left;
+        margin: 10px 0 0 10px;
+    }
+
+    .rides-available-lising-box-left {
+        width: 100%;
+    }
+
+    .rides-available-lising-box-right {
+        width: 100%;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .rides-available-pic-detail {
+        width: 68%;
+        margin: 10px 0 0 10px;
+    }
+
+    .filter-results-listing ul li {
+        font-size: 14px;
+    }
+
+    .rides-available-lising-box-left h3 b {
+        margin: 0 0 0 20px;
+        font-size: 15px;
+    }
+
+    .received-message-body-part-new li .received-message-text {
+        width: 82%;
+    }
+
+    .received-message-body-part-new li .received-message-text p {
+        width: auto;
+    }
+
+    .rating-given-right-part {
+        width: 53.5%;
+        padding: 10px;
+        margin: 0 0 0 18px;
+    }
+
+    .rating-alerts1 {
+        overflow-x: scroll;
+        overflow-y: auto;
+    }
+
+    .rating-alerts1 table {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 800px;
+    }
+
+    .member-profile-left-part-box4-rating ul li p {
+        width: 91%;
+    }
+
+    .sharing-result-box {
+        width: 95%;
+    }
+
+    .sharing-result-box-left {
+        width: 100%;
+    }
+
+    .sharing-result-box-left span {
+        width: 100%;
+    }
+
+    .sharing-result-box-right {
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .booking-form-part span em {
+        width: 100%;
+        margin: 0 0 8px;
+    }
+
+    .booking-form-part span input {
+        width: 95%;
+    }
+
+    .booking-form-part span textarea {
+        width: 95%;
+    }
+
+    .booking-form-part span select {
+        width: 98%;
+    }
+
+    .booking-form-part span .block1 {
+        display: none;
+    }
+
+    .leaverrating-page-right-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .leaverrating-list {
+        width: 100%;
+    }
+
+    .booking-confirmation-right-part {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .booking-confirmation-right-part b {
+        width: 94%;
+    }
+
+    /**********/
+    .ride-detail-page-top-mid-part-left {
+        margin: 10px 0 10px 10px;
+        width: 58%;
+    }
+
+    .ride-detail-page-top-mid-part-left ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-top-mid-part-left .last {
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .ride-detail-page-top-mid-part-right {
+        width: 40%;
+    }
+
+    .ride-claint {
+        height: auto;
+    }
+
+    .ride-claint span {
+        margin: 10px;
+    }
+
+    .ride-claint span p {
+        width: 75%;
+        margin: 0 0 0 15px
+    }
+
+    .ride-detail-page-top-mid-part-left ul li b {
+        width: 150px;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h3 {
+        font-size: 31px;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h4 {
+        font-size: 31px;
+    }
+
+    .ride-detail-page-top-mid-part-right span {
+        padding: 10px;
+        width: 93%;
+    }
+
+    .ride-detail-page-top-mid-part-right span .seat-new {
+        font-size: 20px;
+    }
+
+    .ride-detail-page-left-car-detail ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-left {
+        width: 57%;
+    }
+
+    .ride-detail-page-left-car-detail {
+        padding: 10px 10px 0 10px;
+        width: 95%;
+    }
+
+    .ride-detail-map {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .ride-detail-page-right {
+        width: 42%;
+    }
+
+    .car-owner-detail-info {
+        width: 150px;
+    }
+
+    .car-owner {
+        padding: 10px;
+        width: 94%;
+    }
+
+    .activity {
+        padding: 10px;
+        width: 94%;
+    }
+
+    /*................*/
+    .offer-ride-left-part {
+        width: 100%;
+        border: 1px solid #e1dfdf;
+    }
+
+    .offer-ride-box1 {
+        padding: 14px 9px 3px 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box2 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box3 {
+        padding: 14px 9px 0 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box3 span select {
+        float: none;
+    }
+
+    .offer-ride-box4 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box5 {
+        padding: 14px 9px 7px 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box6 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-right-part {
+        width: 100%;
+        float: left;
+        margin: 10px 0 0;
+    }
+
+    #map-canvas {
+        height: 500px;
+    }
+
+    .price-details-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .price-details-popup-hide {
+        z-index: 0;
+    }
+
+    .regular-trip-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .regular-trip-popup-hide {
+        z-index: 0;
+    }
+
+    .offer-ride-box4-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .offer-ride-box4-popup-hide {
+        z-index: 0;
+    }
+
+    .email-alerts1-right-part {
+        margin: 0 0 0 20px;
+        padding: 10px;
+        width: 53%;
+    }
+
+    .received-message-body-part {
+        margin: 0 0 0 20px;
+        padding: 0px;
+        width: 56%;
+    }
+
+    .changepassword-page-right-part {
+        margin: 0 0 0 20px;
+        padding: 10px;
+        width: 53%;
+        min-height: 200px;
+    }
+
+    .changepassword-page-right-part span b {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .changepassword-page-right-part input {
+        width: 94%;
+    }
+
+    .changepassword-page-right-part span .blank {
+        display: none;
+    }
+
+    .miss-ride {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .mgs-img {
+        margin: 0px;
+    }
+
+    .miss-ride-right {
+        width: 98%;
+        margin: 10px 0 0 10px;
+    }
+
+    .miss-ride-right span .e-alert-date {
+        width: 30%;
+    }
+
+    .miss-ride-right span .miss-ride-input {
+        width: 55%;
+        border: 1px solid #cccccc;
+    }
+
+    .miss-ride-right span .notify-but {
+        margin: 10px 10px 0 0;
+        float: right;
+    }
+
+    /*****************************/
+    .footer-box1 {
+        width: 45%;
+        margin: 16px 0 0;
+    }
+
+    .footer-box2 {
+        width: 45%;
+        margin: 16px 0 0;
+        min-height: 200px;
+    }
+
+    .footer-box3 {
+        width: 45%;
+        margin: 30px 0 0;
+    }
+
+    .footer-box4 {
+        margin: 17px 0 0;
+    }
+
+    .footer-bottom-part p {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 6px;
+    }
+
+    .footer-bottom-part span {
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+
+    .bookintform-page-right-part {
+        margin: 0 auto;
+        padding: 0px;
+        width: 550px;
+        float: none;
+    }
+
+    .bookingform-main-left {
+        width: 100%;
+    }
+
+    .bookingform-main-left-sharing-result-box {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .booking-form-part span em {
+        width: 100px;
+    }
+
+    .booking-form-part span input {
+        width: 68%;
+    }
+
+    .booking-form-part .select-wrapper, .select-wrapper select {
+        width: 69%;
+    }
+
+    .booking-form-part span textarea {
+        width: 68%;
+    }
+
+    .booking-form-part span select {
+        width: 72%;
+    }
+
+    .booking-form-part {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-right {
+        margin: 20px 0 0;
+        width: 100%;
+    }
+
+    .bookingform-main-right-top-box {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-right-box1 {
+        width: 100%;
+    }
+
+    .bookingform-main-right-box2 {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-left .booking-form-part span .block1 {
+        display: block;
+    }
+
+    .booking-confirmation-page-left-part {
+        width: 53%;
+    }
+
+    .booking-confirmation-page-left-part-top li b {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .booking-confirmation-page-left-part-bottom-box1-right {
+        width: 90%;
+    }
+
+    .booking-confirmation-page-right-part {
+        width: 45%;
+    }
+
+    .booking-confirmation-page-right-part-box1 {
+        width: 95%;
+        padding: 9px;
+    }
+
+    .booking-confirmation-page-right-part-box1-right {
+        width: 90%;
+    }
+
+    .booking-confirmation-top-box span p {
+        width: 81%;
+    }
+
+    .error-page-left {
+        width: 100%;
+    }
+
+    .ride-booking-failed span p {
+        width: 81%;
+    }
+
+    .offer-ride-box4 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .offer-ride-box6 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    /*...........*/
+    .member-stories-form-inner .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .car-form-right-part span strong {
+        width: 100%;
+        margin: 0 0 8px;
+    }
+
+    .car-form-right-part h2 {
+        margin: 0 0 15px;
+    }
+
+    .car-form-right-part .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .car-form-right-part span input {
+        width: 96%;
+    }
+
+    .car-form-right-part span .blank-fo {
+        display: none;
+    }
+
+    .sate-select .select-wrapper, .select-wrapper select {
+        width: 96%;
+    }
+
+    .edit-profile-right-part .select-wrapper, .select-wrapper select {
+        width: 160px;
+    }
+
+    .sate-select .select-wrapper, .select-wrapper select {
+        width: 96%;
+    }
+
+    .money-detail-page {
+        padding: 0px;
+        width: 56%;
+    }
+
+    .money-detail-page-inner {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+    }
+
+    .money-detail-page-inner table {
+        width: 850px;
+        float: left;
+    }
+
+    .member-profile-left-part-box1 {
+        padding: 10px;
+    }
+
+    .member-profile-left-part-box2 {
+        padding: 10px;
+    }
+
+    .member-profile-left-part-box3 {
+        padding: 10px;
+    }
+
+    .member-profile-left-part-box4 {
+        padding: 10px;
+    }
+
+    .money-detail-page {
+        width: 56%;
+        margin: 0 0 0 20px;
+    }
+
+    .contact-left .map {
+        height: 350px;
+    }
+
+    .contact-right h3 {
+        margin: 10px 0;
+    }
+
+    .form-box {
+        width: 95%;
+    }
+
+    .form span.mid {
+        margin: 0 10px;
+    }
+
+    .form-box1 {
+        width: 97%;
+    }
+
+    .form span.captcha-c {
+        width: 100%;
+    }
+
+    .ride-listing-search-part span .search-location1 {
+        width: 39%;
+        margin: 0 0 10px;
+    }
+
+    .ride-listing-search-part span .search-location2 {
+        width: 39%;
+        margin: 0 0 10px;
+    }
+
+    .car-preferences {
+        margin-top: 0px;
+    }
+
+    .car-preferences-right-part li b {
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #top-part {
+        height: auto;
+        position: relative;
+        background: url(../../../images/Theme36/color-blue/top-inner-heading-img.jpg) repeat;
+    }
+
+    .top-select-part {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+    }
+
+    .top-part-inner {
+        width: 100%;
+    }
+
+    .menu-part {
+        margin: 0px;
+        float: left;
+        width: 100%;
+    }
+
+    .menu-collapser {
+        padding: 0px !important;
+    }
+
+    .logo {
+        margin: 10px 0 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+
+    .logo img {
+        margin: 0 0 0 10px;
+    }
+
+    .select-box {
+        margin: 6px 10px 0 0;
+    }
+
+    .top-logo-menu-part {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .header-up-bg {
+        padding: 0 0 6px 6px;
+    }
+
+    .select-box select {
+        padding: 4px 3px;
+    }
+
+    /*****************************/
+    .edit-ride-detail-left {
+        width: 100%;
+    }
+
+    .type-of-trip {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .type-of-trip2 {
+        width: 95%;
+    }
+
+    .type-of-trip3 {
+        width: 95%;
+    }
+
+    .offer-a-ride {
+        width: 95%;
+    }
+
+    .offer-a-ride {
+        width: 95%;
+    }
+
+    .offer-a-ride3 {
+        width: 95%;
+    }
+
+    .edit-ride-detail-right {
+        float: left;
+        width: 99%;
+    }
+
+    .edit-ride-detail-right #map-canvas {
+        height: 300px;
+    }
+
+    .body-inner-part {
+        width: 98%;
+    }
+
+    .bradcram-new-inner {
+        width: 98%;
+    }
+
+    .inner-submenu-inner {
+        width: 98%;
+    }
+
+    .about-page-right-part {
+        margin: 0px;
+        width: 60%;
+    }
+
+    .car-form-right-part {
+        width: 55.5%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    .cancel-booking-right-part {
+        width: 55.5%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+        border: 1px solid #dddddd;
+    }
+
+    .cancel-booking-right-part-inner {
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .car-form-right-part span em {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .car-form-right-part span input {
+        width: 97%;
+    }
+
+    .car-form-right-part span select {
+        width: 97%;
+    }
+
+    .tabs-account {
+        margin: 13px 0 0;
+    }
+
+    .tabs-account ul li a {
+        padding: 11px 10px;
+        text-transform: none;
+    }
+
+    .tabs-account ul li a:hover {
+        padding: 11px 10px;
+    }
+
+    .tabs-account ul li .active {
+        padding: 11px 10px;
+    }
+
+    .blank-fo {
+        display: none;
+    }
+
+    .car-form-right-part span b {
+        margin-left: 0px;
+    }
+
+    .car-details-part {
+        width: 59%;
+        margin: 0 0 0 20px;
+    }
+
+    .car-detail-img {
+        width: 170px;
+        height: 110px;
+    }
+
+    .car-detail-img span {
+        width: 170px;
+        height: 110px;
+        padding: 0px;
+    }
+
+    .car-detail-img-info {
+        margin: 12px 0 0;
+        width: 72%;
+    }
+
+    .car-detail-img-edit-delete {
+        margin: 12px 0 0;
+    }
+
+    .car-preferences-right-part {
+        width: 59%;
+        margin: 0 0 0 20px;
+    }
+
+    .car-preferences-right-part ul {
+        margin: 10px 0 0;
+    }
+
+    .car-preferences-right-part li b {
+        margin: 24px 10px 0 0;
+        width: 100px;
+    }
+
+    .car-preferences-right-part li .preferences-chat {
+        margin: 0 0 0 15px;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        margin: 0 20px 0 0;
+    }
+
+    .car-preferences-right-part li .preferences-chat span img {
+        padding: 12px;
+    }
+
+    .email-alerts1-right-part {
+        margin: 0 0 0 20px;
+        padding: 10px;
+        width: 55.5%;
+    }
+
+    .received-message-body-part {
+        margin: 0 0 0 20px;
+        padding: 0px;
+        width: 59%;
+    }
+
+    .edit-profile-right-part {
+        width: 55.5%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    .edit-profile-right-part span p {
+        width: 100%;
+    }
+
+    .edit-profile-right-part span b {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .edit-profile-right-part span .new-sub {
+        margin: 0 0 8px;
+    }
+
+    .edit-profile-right-part span .profile-input {
+        width: 95%;
+    }
+
+    .edit-profile-right-part span .profile-select {
+        width: 98%;
+    }
+
+    .edit-profile-right-part span .profile-textarea {
+        width: 95%;
+    }
+
+    .edit-profile-right-part .pro-last {
+        display: none;
+    }
+
+    .edit-profile-right-part .edit-select-full .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .member-profile-left-part {
+        width: 100%;
+    }
+
+    .member-profile-pic-detail {
+        width: 71%;
+    }
+
+    .member-profile-right-part {
+        width: 380px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .send-message {
+        margin: 20px 0 0;
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-status {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-verifications {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars {
+        width: 95%;
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .member-profile-cars-detail p b {
+        width: 90px;
+    }
+
+    .member-profile-cars-img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .member-facebook-part-bottom {
+        padding: 10px;
+    }
+
+    .member-facebook-part-bottom-right p img {
+        width: 100%;
+    }
+
+    .faq-page-left-part {
+        width: 60%;
+        margin: 0px;
+    }
+
+    .accordion .faq-ques p {
+        width: 99%;
+    }
+
+    .member-stories-right-part {
+        width: 60%;
+        margin: 0px;
+    }
+
+    .member-stories-right-part li p b {
+        width: 100px;
+        height: 100px;
+    }
+
+    .member-stories-form-right-part {
+        width: 60%;
+        margin: 0px;
+    }
+
+    .member-stories-form-inner {
+        padding: 10px;
+    }
+
+    .member-stories-form-inner span em {
+        width: 113px;
+    }
+
+    .member-stories-form-inner span select {
+        width: 280px;
+    }
+
+    .member-stories-form-inner span input {
+        width: 260px;
+    }
+
+    .member-stories-form-inner span textarea {
+        width: 260px;
+    }
+
+    .profile-photo-page-right-part {
+        width: 59%;
+        margin: 0 0 0 20px;
+    }
+
+    .profile-facebook {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .list-rides-offer-part {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+        padding: 0px;
+    }
+
+    .list-rides-offer-part-inner {
+        width: 1000px;
+        margin: 0px;
+    }
+
+    .list-rides-offer-part-left {
+        width: 730px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .list-rides-offer {
+        min-height: inherit;
+    }
+
+    /*..........*/
+    .dashboard-user-img {
+        width: 90px;
+    }
+
+    .dashboard-user-img span {
+        width: 90px;
+        height: 90px;
+    }
+
+    .dashboard-user-img span img {
+        width: 100%;
+    }
+
+    .dashboard-user-info {
+        margin: 0 0 0 10px;
+        width: 61%;
+    }
+
+    .dashboard-user-info h3 {
+        font-size: 19px;
+    }
+
+    .dashboard-user-info span {
+        margin: 10px 0 0;
+    }
+
+    .dashboard-body-part-left {
+        width: 35%;
+    }
+
+    .car-share-preferences {
+        padding: 10px;
+        width: 92%;
+    }
+
+    .member-verifications {
+        padding: 10px;
+        width: 92%;
+    }
+
+    .dashboard-car {
+        padding: 10px;
+        width: 92%;
+    }
+
+    .dashboard-body-part-right {
+        width: 62%;
+        float: left;
+        margin: 0 0 0 20px;
+    }
+
+    .dashboard-new-page-bottom-part-list li {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(3n) {
+        margin: 0 0 10px;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(even) {
+        margin: 0 0 10px;
+    }
+
+    .dash-last-login-details {
+        width: 95%;
+        margin: 0 0 15px;
+    }
+
+    .dash-useful-links {
+        width: 95%;
+        float: left;
+    }
+
+    .dash-last-login-details span {
+        margin: 0 0 8px;
+    }
+
+    .notifications-part {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0 0;
+    }
+
+    .dash-mgs {
+        width: 97%;
+        padding: 10px;
+    }
+
+    .dash-mgs .clint-mgs {
+        width: 86%;
+    }
+
+    .dash-mgs .clint-mgs p strong {
+        width: auto;
+        margin: 0 20px 0 0;
+    }
+
+    .verification-page-right-part {
+        width: 58%;
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .email-verification {
+        width: 96%;
+    }
+
+    .verifications-zone {
+        width: 100%;
+    }
+
+    .verifymail-right-page {
+        width: 58%;
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .verifymail-right-page-inner {
+        width: 96%;
+    }
+
+    .mpv {
+        margin: 15px 0 0;
+    }
+
+    .mpv span p {
+        margin: 0 0 10px;
+        padding: 0px;
+    }
+
+    .mpv1 span strong {
+        width: 82%;
+    }
+
+    .notifications-page-right-part {
+        width: 58%;
+        margin: 0 0 0 20px;
+    }
+
+    .member-rating-right-part {
+        width: 58%;
+        margin: 0 0 0 20px;
+    }
+
+    .rate-your-experience h4 {
+        font-size: 16px;
+    }
+
+    .rate-your-experience ul {
+        width: 100%;
+    }
+
+    .rate-your-experience span {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .received-message-body-part-left {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .received-message-body-part-left li .received-message-img {
+        margin: 0px;
+    }
+
+    .received-message-body-part-left li .received-message-text {
+        width: 84%;
+    }
+
+    .received-message-body-part-left li .received-message-text p {
+        width: auto;
+        margin: 4px 0 0;
+    }
+
+    .received-message-body-part-right {
+        border-top: 1px solid #ddd;
+        float: left;
+        margin: 20px 0;
+        padding: 14px 0 0;
+        width: 100%;
+    }
+
+    .received-message-body-part-right p {
+        margin-left: 0px;
+    }
+
+    .received-message-body-part-right .clint-pic {
+        float: left;
+    }
+
+    .search-car-find-cla {
+        width: 31.5%;
+        margin: 0 0 10px;
+    }
+
+    .search-car-find-date {
+        margin: 0 10px 0 0;
+    }
+
+    .body-mid-ride-inner {
+        margin: 0 auto;
+        float: none;
+        width: 490px;
+    }
+
+    .rides-around1 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around2 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around3 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around4 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around5 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around6 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .trip-main {
+        margin: 0 0 15px;
+    }
+
+    .body-mid-part-inner .trip-main-last {
+        float: left;
+    }
+
+    .body-mid-part-inner .last {
+        float: left;
+    }
+
+    .ride-listing-left-part {
+        width: 37%;
+    }
+
+    .by-time span p {
+        width: 92%;
+    }
+
+    .ui-widget-content {
+        width: 92% !important;
+    }
+
+    .ride-listing-right-part {
+        width: 59%;
+    }
+
+    .ride-listing-search-part span .search-location {
+        width: 40%;
+        margin: 0 0 15px;
+    }
+
+    .ride-listing-search-part span .search-date {
+        border: 1px solid #ccc;
+    }
+
+    .ride-listing-search-part span .ride-list-but {
+        width: auto;
+        padding: 0 20px 0 30px;
+        background-position: left 8px top 12px;
+    }
+
+    .rides-available-lising-box-left {
+        width: 100%;
+    }
+
+    .rides-available-lising-box-right {
+        width: 100%;
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .rides-available-pic-detail {
+        width: 72%;
+        margin: 10px 0 0 20px;
+    }
+
+    .filter-results-listing ul li {
+        font-size: 14px;
+    }
+
+    .received-message-body-part-new li .received-message-text {
+        width: 85%;
+    }
+
+    .received-message-body-part-new li .received-message-text p {
+        width: auto;
+    }
+
+    .rating-given-right-part {
+        width: 55.5%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    .rating-alerts1 {
+        overflow-x: scroll;
+        overflow-y: auto;
+    }
+
+    .rating-alerts1 table {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 800px;
+    }
+
+    .sharing-result-box {
+        width: 97%;
+    }
+
+    .sharing-result-box-left {
+        width: 100%;
+    }
+
+    .sharing-result-box-right {
+        float: left;
+        margin: 20px 0 0;
+    }
+
+    .booking-form-part span em {
+        width: 130px;
+    }
+
+    .booking-form-part span input {
+        width: 65%;
+    }
+
+    .booking-form-part span textarea {
+        width: 65%;
+    }
+
+    .booking-form-part span select {
+        width: 68%;
+    }
+
+    .leaverrating-page-right-part {
+        width: 58%;
+        margin: 0 0 0 20px;
+    }
+
+    .leaverrating-list {
+        width: 100%;
+    }
+
+    .my-booking-block {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+        width: 93%;
+        padding: 0 10px;
+    }
+
+    .my-booking-block-1 {
+        width: 96%;
+    }
+
+    .my-booking-block-inner {
+        width: 830px;
+        margin: 0 auto 15px;
+    }
+
+    .my-booking-block-1 .my-booking-block-inner {
+        width: 1170px;
+    }
+
+    .my-booking-tab {
+        margin: 0 0 20px;
+    }
+
+    .booking-confirmation-right-part {
+        width: 58.5%;
+        margin: 0 0 0 20px;
+    }
+
+    .booking-confirmation-right-part b {
+        width: 96%;
+    }
+
+    /**********/
+    .ride-detail-page-top-mid-part-left {
+        margin: 10px 0 10px 10px;
+        width: 58%;
+    }
+
+    .ride-detail-page-top-mid-part-left ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-top-mid-part-left .last {
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .ride-detail-page-top-mid-part-right {
+        width: 40%;
+    }
+
+    .ride-claint {
+        height: 87px;
+    }
+
+    .ride-claint span {
+        margin: 10px;
+    }
+
+    .ride-claint span p {
+        margin: 3px 0 0 15px;
+        width: 78%;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h3 {
+        font-size: 34px;
+    }
+
+    .ride-detail-page-top-mid-part-right span {
+        padding: 10px;
+        width: 93%;
+    }
+
+    .ride-detail-page-top-mid-part-right span .seat-new {
+        font-size: 20px;
+    }
+
+    .ride-detail-page-left-car-detail ul {
+        width: 100%;
+    }
+
+    .ride-detail-page-left {
+        width: 57%;
+    }
+
+    .ride-detail-page-left-car-detail {
+        padding: 10px 10px 0 10px;
+        width: 95%;
+    }
+
+    .ride-detail-map {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .ride-detail-page-right {
+        width: 42%;
+    }
+
+    .car-owner {
+        padding: 10px;
+        width: 94%;
+    }
+
+    .activity {
+        padding: 10px;
+        width: 94%;
+    }
+
+    /*................*/
+    .offer-ride-left-part {
+        width: 55%;
+    }
+
+    .offer-ride-box1 {
+        padding: 15px 9px 2px 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box1 span .ride-location1 {
+        width: 93%;
+    }
+
+    .offer-ride-box1 span .ride-location2 {
+        width: 93%;
+    }
+
+    .offer-ride-box2 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box3 {
+        padding: 15px 9px 0 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box3 span .price-date {
+        width: 150px;
+    }
+
+    .offer-ride-box3 span select {
+        width: 100px;
+    }
+
+    .offer-ride-box4 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-box5 {
+        padding: 9px;
+        margin: 0px;
+        width: 97%;
+    }
+
+    .offer-ride-box5 span textarea {
+        width: 93%;
+    }
+
+    .offer-ride-box6 {
+        padding: 14px 9px;
+        margin: 0px;
+        width: 97%;
+        background: #FFFFFF;
+    }
+
+    .offer-ride-right-part {
+        width: 44%;
+        float: left;
+    }
+
+    .price-details-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .price-details-popup-hide {
+        z-index: 0;
+    }
+
+    .regular-trip-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .regular-trip-popup-hide {
+        z-index: 0;
+    }
+
+    .offer-ride-box4-popup {
+        left: 0;
+        z-index: 999;
+    }
+
+    .offer-ride-box4-popup-hide {
+        z-index: 0;
+    }
+
+    .email-alerts1-right-part ul {
+        overflow: auto;
+        overflow-x: scroll;
+        padding: 0 0 10px;
+    }
+
+    .email-alerts1-right-part li {
+        width: 700px;
+    }
+
+    .changepassword-page-right-part {
+        margin: 0 0 0 20px;
+        padding: 10px;
+        width: 55.5%;
+        min-height: 200px;
+    }
+
+    .changepassword-page-right-part span b {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+
+    .changepassword-page-right-part input {
+        width: 94%;
+    }
+
+    .changepassword-page-right-part span .blank {
+        display: none;
+    }
+
+    .miss-ride {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .mgs-img {
+        margin: 0px;
+    }
+
+    .miss-ride-right {
+        width: 98%;
+        margin: 10px 0 0 10px;
+    }
+
+    .miss-ride-right span .e-alert-date {
+        width: 130px;
+    }
+
+    .miss-ride-right span .miss-ride-input {
+        width: 57%;
+        border: 1px solid #cccccc;
+    }
+
+    .miss-ride-right span .notify-but {
+        margin: 10px 10px 0 0;
+        float: right;
+    }
+
+    /*****************************/
+    #footer {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .footer-inner {
+        width: 97%;
+    }
+
+    .footer-box1 {
+        width: 220px;
+    }
+
+    .footer-box1 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box2 {
+        width: 223px;
+        margin-left: 25px;
+    }
+
+    .footer-box2 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box3 {
+        width: 245px;
+        float: right;
+    }
+
+    .footer-box3 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box4 {
+        width: 330px;
+        float: left;
+        margin: 25px 0 0;
+    }
+
+    .footer-box4 h2 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .footer-box4 span p {
+        width: 240px;
+    }
+
+    .footer-bottom-part {
+        padding: 16px 0 2px;
+    }
+
+    .bookingform-main-left {
+        width: 53%;
+    }
+
+    .bookingform-main-left-sharing-result-box {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .booking-form-part span em {
+        width: 100px;
+    }
+
+    .booking-form-part span input {
+        width: 68%;
+    }
+
+    .booking-form-part .select-wrapper, .select-wrapper select {
+        width: 70%;
+    }
+
+    .booking-form-part span textarea {
+        width: 68%;
+    }
+
+    .booking-form-part span select {
+        width: 72%;
+    }
+
+    .booking-form-part {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .bookingform-main-right {
+        width: 45%;
+    }
+
+    .bookingform-main-right-top-box {
+        padding: 12px;
+    }
+
+    .bookingform-main-right-box1 {
+        width: 100%;
+    }
+
+    .bookingform-main-right-box2 {
+        padding: 12px;
+    }
+
+    .bookingform-main-right-box2 {
+        overflow: hidden;
+    }
+
+    .booking-confirmation-page-left-part {
+        width: 53%;
+    }
+
+    .booking-confirmation-page-left-part-top li b {
+        width: 160px;
+    }
+
+    .booking-confirmation-page-left-part-bottom-box1-right {
+        width: 260px;
+    }
+
+    .booking-confirmation-page-right-part {
+        width: 45%;
+    }
+
+    .booking-confirmation-page-right-part-box1 {
+        width: 95%;
+        padding: 9px;
+    }
+
+    .booking-confirmation-page-right-part-box1-right {
+        width: 200px;
+    }
+
+    .error-page-left {
+        width: 100%;
+    }
+
+    .offer-ride-box3 .select-wrapper, .select-wrapper select {
+        width: 102px;
+    }
+
+    .offer-ride-box4 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    .offer-ride-box6 .select-wrapper, .select-wrapper select {
+        width: 97%;
+    }
+
+    /*........................*/
+    .member-stories-form-inner .select-wrapper, .select-wrapper select {
+        width: 277px;
+    }
+
+    .car-form-right-part span strong {
+        width: 130px;
+    }
+
+    .car-form-right-part h2 {
+        margin: 0 0 15px;
+    }
+
+    .car-form-right-part .select-wrapper, .select-wrapper select {
+        width: 67%;
+    }
+
+    .car-form-right-part span input {
+        width: 65%;
+    }
+
+    .car-form-right-part span .blank-fo {
+        display: block;
+    }
+
+    .sate-select .select-wrapper, .select-wrapper select {
+        width: 96%;
+    }
+
+    .cancel-booking-bottom-part span .blank {
+        display: none;
+    }
+
+    .cancel-booking-bottom-part span em {
+        margin: 0 0 8px;
+    }
+
+    .money-detail-page {
+        padding: 0px;
+        width: 59%;
+    }
+
+    .money-detail-page-inner {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+    }
+
+    .money-detail-page-inner table {
+        width: 850px;
+        float: left;
+    }
+
+    .price-details-popup-hide {
+        display: none;
+    }
+
+    .regular-trip-popup-hide {
+        display: none;
+    }
+
+    .offer-ride-box4-popup-hide {
+        display: none;
+    }
+
+    .money-detail-page {
+        width: 58%;
+        margin: 0 0 0 20px;
+    }
+
+    .search-car-top-part-inner {
+        width: 98%;
+    }
+
+    .list-rides-tab-inner {
+        width: 98%;
+    }
+
+    .contact-left .map {
+        height: 350px;
+    }
+
+    .contact-right h3 {
+        margin: 10px 0;
+    }
+
+    .form-box {
+        width: 95%;
+    }
+
+    .form span.mid {
+        margin: 0 10px;
+    }
+
+    .form-box1 {
+        width: 97%;
+    }
+
+    .form span.captcha-c {
+        width: 100%;
+    }
+
+    .ride-listing-search-part span .search-location1 {
+        width: 40%;
+        margin: 0 0 10px;
+    }
+
+    .ride-listing-search-part span .search-location2 {
+        width: 40%;
+        margin: 0 0 10px;
+    }
+
+    .my-booking-block-1 {
+        width: 100%;
+        overflow-x: scroll;
+        padding: 0px;
+    }
+
+    .my-booking-box {
+        width: 1150px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1169px) {
+    .top-part-inner {
+        width: 98%;
+    }
+
+    .body-inner-part {
+        width: 98%;
+    }
+
+    .bradcram-new-inner {
+        width: 98%;
+    }
+
+    .inner-submenu-inner {
+        width: 98%;
+    }
+
+    /******************/
+    .about-page-right-part {
+        margin: 0px;
+        width: 69%;
+    }
+
+    .car-form-right-part {
+        width: 65%;
+    }
+
+    .cancel-booking-right-part {
+        width: 65%;
+        border: 1px solid #dddddd;
+        padding: 10px;
+    }
+
+    .cancel-booking-right-part-inner {
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .car-details-part {
+        width: 68%;
+    }
+
+    .car-detail-img {
+        width: 170px;
+        height: 110px;
+    }
+
+    .car-detail-img span {
+        width: 170px;
+        height: 110px;
+        padding: 0px;
+    }
+
+    .car-detail-img-info {
+        width: 350px;
+    }
+
+    .car-preferences-right-part {
+        width: 69%;
+    }
+
+    .email-alerts1-right-part {
+        margin: 0 0 0 20px;
+        padding: 10px;
+        width: 67%;
+    }
+
+    .received-message-body-part {
+        margin: 0 0 0 20px;
+        padding: 0px;
+        width: 69%;
+    }
+
+    .edit-profile-right-part {
+        width: 67%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    .edit-profile-right-part span p {
+        width: 74%;
+    }
+
+    .member-profile-left-part {
+        width: 65%;
+    }
+
+    .member-profile-pic-detail {
+        width: 71%;
+    }
+
+    .member-profile-right-part {
+        width: 33%;
+    }
+
+    .send-message {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-status {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-verifications {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-cars {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .member-profile-cars-detail p b {
+        width: 90px;
+    }
+
+    .member-profile-cars-img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .faq-page-left-part {
+        width: 69%;
+    }
+
+    .member-stories-right-part {
+        width: 70%;
+    }
+
+    .member-stories-form-right-part {
+        width: 70%;
+    }
+
+    .member-stories-form-inner {
+        width: 94%;
+    }
+
+    .profile-photo-page-right-part {
+        width: 65%;
+        min-height: inherit;
+    }
+
+    .list-rides-offer-part-left {
+        width: 730px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .list-rides-offer {
+        min-height: inherit;
+    }
+
+    /*..........*/
+    .dashboard-user-img {
+        width: 110px;
+    }
+
+    .dashboard-user-img span {
+        width: 110px;
+        height: 110px;
+    }
+
+    .dashboard-user-img span img {
+        width: 100%;
+    }
+
+    .dashboard-body-part-right {
+        width: 69%;
+        float: left;
+        margin: 0 0 0 20px;
+    }
+
+    .dashboard-new-page-bottom-part-list li {
+        margin: 0 10px 10px 0;
+        width: 49%;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(3n) {
+        margin: 0 10px 10px 0;
+    }
+
+    .dashboard-new-page-bottom-part-list li:nth-child(even) {
+        margin-right: 0px;
+    }
+
+    .dash-last-login-details {
+        width: 60%;
+    }
+
+    .notifications-part {
+        width: 97%;
+        padding: 10px;
+    }
+
+    .dash-mgs {
+        width: 97%;
+        padding: 10px;
+    }
+
+    .dash-mgs .clint-mgs {
+        width: 89%;
+    }
+
+    .verification-page-right-part {
+        width: 68%;
+        margin: 0px;
+    }
+
+    .verifymail-right-page {
+        width: 68%;
+    }
+
+    .mpv1 span strong {
+        width: 88%;
+    }
+
+    .notifications-page-right-part {
+        width: 65%;
+    }
+
+    .member-rating-right-part {
+        width: 69%;
+        margin: 0 0 0 20px;
+    }
+
+    .rate-your-experience ul {
+        width: 45%;
+    }
+
+    .rate-your-experience span {
+        width: 55%;
+    }
+
+    .received-message-body-part-left {
+        width: 73%;
+        margin: 0;
+    }
+
+    .received-message-body-part-left li .received-message-text {
+        width: 86%;
+    }
+
+    .received-message-body-part-right {
+        float: right;
+        width: 166px;
+    }
+
+    .received-message-body-part-right p {
+        margin-left: 0px;
+    }
+
+    .received-message-body-part-right .clint-pic {
+        float: left;
+    }
+
+    .search-car-find-cla {
+        width: 20.5%;
+    }
+
+    .body-mid-ride-inner {
+        margin: 0 auto;
+        float: none;
+        width: 490px;
+    }
+
+    .rides-around1 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around2 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around3 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around4 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around5 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .rides-around6 {
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .trip-main {
+        margin: 0 0 15px;
+    }
+
+    .ride-listing-left-part {
+        width: 30%;
+    }
+
+    .ride-listing-right-part {
+        width: 67%;
+    }
+
+    .ride-listing-search-part span .search-location {
+        width: 23%;
+    }
+
+    .ride-listing-search-part span .ride-list-but {
+        width: auto;
+        padding: 0 20px 0 30px;
+        background-position: left 8px top 12px;
+    }
+
+    .rides-available-lising-box-left {
+        width: 70%;
+    }
+
+    .rides-available-pic-detail {
+        width: 70%;
+        margin: 10px 0 0 20px;
+    }
+
+    .rides-available-lising-box-right {
+        width: 30%;
+    }
+
+    .rating-given-right-part {
+        width: 67%;
+        padding: 10px;
+        margin: 0 0 0 20px;
+    }
+
+    .sharing-result-box-left {
+        width: 70%;
+    }
+
+    .leaverrating-page-right-part {
+        width: 68%;
+    }
+
+    .my-booking-block {
+        overflow-x: scroll;
+        overflow-y: auto;
+        margin: 0 0 20px;
+        width: 96%;
+        padding: 0 10px;
+    }
+
+    .my-booking-block-1 {
+        width: 97%;
+    }
+
+    .my-booking-block-inner {
+        width: 830px;
+        margin: 0 auto 15px;
+    }
+
+    .my-booking-block-1 .my-booking-block-inner {
+        width: 1170px;
+    }
+
+    .my-booking-tab {
+        margin: 0 0 20px;
+    }
+
+    .booking-confirmation-right-part {
+        width: 68%;
+    }
+
+    .ride-detail-page-top-mid-part-left {
+        margin: 10px 0 10px 10px;
+        width: 68%;
+    }
+
+    .ride-detail-page-top-mid-part-right {
+        width: 30%;
+    }
+
+    .ride-detail-page-top-mid-part-right ul li h3 {
+        font-size: 34px;
+    }
+
+    .ride-detail-page-top-mid-part-right span {
+        padding: 10px;
+        width: 93%;
+    }
+
+    .ride-detail-page-top-mid-part-right span .seat-new {
+        font-size: 20px;
+    }
+
+    .ride-detail-page-left {
+        width: 63%;
+    }
+
+    .ride-detail-page-right {
+        width: 35%;
+    }
+
+    .received-message-body-part-new li .received-message-text {
+        width: 89%;
+    }
+
+    /*................*/
+    .offer-ride-left-part {
+        width: 50%;
+    }
+
+    .offer-ride-right-part {
+        width: 49%;
+        float: left;
+    }
+
+    .changepassword-page-right-part {
+        margin: 0 0 0 20px;
+        padding: 10px;
+        width: 67%;
+        min-height: 200px;
+    }
+
+    .miss-ride-right {
+        width: 76%;
+    }
+
+    .miss-ride-right span .e-alert-date {
+        width: 21%;
+    }
+
+    .miss-ride-right span .miss-ride-input {
+        width: 185px;
+    }
+
+    /*****************************/
+    #footer {
+        height: auto;
+        padding: 0 0 10px;
+    }
+
+    .footer-inner {
+        width: 98%;
+    }
+
+    .footer-box1 {
+        width: 270px;
+    }
+
+    .footer-box1 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box2 {
+        width: 175px;
+    }
+
+    .footer-box2 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box3 {
+        width: 245px;
+    }
+
+    .footer-box3 h2 {
+        font-size: 18px;
+    }
+
+    .footer-box4 {
+        width: 280px;
+    }
+
+    .footer-box4 h2 {
+        font-size: 18px;
+    }
+
+    .footer-bottom-part {
+        padding: 16px 0 2px;
+    }
+
+    .bookingform-main-left {
+        width: 58%;
+    }
+
+    .bookingform-main-right-box2 {
+        overflow: hidden;
+    }
+
+    .booking-confirmation-page-left-part {
+        width: 63%;
+    }
+
+    .booking-confirmation-page-right-part {
+        width: 360px;
+    }
+
+    .booking-confirmation-page-right-part-box1 {
+        width: 95%;
+        padding: 9px;
+    }
+
+    .money-detail-page {
+        width: 69%;
+    }
+
+    .search-car-top-part-inner {
+        width: 98%;
+    }
+
+    .car-preferences-right-part li b {
+        width: 110px;
+        margin: 26px 10px 0 0;
+    }
+
+    .car-preferences-right-part li .preferences-chat span {
+        margin: 0 40px 0 0;
+    }
+
+    .list-rides-tab-inner {
+        width: 98%;
+    }
+
+    .contact-right h3 {
+        margin: 10px 0;
+    }
+
+    .form-box {
+        width: 95%;
+    }
+
+    .contact-address {
+        width: 30%;
+    }
+
+    .contact-phone-number {
+        width: 30%;
+    }
+
+    .contact-message {
+        width: 40%;
+    }
+
+    .my-booking-box-bottom-part-left {
+        width: 330px;
+    }
+
+    .my-booking-box-bottom-part-left .my-book-mgs-text {
+        width: 180px;
+    }
+
+    .my-booking-box-bottom-part-mid {
+        margin: 0 0 0 30px;
+    }
+
+    .my-booking-box-bottom-part-right {
+        width: 330px;
+    }
+
+    .my-booking-box-bottom-part-right .booking-but-right b {
+        position: relative;
+    }
+
+}
+
+@media screen and (min-width: 840px) and (max-width: 939px) {
+    .about-page-right-part {
+        width: 64%;
+    }
+
+    .contact-page-right-part {
+        width: 64%;
+    }
+
+    .faq-page-left-part {
+        width: 64%;
+    }
+
+    .member-stories-form-right-part {
+        width: 64%;
+    }
+
+    .member-stories-right-part {
+        width: 64%;
+    }
+}
+
+@media screen and (min-width: 940px) and (max-width: 1023px) {
+    .about-page-right-part {
+        width: 68%;
+    }
+
+    .contact-page-right-part {
+        width: 68%;
+    }
+
+    .faq-page-left-part {
+        width: 68%;
+    }
+
+    .member-stories-form-right-part {
+        width: 68%;
+    }
+
+    .member-stories-right-part {
+        width: 68%;
+    }
+}
+
+@media screen and (min-width: 1040px) and (max-width: 1139px) {
+    .about-page-right-part {
+        width: 70%;
+    }
+
+    .contact-page-right-part {
+        width: 70%;
+    }
+
+    .faq-page-left-part {
+        width: 70%;
+    }
+
+    .member-stories-form-right-part {
+        width: 70%;
+    }
+
+    .member-stories-right-part {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1140px) and (max-width: 1169px) {
+    .about-page-right-part {
+        width: 73%;
+    }
+
+    .contact-page-right-part {
+        width: 73%;
+    }
+
+    .faq-page-left-part {
+        width: 73%;
+    }
+
+    .member-stories-form-right-part {
+        width: 73%;
+    }
+}
+
+@media screen and (min-width: 667px) and (max-width: 5000px) {
+    .tabs-account .open-s {
+        display: none;
+    }
+
+    .tabs-account ul {
+        display: block !important;
+    }
+}

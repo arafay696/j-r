@@ -32,7 +32,10 @@ class Welcome extends CI_Controller
 
     public function index()
     {
-        $this->load->view('welcome_message');
+        $data = [
+            'content' => 'dashboard'
+        ];
+        $this->load->view('index',$data);
     }
 
     // Get All Users

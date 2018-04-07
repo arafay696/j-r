@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,800,600,900);
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-part {
+    margin: 6px 0 0;
+    padding: 0px;
+    float: right;
+}
+
+.menu-collapser {
+    position: relative;
+    color: #FFF;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 40px;
+    line-height: 48px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+.collapse-button {
+    position: absolute;
+    left: 8px;
+    top: 7%;
+    width: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+.collapse-button:hover, .collapse-button:focus {
+    background-image: none;
+    color: #FFF;
+}
+
+.collapse-button .icon-bar {
+    background-color: #fff;
+    display: block;
+    height: 3px;
+    width: 30px;
+    margin: 7px 0;
+}
+
+ul.slimmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+ul.collapsed {
+    background:;
+}
+
+ul.slimmenu li {
+    position: relative;
+    display: inline-block;
+}
+
+ul.slimmenu > li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+ul.slimmenu > li:first-child {
+    border-left: 0;
+}
+
+ul.slimmenu > li:last-child {
+    margin: 0px;
+}
+
+ul.slimmenu > .last a {
+    border: 2px solid #fdb902;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 7px 12px;
+    text-transform: none;
+    color: #fdb902;
+    margin-right: 0px;
+}
+
+ul.slimmenu li a {
+    display: block;
+    color: #b6e0f9;
+    padding: 10px 2px 7px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0 15px;
+}
+
+ul.slimmenu li a:hover {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fdb902;
+}
+
+ul.slimmenu li .active {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fdb902;
+}
+
+ul.slimmenu li .sub-collapser {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);
+    position: absolute;
+    right: -10px;
+    top: -3px;
+    width: 48px;
+    height: 100%;
+    text-align: right;
+    z-index: 999;
+    cursor: pointer;
+}
+
+ul.slimmenu li .sub-collapser:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 0;
+}
+
+ul.slimmenu li .sub-collapser > i {
+    color: #fff;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul.slimmenu li ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+ul.slimmenu li ul li {
+    width: 100%;
+}
+
+ul.slimmenu li ul li a {
+    padding: 11px 0 11px 10px;
+    border-bottom: 1px solid #c59835;
+}
+
+ul.slimmenu li ul li a:hover {
+    border-bottom: 1px solid #c59835;
+    color: #f2cb76;
+}
+
+ul.slimmenu li > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 999;
+    width: 200px;
+    background: #b28624;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.slimmenu li > ul > li ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+ul.slimmenu.collapsed li {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+ul.slimmenu.collapsed li a {
+    display: block;
+    border-bottom: 0 none;
+    font-size: 14px;
+    padding: 6px 0 6px 6px;
+    text-align: left;
+    width: 99%;
+    line-height: 23px;
+    border-bottom: 1px solid #3f9fd7;
+    margin: 0px;
+}
+
+ul.slimmenu.collapsed .last a {
+    border: none;
+    font-weight: normal;
+}
+
+ul.slimmenu.collapsed li .sub-collapser {
+    height: 40px;
+    text-align: center;
+}
+
+ul.slimmenu.collapsed li > ul {
+    display: none;
+    position: static;
+    background: #3c69b4;
+    width: 100%;
+    padding: 0px;
+}
+
+ul.slimmenu.collapsed li > ul li a {
+    border-bottom: 1px solid #4d7dcd;
+}
+
+ul.slimmenu.collapsed li > ul li a:hover {
+    border-bottom: 1px solid #4d7dcd;
+}
+
+ul.slimmenu.collapsed li a i {
+    padding: 0 8px 0 0;
+}
+
+ul.collapsed > li {
+    margin: 0px;
+}
+
+ul.slimmenu.collapsed li > ul li a:hover {
+    border: none;
+}
+
+.collapsed ul.slimmenu li .expanded {
+    background: #1b3e78;
+}
+
+@media screen and (max-width: 1023px) {
+    #menu-part {
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-part-inner {
+        margin: 0;
+        padding: 0px;
+        float: left;
+        width: 100%;
+    }
+
+    ul.slimmenu li .sub-collapser {
+        right: 0px;
+        top: 0px;
+    }
+
+    ul.slimmenu li .sub-collapser > i {
+        font-size: 14px;
+    }
+}

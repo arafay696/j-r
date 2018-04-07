@@ -1,0 +1,10 @@
+#twcCookieDiv{position:fixed;left:0;bottom:0;width:100%;padding:20px 0;z-index:9999999999;text-align:center;border-top:1px solid #fff;background:#999;background-color:rgba(100, 100, 100, 0.95);}
+.twcCookieDivLogo{}
+.twcCookieDivText{font-size:13px;color:#FFF;line-height:1.4em;margin:0 20px;}
+.twcCookieDivLinks{margin:10px auto 0 auto;}
+#twcCookieMask{position:fixed;top:0;left:0;height:100%;width:100%;background-color:#000000;z-index:999999995;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
+.rnd{border-radius:5px 5px 5px 5px;}
+.mini{font-size:11px;height:13px;line-height:13px;padding:6px 10px;}
+.m-btn{background-color:#19a5df;background-repeat:repeat-x;border:medium none;cursor:pointer;display:inline-block;font-size:1.1em;margin:8px 6px 0!important;min-width:42px;outline:medium none;overflow:visible;position:relative;text-align:center;text-decoration:none;vertical-align:inherit;white-space:nowrap;z-index:1;margin-right:10px;color:#FFFFFF!important;padding:9px!important;}
+.m-btn:hover{background-color:#f99017;padding:9px;color:#FFFFFF;background-repeat:repeat-x;border:medium none;cursor:pointer;display:inline-block;font-size:1.1em;margin:8px 0 0;min-width:42px;outline:medium none;overflow:visible;position:relative;text-align:center;text-decoration:none;vertical-align:inherit;white-space:nowrap;z-index:1;margin-right:10px;}
+.blue{background-color:#f99017;}
